@@ -1,0 +1,3001 @@
+age,nationality,destination_country,visa_type,education_level,years_of_experience,financial_proof_usd,previous_rejections,previous_travel,application_month,visa_status,processing_days
+46,UK,Canada,Work,Bachelor,7,19952,0,0,4,Approved,74
+32,Nigeria,Germany,Tourist,Bachelor,10,18701,1,0,3,Rejected,33
+25,Philippines,Australia,Business,Master,10,12745,1,1,1,Approved,35
+38,China,UK,Student,Bachelor,11,27335,0,0,5,Approved,77
+36,Brazil,Germany,Student,Master,13,5689,0,1,3,Approved,62
+40,Philippines,Canada,Tourist,Bachelor,5,5988,0,1,4,Approved,23
+28,Philippines,Germany,Tourist,Bachelor,14,38919,0,1,9,Approved,26
+28,Germany,USA,Business,Bachelor,13,47487,0,0,11,Approved,35
+41,China,Canada,Work,Bachelor,6,12013,0,1,7,Approved,81
+53,China,USA,Student,Bachelor,9,42113,0,0,11,Approved,51
+41,China,Canada,Work,Bachelor,14,6574,0,1,5,Approved,85
+20,Philippines,Germany,Student,Bachelor,14,35480,0,1,8,Approved,73
+39,Nigeria,Australia,Student,Master,12,10838,0,0,6,Approved,67
+19,India,UK,Tourist,Master,9,31363,0,0,10,Approved,26
+41,Brazil,USA,Student,Bachelor,5,34368,0,1,2,Approved,59
+47,India,Germany,Tourist,Master,0,35228,0,1,7,Approved,49
+19,Philippines,Australia,Work,Master,10,49097,1,1,1,Approved,88
+38,India,Germany,Work,High School,2,31639,0,1,3,Approved,73
+50,Philippines,USA,Student,PhD,12,17823,0,1,12,Approved,60
+29,India,UK,Student,Master,0,26510,0,1,1,Approved,62
+39,China,Germany,Student,Bachelor,11,41333,2,0,1,Rejected,78
+42,UK,Canada,Dependent,Bachelor,14,7435,0,0,5,Approved,70
+44,China,Australia,Tourist,High School,9,41418,1,1,6,Approved,48
+45,China,Germany,Work,High School,11,23553,0,1,12,Approved,66
+33,Germany,Australia,Student,Master,8,10436,0,1,3,Approved,64
+32,Germany,Canada,Business,Bachelor,12,39476,0,0,3,Approved,25
+20,India,UK,Student,Master,8,37477,0,1,3,Approved,55
+54,Philippines,UK,Student,Master,4,27244,0,0,1,Approved,54
+24,China,Canada,Work,Master,3,45721,0,1,5,Approved,85
+38,India,Australia,Business,Master,11,4692,1,1,1,Approved,41
+26,Germany,Germany,Student,High School,8,18523,0,0,10,Rejected,58
+35,UK,Canada,Student,Bachelor,8,35326,0,1,10,Approved,59
+21,Brazil,USA,Business,Master,14,45205,0,1,3,Approved,34
+42,India,Australia,Student,High School,2,3125,0,1,6,Rejected,75
+31,UK,UK,Student,High School,4,48712,0,0,11,Approved,55
+26,Brazil,Canada,Work,Master,2,4199,0,0,6,Rejected,85
+43,Nigeria,UK,Business,Master,9,41860,0,0,3,Approved,37
+19,India,Australia,Work,Bachelor,1,19375,0,0,9,Rejected,79
+37,India,UK,Dependent,Master,0,5711,0,0,8,Rejected,62
+45,Nigeria,Canada,Tourist,Master,11,35437,0,0,11,Approved,32
+24,Nigeria,Australia,Student,Bachelor,9,31022,0,1,3,Approved,57
+25,India,USA,Dependent,High School,1,12182,2,1,5,Rejected,88
+52,Nigeria,Canada,Work,PhD,7,30641,1,1,5,Approved,90
+31,China,Germany,Student,Bachelor,10,32530,0,1,5,Approved,70
+34,Brazil,Canada,Work,High School,7,25612,0,1,3,Approved,71
+53,Brazil,Australia,Student,Bachelor,2,8995,1,1,5,Rejected,85
+21,Brazil,Canada,Student,Master,6,43950,0,0,5,Approved,72
+19,China,USA,Student,Bachelor,6,41270,0,0,4,Approved,64
+23,Philippines,USA,Work,Bachelor,1,15920,0,1,4,Approved,76
+21,Nigeria,Germany,Tourist,Bachelor,8,25144,1,1,2,Approved,39
+46,UK,UK,Work,PhD,2,21882,0,1,9,Approved,79
+35,Nigeria,Australia,Dependent,Bachelor,1,5565,0,1,7,Rejected,70
+43,India,Australia,Student,Master,11,26373,0,0,1,Approved,57
+51,Germany,UK,Student,PhD,2,46557,1,1,5,Approved,81
+27,Brazil,USA,Student,High School,1,8024,0,1,2,Rejected,57
+53,Nigeria,USA,Student,PhD,14,27691,1,1,10,Approved,70
+31,UK,Canada,Student,PhD,7,36799,1,1,6,Approved,83
+48,India,Germany,Tourist,Master,4,4241,0,1,7,Approved,44
+32,China,Germany,Business,Bachelor,2,37510,0,0,12,Rejected,31
+25,Philippines,Germany,Dependent,Master,4,41477,0,0,2,Approved,59
+31,China,Canada,Student,Master,10,25383,1,0,11,Approved,74
+40,UK,Germany,Business,PhD,10,14830,0,1,6,Approved,42
+38,India,UK,Student,Bachelor,7,31975,1,0,3,Rejected,74
+33,Brazil,Canada,Student,Master,6,49546,0,0,9,Approved,58
+35,Nigeria,UK,Business,Bachelor,5,29551,0,0,4,Approved,25
+41,India,Canada,Work,Bachelor,13,43928,0,1,3,Approved,78
+43,Philippines,Germany,Student,Bachelor,12,26267,0,1,11,Approved,57
+42,China,UK,Work,Master,0,15375,1,1,3,Rejected,80
+46,Philippines,UK,Student,Bachelor,9,24513,0,0,2,Approved,60
+32,Philippines,UK,Tourist,Bachelor,0,7403,0,0,12,Rejected,22
+18,UK,Canada,Work,PhD,0,7897,0,0,9,Rejected,73
+42,UK,Australia,Dependent,Bachelor,13,3163,0,1,8,Approved,65
+24,Nigeria,Germany,Student,Master,9,39078,0,1,5,Approved,79
+26,UK,UK,Work,Bachelor,13,20379,0,1,9,Approved,71
+41,UK,Australia,Work,Bachelor,7,33030,1,0,2,Rejected,85
+18,India,Germany,Work,Master,7,32870,0,1,6,Approved,81
+25,Brazil,Germany,Student,PhD,13,32482,0,1,7,Approved,65
+41,Nigeria,UK,Tourist,Bachelor,6,34058,0,0,6,Approved,35
+28,India,UK,Business,Master,5,29871,0,0,3,Approved,27
+34,Brazil,Canada,Business,High School,3,29379,0,1,10,Approved,35
+25,Philippines,Australia,Tourist,Bachelor,0,5251,1,1,10,Rejected,32
+52,India,Australia,Business,Bachelor,14,46860,0,1,10,Approved,32
+52,Germany,UK,Work,High School,14,26674,0,1,9,Approved,71
+50,India,Germany,Tourist,Bachelor,8,9590,0,0,12,Approved,34
+22,UK,UK,Student,Bachelor,14,34432,0,1,8,Approved,74
+45,Brazil,Germany,Work,High School,0,43426,1,0,8,Rejected,97
+24,Nigeria,Germany,Student,Bachelor,3,25127,0,1,8,Approved,65
+26,Nigeria,UK,Work,Bachelor,2,41015,0,1,9,Approved,68
+25,Brazil,USA,Student,Master,6,10715,0,1,1,Approved,57
+29,UK,Australia,Dependent,PhD,4,6817,1,1,8,Approved,79
+51,China,Germany,Student,Master,4,32493,1,1,2,Approved,61
+50,India,Germany,Student,Bachelor,3,20454,0,1,4,Approved,56
+40,UK,USA,Work,PhD,0,7600,0,0,1,Rejected,72
+41,Germany,Canada,Student,Master,4,27690,1,0,12,Rejected,73
+54,Philippines,USA,Student,Bachelor,3,45750,0,1,6,Approved,73
+52,Brazil,USA,Student,High School,13,36762,0,1,10,Approved,56
+39,India,Germany,Work,Master,9,40499,0,0,1,Approved,76
+44,Nigeria,Australia,Work,Master,12,25452,1,0,12,Approved,83
+52,Philippines,USA,Tourist,Master,7,10670,0,1,5,Approved,36
+18,China,Canada,Tourist,Master,1,24151,0,1,9,Approved,30
+52,Germany,UK,Work,Master,7,20341,1,1,1,Approved,75
+54,Nigeria,USA,Student,PhD,0,32604,0,1,9,Approved,50
+31,Brazil,USA,Student,Bachelor,12,11287,1,1,4,Approved,70
+20,India,Canada,Tourist,High School,3,21538,0,1,3,Rejected,31
+18,Brazil,Australia,Student,Master,2,20015,1,0,8,Rejected,78
+22,Philippines,USA,Student,Bachelor,4,47644,0,1,6,Approved,65
+43,India,USA,Tourist,Master,12,18852,0,1,7,Approved,41
+31,UK,Australia,Work,PhD,4,49258,0,1,9,Approved,72
+44,China,Canada,Student,Master,4,24258,0,0,5,Approved,67
+26,UK,USA,Student,Master,11,41330,0,0,2,Approved,63
+32,UK,Australia,Business,Bachelor,3,44508,0,0,3,Approved,25
+32,Brazil,USA,Business,Bachelor,7,5248,0,1,3,Approved,27
+43,Philippines,UK,Tourist,Bachelor,2,9192,0,0,4,Rejected,21
+30,China,Germany,Work,Master,11,30410,0,1,10,Approved,70
+49,India,UK,Work,Master,3,12895,0,1,7,Approved,90
+49,India,USA,Dependent,Master,0,9406,0,1,12,Approved,51
+21,Germany,Canada,Dependent,Bachelor,6,36924,2,1,10,Rejected,73
+47,Nigeria,Germany,Student,Bachelor,0,44303,0,1,6,Approved,69
+54,Germany,UK,Tourist,Master,14,8295,0,1,3,Approved,23
+40,Germany,Australia,Student,Bachelor,1,15264,2,0,7,Rejected,85
+32,India,Canada,Student,Bachelor,10,31038,0,0,4,Approved,60
+46,Brazil,UK,Tourist,Master,6,41922,0,1,10,Approved,33
+53,UK,Australia,Work,Master,0,12136,0,0,11,Rejected,70
+30,Philippines,USA,Business,Bachelor,10,16213,0,1,11,Approved,35
+49,UK,Australia,Student,Master,2,15072,0,1,8,Approved,72
+24,UK,UK,Work,Bachelor,12,46010,0,1,7,Approved,83
+39,China,UK,Business,PhD,5,39053,1,0,7,Approved,50
+45,India,USA,Business,High School,5,30431,0,0,9,Rejected,38
+19,Philippines,Australia,Student,High School,5,45290,0,1,8,Approved,78
+23,Brazil,Australia,Work,Master,10,5003,1,1,12,Approved,79
+45,China,USA,Work,Bachelor,12,22999,0,1,1,Approved,74
+45,Nigeria,Australia,Student,Master,1,34279,1,0,7,Rejected,79
+37,Brazil,USA,Dependent,Master,1,45747,0,1,3,Approved,46
+47,Germany,Canada,Business,Master,5,13438,0,0,12,Approved,30
+28,Brazil,UK,Student,PhD,9,17227,0,0,4,Approved,59
+45,Brazil,Canada,Student,Bachelor,4,6672,0,0,6,Rejected,73
+42,UK,Germany,Student,Master,13,10458,0,1,5,Approved,78
+50,Brazil,Germany,Business,High School,6,21539,0,0,8,Rejected,45
+18,Germany,Germany,Student,Bachelor,6,6479,0,0,2,Rejected,57
+44,Germany,USA,Work,Master,4,17887,0,0,5,Approved,89
+30,India,Australia,Work,Bachelor,7,3051,0,1,5,Approved,82
+20,Brazil,Canada,Work,Master,9,5159,0,1,3,Approved,74
+23,UK,Canada,Student,Bachelor,5,7390,0,0,10,Rejected,51
+25,Brazil,Canada,Student,Master,14,23035,0,1,5,Approved,68
+44,Nigeria,Canada,Business,PhD,4,31491,0,1,4,Approved,36
+26,Nigeria,Germany,Business,High School,3,19080,0,0,11,Rejected,33
+54,UK,Canada,Tourist,Master,6,37880,0,0,5,Approved,43
+50,India,Australia,Student,Master,3,48520,0,1,10,Approved,52
+41,India,Germany,Student,Bachelor,4,25149,0,0,9,Rejected,61
+32,Germany,Canada,Work,High School,4,18339,2,0,7,Rejected,112
+49,Germany,USA,Student,Master,0,32305,0,1,1,Approved,50
+49,China,UK,Business,Bachelor,14,4354,0,1,3,Approved,25
+41,UK,UK,Work,Bachelor,0,8620,1,1,9,Rejected,78
+29,Brazil,UK,Student,Master,2,6754,1,1,4,Rejected,63
+19,Philippines,Germany,Business,Bachelor,14,19593,1,1,4,Approved,45
+20,UK,Canada,Dependent,PhD,13,19167,0,0,10,Approved,56
+54,China,Germany,Student,Master,10,25555,0,0,6,Approved,79
+34,Germany,Australia,Work,Master,2,36005,1,1,3,Approved,84
+19,UK,USA,Student,High School,1,44295,1,1,3,Rejected,65
+19,UK,USA,Work,Bachelor,11,43843,0,1,9,Approved,69
+45,Germany,UK,Student,Bachelor,1,11691,0,0,5,Rejected,70
+40,China,UK,Work,PhD,5,12756,2,0,7,Rejected,109
+54,Germany,UK,Dependent,Bachelor,12,39308,0,0,5,Approved,66
+49,India,Canada,Work,Bachelor,0,12327,0,1,6,Rejected,86
+50,Brazil,Australia,Student,Bachelor,5,31520,0,0,8,Approved,74
+18,Germany,Australia,Work,Bachelor,4,46308,0,1,8,Approved,93
+36,China,Australia,Student,Bachelor,5,43025,0,1,2,Approved,59
+19,Nigeria,Australia,Business,Master,4,31900,0,0,11,Approved,33
+43,India,UK,Work,High School,6,19533,2,0,9,Rejected,99
+49,Nigeria,USA,Student,High School,0,34881,0,0,10,Rejected,55
+23,Philippines,UK,Student,Bachelor,12,30782,0,0,12,Approved,57
+49,Germany,Australia,Tourist,Master,2,47488,1,0,12,Rejected,31
+21,India,UK,Student,Master,5,4624,0,0,12,Approved,57
+28,Brazil,Australia,Tourist,Bachelor,0,43429,0,1,6,Approved,43
+34,Germany,Germany,Student,Master,12,23812,0,1,7,Approved,68
+41,Brazil,USA,Student,Bachelor,10,10529,0,0,3,Approved,64
+22,UK,Germany,Work,PhD,10,23653,0,1,4,Approved,69
+51,Nigeria,Canada,Business,High School,6,30860,0,1,6,Approved,44
+23,India,UK,Business,Master,3,16654,1,1,7,Rejected,51
+39,Brazil,Canada,Student,Master,2,5108,0,0,6,Rejected,69
+28,China,UK,Work,Master,9,6947,0,1,5,Approved,88
+33,Brazil,Germany,Student,Bachelor,8,10899,0,1,12,Approved,53
+50,China,Australia,Work,Bachelor,0,16372,0,1,2,Rejected,74
+26,Germany,Australia,Work,Master,7,40682,0,1,12,Approved,67
+23,India,UK,Business,High School,0,33373,0,0,7,Rejected,53
+33,Brazil,Australia,Business,Master,12,42435,1,1,5,Approved,56
+46,Philippines,Germany,Work,Master,13,5263,0,1,12,Approved,72
+20,Brazil,Australia,Work,Master,4,29188,0,1,9,Approved,77
+37,Philippines,Germany,Business,High School,9,39583,0,1,11,Approved,37
+53,India,Canada,Tourist,Master,7,32295,0,0,4,Approved,29
+36,Brazil,Germany,Student,Master,5,3577,0,0,10,Approved,55
+43,China,USA,Student,Master,6,18029,1,1,12,Approved,65
+20,Brazil,USA,Work,High School,10,38531,0,1,2,Approved,77
+36,Nigeria,USA,Student,High School,7,33066,0,1,7,Approved,69
+37,Germany,UK,Student,Bachelor,12,20613,2,1,7,Rejected,95
+49,UK,UK,Student,High School,5,22560,0,0,1,Rejected,55
+24,China,UK,Work,Master,10,11945,2,1,11,Rejected,93
+50,Nigeria,Germany,Student,PhD,5,32418,0,0,5,Approved,79
+35,Philippines,UK,Student,Bachelor,10,20071,0,1,3,Approved,51
+18,Germany,Canada,Student,Master,5,49622,0,1,9,Approved,59
+28,India,USA,Tourist,High School,4,20130,0,0,9,Rejected,30
+45,China,Germany,Business,Bachelor,7,23721,0,0,7,Approved,54
+42,UK,USA,Work,High School,12,5712,0,0,12,Approved,67
+40,Germany,UK,Work,Bachelor,1,20091,0,0,9,Rejected,65
+48,Philippines,Germany,Dependent,PhD,6,18857,0,1,12,Approved,48
+47,UK,Australia,Student,High School,14,44394,1,0,2,Approved,61
+52,India,Canada,Student,Master,3,48836,0,0,11,Approved,55
+24,India,UK,Student,Bachelor,0,37301,0,0,10,Rejected,64
+33,Philippines,UK,Student,PhD,12,19553,0,1,8,Approved,77
+43,China,Canada,Work,High School,4,20404,0,0,10,Rejected,79
+19,Philippines,Canada,Business,Bachelor,2,10093,0,0,10,Rejected,25
+18,Brazil,Australia,Work,High School,3,16156,0,1,10,Rejected,72
+29,India,UK,Work,Bachelor,6,16785,1,0,1,Rejected,84
+22,Germany,UK,Business,Bachelor,4,28271,0,0,3,Approved,30
+54,Brazil,USA,Student,Master,13,17694,0,1,8,Approved,73
+49,Nigeria,Germany,Student,Master,14,39114,2,0,11,Approved,81
+26,UK,Germany,Work,Master,3,7013,2,1,8,Rejected,105
+52,Brazil,USA,Work,Bachelor,0,35799,0,1,10,Approved,74
+36,UK,Germany,Student,High School,5,27752,0,1,8,Approved,71
+33,Philippines,Canada,Work,Bachelor,10,14156,0,0,11,Approved,69
+20,Brazil,Germany,Work,PhD,9,13304,0,1,12,Approved,78
+37,Philippines,Germany,Tourist,Master,5,43645,2,1,11,Rejected,47
+41,Nigeria,USA,Work,Master,6,41938,0,0,7,Approved,87
+50,India,Australia,Student,Master,0,15078,0,0,2,Rejected,59
+41,Nigeria,Germany,Student,High School,13,29078,0,1,3,Approved,58
+28,India,Germany,Work,Bachelor,3,5315,0,1,9,Approved,76
+25,Philippines,Australia,Student,High School,11,30220,0,1,2,Approved,55
+53,India,USA,Business,Bachelor,8,34731,0,1,7,Approved,40
+37,UK,Australia,Work,High School,14,35833,0,1,1,Approved,73
+52,Germany,USA,Student,Bachelor,11,15420,0,0,3,Approved,52
+42,Nigeria,Canada,Tourist,Master,13,21312,0,1,1,Approved,28
+52,Brazil,USA,Work,Master,9,24395,0,1,6,Approved,86
+42,Nigeria,Canada,Student,Master,5,43301,0,1,4,Approved,63
+46,UK,Canada,Tourist,PhD,1,49972,0,0,1,Approved,31
+35,India,USA,Business,High School,3,18317,1,0,5,Rejected,62
+35,UK,UK,Tourist,High School,5,19968,0,0,4,Rejected,22
+19,China,USA,Student,Master,3,25854,0,1,11,Approved,58
+52,China,Germany,Work,Bachelor,14,8244,0,1,10,Approved,78
+33,Brazil,Germany,Tourist,Bachelor,9,33929,0,0,11,Approved,26
+53,UK,UK,Student,Bachelor,6,43922,0,0,10,Approved,56
+50,Philippines,Canada,Student,Bachelor,11,27054,0,1,2,Approved,56
+21,Brazil,UK,Business,Bachelor,12,21588,0,1,7,Approved,41
+50,Philippines,Germany,Student,Bachelor,2,47590,0,1,12,Approved,60
+31,Brazil,UK,Tourist,Bachelor,5,37660,0,0,8,Approved,38
+38,China,USA,Work,Master,12,10018,0,0,4,Approved,74
+37,Brazil,UK,Work,Bachelor,14,13621,1,1,9,Approved,82
+25,China,Canada,Student,Bachelor,11,3973,0,1,3,Approved,61
+24,India,USA,Tourist,Bachelor,3,46602,0,0,6,Approved,36
+20,Philippines,Australia,Work,Bachelor,2,42383,0,1,11,Approved,77
+34,UK,Germany,Work,Master,11,40097,0,1,7,Approved,83
+50,Brazil,Germany,Tourist,Master,2,37245,0,1,7,Approved,44
+29,China,UK,Tourist,Master,13,28346,0,0,6,Approved,42
+39,Nigeria,USA,Dependent,Bachelor,1,43097,1,1,9,Rejected,69
+39,Philippines,Australia,Work,Master,10,9444,0,1,1,Approved,76
+47,Brazil,USA,Work,Master,2,27881,0,1,9,Approved,67
+25,Germany,Germany,Dependent,Bachelor,12,27846,0,1,9,Approved,56
+44,India,USA,Work,Bachelor,11,14406,0,1,4,Approved,70
+44,India,Australia,Student,Bachelor,13,42611,0,1,12,Approved,61
+51,Nigeria,UK,Student,Master,9,28439,2,1,12,Approved,71
+38,China,Canada,Tourist,Master,0,8972,0,0,5,Rejected,42
+47,Brazil,USA,Work,High School,14,40873,1,0,3,Approved,82
+50,Philippines,Canada,Tourist,Master,2,13931,0,0,7,Rejected,46
+45,China,Germany,Work,High School,8,10702,1,1,2,Rejected,87
+50,India,UK,Student,High School,3,22298,1,1,8,Rejected,75
+22,China,UK,Work,PhD,14,24540,0,0,9,Approved,67
+36,India,USA,Student,PhD,2,35040,1,0,6,Rejected,88
+21,China,UK,Work,High School,7,49904,0,0,9,Approved,79
+52,Nigeria,USA,Work,Bachelor,0,34000,0,1,6,Approved,81
+34,UK,USA,Work,Bachelor,4,32805,0,0,3,Approved,71
+45,Nigeria,Canada,Tourist,Bachelor,0,5599,0,1,10,Rejected,26
+47,Nigeria,UK,Tourist,Master,6,25100,1,1,3,Approved,33
+46,UK,USA,Tourist,PhD,4,33509,0,1,2,Approved,31
+23,UK,Canada,Student,Master,14,38003,0,1,5,Approved,76
+52,Brazil,Australia,Student,Bachelor,1,22183,0,1,4,Approved,57
+54,Philippines,Canada,Work,Master,11,41241,1,1,12,Approved,77
+41,Philippines,Canada,Business,Bachelor,13,3018,1,1,6,Approved,63
+46,Brazil,USA,Tourist,PhD,0,3858,0,0,5,Rejected,43
+48,Nigeria,Germany,Tourist,Master,10,28992,0,1,6,Approved,39
+52,Nigeria,Germany,Student,Master,14,35580,0,1,4,Approved,63
+50,India,Germany,Work,Bachelor,6,8380,0,0,3,Rejected,77
+38,India,Canada,Work,Bachelor,11,38800,0,0,1,Approved,79
+49,Philippines,USA,Student,High School,0,21915,0,0,5,Rejected,78
+40,Brazil,UK,Student,Master,2,43239,0,1,6,Approved,66
+50,Germany,Canada,Business,Bachelor,10,40487,0,0,5,Approved,48
+20,Germany,Canada,Student,Bachelor,14,15943,0,1,5,Approved,65
+35,Brazil,USA,Student,Bachelor,5,40631,1,0,12,Rejected,70
+42,India,Australia,Student,Master,14,39806,1,0,6,Approved,82
+48,Philippines,Canada,Business,High School,5,21836,0,1,4,Approved,30
+20,Philippines,Australia,Work,Master,14,38614,0,1,12,Approved,76
+41,India,Australia,Tourist,Master,6,43832,0,1,4,Approved,20
+49,Germany,Germany,Business,PhD,10,14394,0,1,11,Approved,38
+39,China,USA,Student,Bachelor,13,9622,0,0,8,Approved,68
+40,China,Australia,Work,Bachelor,10,48063,1,1,11,Approved,77
+19,India,USA,Student,Bachelor,0,28280,0,0,8,Rejected,71
+44,China,Germany,Student,Bachelor,6,14782,0,0,12,Approved,56
+19,UK,USA,Tourist,Bachelor,1,4159,0,0,3,Rejected,25
+43,Brazil,Canada,Tourist,Master,5,7626,0,1,7,Approved,48
+34,Brazil,Australia,Work,Bachelor,12,26440,1,0,5,Approved,99
+50,India,USA,Work,Master,7,39490,0,0,5,Approved,93
+26,Nigeria,UK,Work,High School,12,14630,1,0,12,Rejected,84
+46,Germany,USA,Student,Master,4,47042,0,0,3,Approved,61
+43,India,Australia,Student,Master,9,9589,2,0,2,Rejected,77
+52,China,Germany,Student,Master,2,26233,1,0,3,Rejected,66
+42,Germany,Germany,Student,Master,10,38011,0,0,7,Approved,68
+41,Nigeria,Australia,Tourist,Master,7,11177,1,0,3,Rejected,36
+30,China,Canada,Student,PhD,7,37528,0,0,11,Approved,64
+24,Philippines,Canada,Student,Bachelor,3,41210,2,1,2,Rejected,70
+53,UK,Germany,Work,Bachelor,7,29372,0,1,4,Approved,67
+37,China,Germany,Business,High School,4,26508,0,1,12,Approved,26
+18,UK,Australia,Student,High School,12,17965,0,1,5,Approved,71
+25,Germany,Canada,Student,Bachelor,10,6236,0,0,7,Approved,73
+33,UK,Germany,Work,High School,4,18611,1,0,1,Rejected,79
+31,Germany,Canada,Tourist,Bachelor,2,25282,0,1,8,Approved,43
+29,Germany,Germany,Work,Bachelor,14,44003,0,1,10,Approved,76
+40,Germany,USA,Tourist,High School,6,18829,0,1,3,Approved,32
+32,Germany,UK,Dependent,PhD,10,11680,0,1,11,Approved,52
+45,Germany,USA,Tourist,High School,13,14340,0,0,6,Approved,35
+51,China,Germany,Work,Master,10,34093,0,1,4,Approved,78
+19,Germany,UK,Work,Bachelor,8,24107,0,1,5,Approved,90
+49,China,UK,Student,PhD,8,12148,0,0,10,Approved,51
+40,Germany,Germany,Dependent,Master,0,46074,0,1,12,Approved,50
+39,UK,Germany,Work,Master,0,20499,0,0,6,Rejected,84
+42,Philippines,Canada,Student,Master,9,21165,1,1,2,Approved,74
+39,Germany,Germany,Tourist,High School,11,46786,0,0,3,Approved,30
+39,Nigeria,Australia,Student,PhD,11,28226,0,0,8,Approved,71
+23,Germany,Germany,Work,Master,10,21260,0,1,8,Approved,88
+32,Germany,Australia,Work,Master,14,27916,0,0,1,Approved,78
+54,UK,Germany,Work,Master,4,46910,0,1,10,Approved,68
+50,Brazil,Canada,Tourist,Bachelor,0,33480,0,1,8,Approved,42
+25,UK,Australia,Student,Master,3,35191,0,0,11,Approved,53
+22,Nigeria,USA,Work,Bachelor,11,12546,0,0,2,Approved,67
+21,Brazil,Australia,Work,Master,0,39044,0,1,10,Approved,76
+23,India,Canada,Tourist,High School,14,24921,0,1,10,Approved,21
+49,India,Australia,Tourist,PhD,1,39940,0,1,8,Approved,42
+47,Nigeria,Germany,Work,High School,1,48951,0,1,12,Approved,79
+52,UK,Germany,Work,Bachelor,3,15836,0,1,10,Approved,75
+33,China,Canada,Student,Master,7,11989,1,0,5,Rejected,82
+30,Nigeria,UK,Business,Master,1,16740,0,1,1,Approved,35
+47,Philippines,Germany,Work,Master,13,33180,0,1,8,Approved,91
+36,Brazil,USA,Tourist,Bachelor,8,16102,1,1,12,Approved,32
+34,Brazil,Canada,Student,High School,14,18357,0,1,5,Approved,65
+36,Germany,Australia,Student,Master,11,33255,0,1,1,Approved,62
+45,India,Australia,Work,PhD,8,39094,0,1,4,Approved,70
+43,Brazil,USA,Business,Master,1,28221,0,1,1,Approved,29
+54,Nigeria,Germany,Work,Bachelor,0,3719,1,1,9,Rejected,82
+43,Brazil,Canada,Business,PhD,9,20906,0,1,10,Approved,39
+40,Nigeria,USA,Work,Bachelor,14,26140,0,0,2,Approved,70
+26,China,Germany,Work,Bachelor,9,4069,0,1,8,Approved,83
+29,Germany,Canada,Student,Bachelor,8,10749,1,1,4,Rejected,69
+18,India,Australia,Tourist,Bachelor,14,15935,0,0,9,Approved,29
+18,Brazil,Canada,Student,Master,1,40655,1,1,2,Approved,71
+51,Nigeria,UK,Business,Bachelor,7,47035,0,0,12,Approved,39
+49,UK,Canada,Business,Bachelor,13,33720,1,0,3,Approved,46
+42,India,UK,Business,Bachelor,2,30937,0,1,2,Approved,35
+18,China,Canada,Work,High School,0,21540,0,1,10,Rejected,66
+33,Nigeria,UK,Tourist,Master,10,10944,0,1,5,Approved,42
+22,Philippines,Australia,Tourist,Bachelor,0,15747,1,0,11,Rejected,34
+39,Philippines,Germany,Student,High School,9,13505,0,0,1,Rejected,61
+46,Germany,UK,Work,Master,1,49217,0,1,12,Approved,79
+20,Germany,UK,Student,Master,6,14697,0,0,3,Approved,57
+29,China,Australia,Work,Master,11,39907,0,1,1,Approved,79
+43,China,UK,Student,Bachelor,5,18221,1,1,10,Rejected,64
+33,Germany,USA,Student,Master,11,10087,0,1,8,Approved,70
+54,Brazil,Australia,Work,PhD,10,24462,1,0,12,Approved,87
+39,Brazil,USA,Work,Master,1,25789,0,0,4,Approved,79
+46,Nigeria,Australia,Work,Master,3,36400,2,0,3,Rejected,94
+31,UK,UK,Student,Bachelor,1,5199,0,0,8,Rejected,78
+45,Nigeria,USA,Work,PhD,0,47023,0,1,9,Approved,69
+22,UK,UK,Student,Bachelor,11,24737,0,1,8,Approved,75
+47,China,Australia,Work,Bachelor,2,9073,1,0,6,Rejected,92
+22,India,UK,Work,Bachelor,14,19744,0,0,3,Approved,74
+29,Nigeria,USA,Work,High School,3,13559,0,0,8,Rejected,87
+33,Nigeria,USA,Tourist,PhD,9,35695,1,1,5,Approved,47
+43,UK,UK,Student,Master,4,11401,1,0,5,Rejected,78
+43,China,Canada,Tourist,Master,4,14659,1,1,12,Rejected,35
+38,China,Australia,Work,Master,14,44890,0,0,9,Approved,66
+53,Philippines,Australia,Work,Bachelor,6,16894,0,0,1,Approved,78
+50,UK,UK,Work,High School,13,32160,0,0,7,Approved,86
+47,China,Canada,Student,Master,14,32272,0,1,8,Approved,69
+54,Germany,USA,Tourist,Master,9,27512,0,1,11,Approved,31
+40,Brazil,Germany,Work,Bachelor,7,36645,0,1,10,Approved,74
+27,Philippines,Germany,Student,Master,8,49543,2,0,3,Rejected,82
+22,Germany,UK,Student,Bachelor,11,24179,0,0,8,Approved,69
+53,India,Canada,Student,Bachelor,6,13691,0,0,1,Rejected,54
+51,Nigeria,Canada,Business,Bachelor,4,19110,0,1,8,Approved,52
+48,Philippines,Australia,Tourist,Bachelor,8,38291,0,0,7,Approved,47
+27,India,USA,Student,Master,7,48311,0,1,4,Approved,51
+36,Nigeria,Canada,Work,Master,9,32845,0,0,11,Approved,75
+49,Brazil,Germany,Work,Bachelor,8,42038,0,0,7,Approved,92
+18,China,USA,Tourist,Master,9,27967,1,1,10,Approved,44
+22,Germany,USA,Student,Master,7,31478,0,0,11,Approved,64
+21,UK,UK,Student,Bachelor,5,8088,1,1,7,Rejected,86
+33,Germany,Canada,Business,Bachelor,3,43332,0,0,10,Approved,34
+41,Brazil,UK,Student,PhD,8,10066,0,0,12,Approved,58
+33,India,Canada,Student,Master,11,42313,0,1,1,Approved,52
+19,UK,Australia,Dependent,PhD,8,5321,0,0,3,Approved,56
+45,China,UK,Work,Bachelor,9,48900,0,1,7,Approved,86
+49,Brazil,UK,Student,Master,9,27533,0,1,11,Approved,54
+44,UK,Germany,Student,Bachelor,8,27509,2,0,5,Rejected,94
+37,Brazil,UK,Student,Bachelor,13,44098,2,1,9,Approved,79
+41,Brazil,Canada,Student,Bachelor,9,11294,0,0,7,Approved,69
+29,China,Germany,Business,Bachelor,2,49321,0,1,3,Approved,39
+52,Philippines,UK,Work,Bachelor,10,41101,0,1,1,Approved,68
+50,Nigeria,UK,Tourist,Bachelor,11,28059,2,1,5,Rejected,64
+50,UK,Australia,Business,High School,14,34248,0,1,10,Approved,30
+54,China,UK,Work,Master,2,43626,0,1,5,Approved,86
+29,Brazil,USA,Student,Bachelor,10,23703,0,1,7,Approved,71
+20,China,Germany,Work,High School,5,41157,0,0,1,Approved,75
+18,Philippines,USA,Business,Bachelor,5,6205,0,1,10,Approved,36
+50,Nigeria,Germany,Tourist,High School,14,37929,0,0,2,Approved,34
+27,Germany,Australia,Student,Master,12,20848,0,1,11,Approved,57
+46,UK,UK,Tourist,High School,14,36411,0,1,6,Approved,39
+30,Nigeria,UK,Work,Master,12,17986,0,1,8,Approved,86
+29,India,UK,Business,High School,5,14628,1,1,4,Rejected,46
+48,UK,Germany,Student,Bachelor,4,41119,0,1,3,Approved,63
+19,Nigeria,UK,Work,Master,13,7553,0,0,3,Approved,79
+52,Brazil,USA,Business,Master,4,9518,0,0,3,Approved,28
+40,UK,UK,Work,High School,1,41491,0,1,2,Approved,79
+34,UK,Australia,Work,Master,13,10946,0,1,1,Approved,73
+43,China,USA,Student,Bachelor,6,3610,0,1,5,Approved,69
+25,Brazil,UK,Student,Master,11,7302,0,1,10,Approved,52
+46,India,UK,Student,Master,3,37311,0,0,5,Approved,69
+43,Germany,Canada,Business,Master,13,37234,0,1,5,Approved,48
+27,Philippines,Germany,Student,PhD,2,44876,0,0,4,Approved,62
+43,Nigeria,USA,Work,Bachelor,7,17656,0,0,3,Approved,77
+51,China,Canada,Tourist,Master,3,42004,0,0,12,Approved,30
+24,Nigeria,Australia,Student,Bachelor,14,49487,0,1,3,Approved,57
+21,India,Germany,Work,High School,10,21656,0,1,2,Approved,65
+28,India,USA,Tourist,High School,3,44811,0,0,5,Rejected,39
+46,UK,UK,Business,High School,7,7536,0,1,4,Approved,30
+53,Philippines,USA,Work,Master,0,45974,1,0,6,Rejected,104
+42,India,UK,Tourist,Master,8,22856,0,1,2,Approved,32
+38,Nigeria,Germany,Student,Master,13,39410,0,1,2,Approved,59
+53,Brazil,UK,Business,High School,6,47830,0,0,8,Approved,52
+27,Brazil,Australia,Student,Bachelor,14,19447,1,1,6,Approved,85
+54,UK,UK,Tourist,PhD,11,48823,0,0,3,Approved,21
+26,Germany,Australia,Student,Bachelor,1,36327,1,1,5,Rejected,88
+41,Nigeria,Germany,Business,Master,10,37501,1,1,3,Approved,49
+52,Nigeria,Germany,Tourist,Master,11,11861,0,0,11,Approved,25
+52,India,USA,Tourist,Master,5,23278,0,1,2,Approved,33
+53,Philippines,Australia,Student,Bachelor,7,4542,0,0,3,Rejected,58
+35,Nigeria,Australia,Work,Master,10,45231,0,1,1,Approved,78
+49,China,Canada,Work,Bachelor,4,5415,0,0,7,Rejected,83
+41,Germany,Canada,Tourist,Master,5,46751,0,0,6,Approved,37
+40,India,Canada,Student,Bachelor,11,15905,0,1,5,Approved,73
+49,China,UK,Dependent,Bachelor,9,24601,0,0,6,Approved,61
+54,UK,Canada,Business,High School,7,41155,1,1,8,Approved,61
+29,Brazil,Australia,Student,Master,12,24563,0,1,3,Approved,58
+30,UK,UK,Tourist,Bachelor,5,43955,2,1,3,Rejected,50
+40,Brazil,Germany,Work,Bachelor,11,9643,0,0,12,Approved,74
+42,UK,USA,Work,Bachelor,8,27044,0,1,5,Approved,90
+52,Nigeria,Canada,Student,PhD,14,14246,0,1,5,Approved,75
+47,China,Germany,Work,Master,11,5458,1,0,11,Approved,76
+34,Brazil,Australia,Tourist,Master,8,9028,0,1,1,Approved,33
+37,India,USA,Work,Master,8,41215,1,0,4,Approved,87
+42,China,Germany,Work,Bachelor,5,37716,0,1,9,Approved,75
+39,India,USA,Tourist,Bachelor,11,9306,1,1,8,Approved,58
+30,China,Canada,Tourist,PhD,14,44019,1,1,3,Approved,44
+36,China,Australia,Student,High School,11,43860,1,1,5,Approved,84
+53,UK,USA,Business,Bachelor,8,30678,0,0,5,Approved,42
+29,Brazil,Germany,Work,Bachelor,2,27908,0,0,7,Rejected,92
+36,Brazil,Canada,Student,Bachelor,4,15363,0,0,8,Rejected,71
+29,Philippines,Canada,Student,Bachelor,1,17066,0,0,9,Rejected,51
+26,China,Germany,Work,Bachelor,11,35711,0,1,7,Approved,80
+24,Nigeria,Germany,Business,High School,12,3189,0,1,2,Approved,33
+45,Nigeria,USA,Work,Bachelor,12,14752,0,0,8,Approved,85
+31,India,UK,Tourist,Bachelor,7,10482,1,1,8,Rejected,53
+48,India,Canada,Student,Bachelor,10,19679,0,1,11,Approved,61
+36,UK,USA,Work,High School,12,27552,0,0,2,Approved,67
+33,China,Germany,Dependent,Master,3,3799,0,0,6,Rejected,62
+22,India,USA,Tourist,Bachelor,5,28381,1,1,10,Rejected,39
+52,India,Germany,Student,Master,5,12934,0,1,1,Approved,61
+29,Germany,Australia,Work,Master,4,22084,1,1,11,Approved,77
+42,China,Germany,Student,Master,11,44556,0,0,7,Approved,66
+38,UK,Germany,Work,Bachelor,11,12909,1,1,10,Approved,87
+53,India,Germany,Tourist,Bachelor,0,28931,0,1,2,Approved,30
+40,UK,UK,Tourist,Bachelor,10,48183,0,0,5,Approved,40
+33,Brazil,Germany,Student,Master,6,28868,0,0,7,Approved,67
+31,UK,Canada,Business,Bachelor,9,46558,1,0,10,Approved,39
+48,Nigeria,Canada,Work,Master,14,16846,0,0,11,Approved,77
+22,Nigeria,USA,Work,Master,7,25257,1,0,9,Rejected,85
+52,UK,UK,Work,Bachelor,0,31013,0,1,1,Approved,69
+40,Nigeria,USA,Work,High School,9,40482,0,1,9,Approved,74
+46,Brazil,Canada,Work,Master,6,25875,0,1,11,Approved,67
+28,China,Canada,Work,Bachelor,3,27717,0,0,5,Rejected,82
+35,Nigeria,Australia,Work,High School,5,14408,0,1,6,Approved,80
+29,Nigeria,Germany,Student,Master,8,38607,1,1,8,Approved,80
+26,UK,Canada,Tourist,Bachelor,14,39281,2,1,11,Approved,42
+27,Brazil,USA,Work,PhD,4,30326,0,1,2,Approved,79
+34,Philippines,USA,Student,Master,7,16601,1,1,12,Approved,60
+24,Philippines,Germany,Tourist,Master,4,4135,0,1,7,Approved,47
+30,Philippines,Germany,Business,Bachelor,1,25741,0,0,12,Rejected,38
+26,Philippines,Australia,Business,Bachelor,3,14913,0,0,4,Rejected,38
+44,China,UK,Work,Bachelor,13,13101,0,1,9,Approved,77
+19,UK,USA,Student,Bachelor,1,21631,0,1,6,Approved,74
+22,UK,Germany,Work,Bachelor,6,9548,0,1,7,Approved,88
+46,Germany,USA,Student,Bachelor,6,40284,0,1,11,Approved,60
+54,Brazil,Germany,Business,Bachelor,13,39870,1,1,6,Approved,50
+36,Philippines,Canada,Student,Bachelor,14,30215,0,0,11,Approved,54
+25,China,USA,Student,Master,2,40279,1,0,8,Rejected,79
+18,Brazil,Canada,Work,Bachelor,13,22215,1,0,6,Approved,104
+39,Philippines,USA,Work,High School,12,28582,0,1,7,Approved,81
+34,China,UK,Tourist,Master,6,17024,0,1,8,Approved,48
+24,Brazil,Australia,Work,PhD,14,14413,0,1,1,Approved,78
+42,UK,Canada,Student,Bachelor,0,19319,1,1,10,Rejected,72
+21,UK,Germany,Student,High School,0,22446,2,0,12,Rejected,70
+53,India,UK,Work,Master,8,48483,1,0,4,Approved,80
+23,Nigeria,USA,Student,PhD,5,43743,0,1,6,Approved,79
+48,Philippines,Canada,Work,Master,12,35036,1,1,1,Approved,81
+36,Germany,USA,Work,Master,13,15621,0,0,4,Approved,75
+44,Brazil,USA,Tourist,Bachelor,11,13511,0,1,6,Approved,45
+27,Germany,USA,Business,Bachelor,4,22923,0,0,7,Rejected,48
+43,India,Australia,Business,High School,12,13558,1,0,6,Rejected,57
+36,Nigeria,Australia,Business,Master,5,35235,2,1,11,Rejected,54
+20,Brazil,Germany,Student,Master,5,3526,0,0,4,Approved,52
+30,China,Canada,Student,PhD,0,4753,1,1,12,Rejected,68
+45,Philippines,UK,Student,Bachelor,4,29248,1,0,7,Rejected,75
+37,Nigeria,UK,Business,High School,8,17656,0,1,10,Approved,37
+45,UK,UK,Dependent,Bachelor,3,26266,0,1,2,Approved,50
+25,India,USA,Business,Master,2,13220,0,1,6,Approved,52
+18,Nigeria,Australia,Student,Master,0,21038,0,0,5,Rejected,78
+20,Philippines,Canada,Business,Bachelor,13,15741,0,0,2,Approved,34
+30,Nigeria,USA,Work,Bachelor,14,7841,0,1,9,Approved,66
+45,Philippines,Australia,Student,Bachelor,1,39809,1,0,7,Rejected,84
+42,UK,Australia,Work,Bachelor,2,33575,0,1,3,Approved,73
+50,Brazil,Canada,Student,Master,3,44733,0,1,7,Approved,73
+23,China,Canada,Work,Bachelor,6,17418,0,0,11,Approved,72
+49,UK,Canada,Student,Master,5,40185,0,1,11,Approved,62
+38,China,USA,Work,Master,10,44745,2,1,6,Approved,110
+33,Brazil,Germany,Work,Master,7,30881,0,1,7,Approved,86
+38,Nigeria,Canada,Business,Bachelor,13,17587,0,0,4,Approved,38
+28,China,Germany,Tourist,Master,8,25268,1,0,10,Approved,35
+54,India,USA,Work,Bachelor,14,3448,0,0,8,Approved,81
+53,India,Germany,Tourist,Bachelor,5,40353,1,0,8,Rejected,58
+52,Philippines,UK,Business,Bachelor,6,48519,0,0,7,Approved,43
+36,UK,Germany,Student,Bachelor,3,11108,0,1,7,Approved,74
+37,Brazil,Canada,Work,Bachelor,1,14443,1,0,10,Rejected,81
+35,Philippines,USA,Student,Bachelor,8,25435,0,0,8,Approved,78
+31,UK,Canada,Student,PhD,8,36062,0,0,1,Approved,62
+32,UK,UK,Tourist,Bachelor,14,4238,0,0,6,Approved,40
+48,Philippines,Canada,Business,Master,3,18321,0,0,2,Approved,33
+18,Germany,Canada,Student,PhD,11,19074,1,1,1,Approved,72
+20,UK,Canada,Tourist,High School,2,16049,1,1,12,Rejected,42
+33,Germany,Australia,Business,Master,9,38584,0,0,10,Approved,29
+40,India,UK,Business,Bachelor,13,4098,0,0,7,Approved,51
+28,India,Canada,Student,High School,10,17679,1,1,6,Rejected,86
+29,UK,Canada,Business,Bachelor,5,37505,1,0,5,Rejected,55
+27,India,Canada,Student,PhD,13,38533,0,0,5,Approved,74
+49,Brazil,USA,Work,High School,13,49998,1,1,9,Approved,80
+33,Germany,Australia,Student,Master,2,14434,0,1,9,Approved,63
+25,Germany,USA,Student,Bachelor,0,47859,0,1,12,Approved,57
+29,UK,Australia,Tourist,Master,3,36178,2,1,12,Rejected,47
+41,India,Canada,Work,High School,0,30575,0,1,6,Rejected,85
+45,China,UK,Student,Master,1,22329,0,1,3,Approved,57
+25,Philippines,Germany,Student,Master,2,40554,0,1,7,Approved,71
+45,Philippines,Germany,Tourist,Master,7,44837,0,0,4,Approved,20
+53,Germany,Canada,Student,PhD,9,21493,0,1,5,Approved,69
+43,UK,USA,Tourist,Master,3,24830,0,0,7,Approved,45
+25,UK,UK,Student,High School,3,41603,0,0,12,Rejected,64
+45,Brazil,Australia,Student,Bachelor,12,37754,0,1,7,Approved,74
+45,Nigeria,Canada,Work,Bachelor,9,11126,0,1,10,Approved,74
+54,Nigeria,UK,Work,Bachelor,8,44838,0,1,8,Approved,92
+53,Germany,UK,Work,Bachelor,6,43068,0,0,1,Approved,74
+44,Philippines,Australia,Student,Bachelor,1,25093,0,1,5,Approved,69
+34,Brazil,UK,Dependent,Bachelor,2,38171,0,1,12,Approved,54
+26,Brazil,USA,Work,PhD,3,11262,2,0,9,Rejected,98
+50,Brazil,USA,Student,High School,3,46270,0,1,7,Approved,73
+37,Germany,USA,Work,PhD,9,23785,1,0,11,Approved,81
+30,Nigeria,UK,Business,Bachelor,7,42469,0,0,12,Approved,31
+45,Philippines,USA,Student,Master,9,6295,1,0,2,Rejected,69
+46,Brazil,Australia,Student,Master,13,18687,0,0,1,Approved,64
+30,Philippines,UK,Tourist,Bachelor,9,48643,1,1,8,Approved,46
+52,India,Germany,Work,Bachelor,5,5121,0,0,9,Rejected,72
+23,UK,UK,Work,Bachelor,2,6582,2,1,10,Rejected,87
+35,UK,Australia,Student,Bachelor,10,33280,0,0,5,Approved,79
+22,Philippines,Germany,Student,PhD,8,45589,1,1,11,Approved,68
+42,China,UK,Work,Master,9,41468,1,1,6,Approved,104
+19,China,USA,Student,High School,7,43000,0,0,2,Approved,55
+27,Germany,Canada,Work,High School,8,40056,0,1,11,Approved,73
+47,Germany,Canada,Work,Bachelor,14,34672,0,1,5,Approved,94
+22,UK,USA,Student,High School,4,4085,1,1,12,Rejected,68
+50,India,Canada,Business,Master,2,18891,0,1,4,Approved,31
+18,Nigeria,Canada,Tourist,High School,3,18600,0,1,8,Rejected,44
+35,Nigeria,USA,Tourist,Bachelor,13,35458,0,1,8,Approved,46
+49,Germany,USA,Student,High School,12,11645,0,0,5,Approved,72
+28,India,UK,Student,Bachelor,11,44578,0,1,11,Approved,51
+38,Germany,UK,Work,Master,4,44596,0,0,8,Approved,84
+43,Nigeria,USA,Student,Bachelor,8,7874,0,0,6,Approved,79
+42,Philippines,Australia,Dependent,PhD,8,16767,0,0,10,Approved,47
+39,Germany,Canada,Student,Master,13,29825,0,1,6,Approved,65
+44,Brazil,UK,Work,Bachelor,2,13913,0,1,4,Approved,77
+30,Philippines,Canada,Work,High School,6,19215,0,0,10,Rejected,70
+50,Germany,Germany,Work,Master,5,21733,0,0,12,Approved,77
+51,UK,USA,Student,PhD,14,17332,0,1,11,Approved,61
+52,Germany,Australia,Work,Master,3,7432,2,0,3,Rejected,99
+18,UK,Germany,Student,High School,4,25559,0,0,9,Rejected,58
+38,India,Germany,Business,PhD,13,29570,0,1,5,Approved,41
+23,Nigeria,Germany,Student,Bachelor,14,43033,0,1,10,Approved,58
+45,Philippines,USA,Business,Master,9,9103,0,0,10,Approved,32
+34,Philippines,UK,Tourist,PhD,1,46780,0,1,4,Approved,30
+22,China,USA,Student,Bachelor,10,18900,1,1,6,Approved,83
+48,China,UK,Tourist,PhD,6,5031,0,1,4,Approved,24
+22,Nigeria,Germany,Student,Bachelor,13,20633,0,0,6,Approved,77
+20,China,Germany,Dependent,PhD,3,26192,0,0,10,Approved,46
+40,Philippines,Australia,Work,Bachelor,1,22940,1,0,8,Rejected,99
+54,Germany,UK,Student,PhD,10,44287,0,1,8,Approved,74
+54,India,Germany,Work,High School,5,11988,0,1,12,Approved,70
+27,India,Canada,Student,Master,10,41067,0,0,6,Approved,71
+27,Nigeria,Australia,Dependent,Bachelor,11,15952,0,1,1,Approved,47
+36,China,USA,Student,Bachelor,1,30369,1,1,1,Rejected,73
+34,Germany,Australia,Tourist,Bachelor,9,38862,0,1,3,Approved,25
+38,India,Canada,Work,Master,1,5977,0,1,2,Approved,70
+31,India,UK,Business,Bachelor,6,41493,0,1,1,Approved,32
+26,Brazil,USA,Student,Master,0,4268,0,0,1,Rejected,50
+18,Brazil,USA,Work,Bachelor,6,19756,0,1,12,Approved,68
+30,Philippines,UK,Work,PhD,9,23764,1,1,12,Approved,89
+21,India,Australia,Tourist,High School,4,43385,0,0,12,Rejected,20
+18,Nigeria,Germany,Student,Bachelor,0,18032,0,1,6,Rejected,72
+49,UK,Australia,Student,Bachelor,5,32478,0,0,7,Approved,66
+51,UK,Canada,Student,Bachelor,6,48702,1,0,8,Rejected,82
+45,Germany,Germany,Tourist,Bachelor,0,14885,0,0,3,Rejected,22
+48,India,Australia,Student,Bachelor,8,12796,2,1,1,Rejected,77
+25,India,UK,Work,Master,14,42047,0,1,5,Approved,85
+43,Philippines,Canada,Student,Master,6,35863,0,0,8,Approved,65
+51,India,Canada,Business,Master,0,18478,0,1,12,Approved,31
+20,Nigeria,Canada,Business,High School,2,35117,0,1,11,Approved,37
+29,Brazil,Germany,Work,Master,4,23753,0,1,11,Approved,71
+18,India,USA,Work,Bachelor,3,23325,0,0,4,Rejected,70
+22,India,Germany,Student,Master,1,10021,0,0,2,Rejected,64
+47,Philippines,Australia,Student,Bachelor,14,18185,0,1,9,Approved,50
+47,China,USA,Student,Bachelor,0,8868,0,1,12,Rejected,54
+34,Philippines,Australia,Tourist,Bachelor,3,16071,0,1,9,Approved,20
+40,Philippines,USA,Work,Master,6,11041,1,1,3,Approved,75
+32,Nigeria,Germany,Business,High School,10,19515,0,1,7,Approved,45
+54,Germany,Canada,Work,Master,3,47075,1,0,1,Rejected,82
+38,India,UK,Tourist,High School,8,43058,0,1,8,Approved,35
+31,Philippines,Canada,Work,Master,13,28966,0,0,8,Approved,81
+19,Philippines,Germany,Work,PhD,7,42284,2,0,3,Rejected,99
+28,China,USA,Student,Bachelor,7,45109,0,0,12,Approved,54
+51,Philippines,Canada,Work,Bachelor,4,47470,0,1,5,Approved,87
+51,UK,Germany,Work,PhD,11,25290,0,1,4,Approved,75
+35,Germany,Australia,Tourist,Bachelor,14,33702,0,0,7,Approved,38
+47,India,UK,Business,Bachelor,0,31223,0,0,11,Rejected,39
+32,India,Canada,Student,Master,14,36575,1,0,7,Approved,88
+44,China,USA,Student,Master,8,48799,0,1,11,Approved,54
+51,Nigeria,Australia,Work,High School,1,47168,0,1,8,Approved,89
+50,India,Germany,Work,Master,5,24661,1,1,5,Approved,94
+41,UK,UK,Student,Bachelor,9,19439,0,1,11,Approved,52
+32,India,USA,Tourist,High School,13,39432,0,0,5,Approved,40
+47,UK,Germany,Dependent,Master,4,36511,0,0,8,Approved,64
+34,Germany,Germany,Business,Bachelor,9,34147,0,1,5,Approved,54
+22,Germany,Canada,Student,High School,12,32114,1,0,1,Rejected,61
+46,Brazil,Canada,Business,Master,14,9030,0,0,11,Approved,38
+21,Brazil,USA,Tourist,Master,7,27515,0,0,3,Approved,29
+27,UK,Germany,Work,Master,10,33333,0,1,2,Approved,78
+34,Nigeria,Canada,Work,PhD,2,3079,1,1,12,Rejected,78
+27,India,UK,Tourist,Master,5,32048,0,0,10,Approved,30
+34,Philippines,UK,Work,High School,5,47900,1,1,5,Rejected,93
+37,India,Germany,Work,Bachelor,9,5966,1,0,8,Rejected,96
+41,Brazil,Canada,Work,Master,2,6728,0,1,9,Approved,79
+22,Philippines,USA,Work,Bachelor,11,40304,0,1,9,Approved,71
+51,UK,USA,Student,Master,11,41581,0,0,1,Approved,58
+23,Philippines,USA,Business,Master,14,27794,0,1,1,Approved,39
+19,India,UK,Tourist,Bachelor,11,3947,1,1,1,Approved,39
+30,India,Canada,Work,PhD,6,15565,0,0,1,Approved,76
+28,Nigeria,Canada,Student,Bachelor,10,18844,0,0,9,Approved,51
+40,China,UK,Work,Bachelor,3,3594,0,1,1,Approved,70
+33,Philippines,USA,Student,PhD,4,24414,1,0,7,Rejected,76
+48,Brazil,USA,Student,Bachelor,8,33690,0,1,6,Approved,73
+28,Brazil,Germany,Work,Bachelor,5,19524,0,1,9,Approved,66
+33,China,Australia,Work,Bachelor,9,30469,0,0,11,Approved,70
+25,India,Canada,Work,Master,14,22439,0,0,9,Approved,72
+21,Nigeria,Canada,Student,Master,12,29206,0,1,4,Approved,55
+21,Nigeria,Canada,Work,Master,3,49785,0,0,9,Approved,76
+42,Brazil,Australia,Student,Master,7,39973,0,1,6,Approved,79
+20,Nigeria,Germany,Dependent,Bachelor,8,24555,0,1,5,Approved,62
+49,Germany,Australia,Work,Master,9,10782,1,1,9,Approved,79
+20,China,USA,Tourist,Master,4,5660,0,1,7,Approved,38
+44,India,USA,Student,Bachelor,1,42624,0,1,9,Approved,50
+46,Germany,Canada,Student,High School,14,9089,0,1,5,Approved,69
+49,China,UK,Dependent,PhD,14,8318,0,1,4,Approved,54
+36,UK,Canada,Student,Master,5,29605,0,1,10,Approved,61
+38,Philippines,UK,Work,Master,10,32400,2,1,3,Approved,89
+22,Brazil,Australia,Work,Master,14,18405,0,1,5,Approved,86
+35,Nigeria,USA,Student,Bachelor,11,33209,0,0,9,Approved,64
+45,UK,UK,Tourist,Master,7,11062,0,1,3,Approved,31
+39,Nigeria,Australia,Work,Bachelor,12,20424,0,0,1,Approved,71
+38,Germany,USA,Student,High School,4,44274,0,0,2,Rejected,51
+23,India,UK,Student,Master,0,26987,1,0,10,Rejected,73
+18,India,Canada,Student,Bachelor,7,47419,0,1,5,Approved,68
+22,India,Canada,Business,Master,8,23556,0,0,3,Approved,25
+29,Nigeria,Canada,Tourist,Bachelor,0,30601,2,1,6,Rejected,67
+43,UK,Australia,Student,Bachelor,7,22330,0,1,11,Approved,54
+51,India,Canada,Student,Bachelor,9,18730,0,0,8,Approved,69
+31,UK,Germany,Tourist,Bachelor,11,6236,0,1,6,Approved,38
+43,Nigeria,USA,Work,Bachelor,1,6680,0,1,10,Rejected,74
+44,Germany,Australia,Work,Bachelor,3,33312,0,1,9,Approved,76
+26,UK,Canada,Work,PhD,12,24191,1,0,6,Approved,101
+43,Germany,USA,Student,Bachelor,14,47066,1,0,5,Approved,81
+39,Nigeria,UK,Tourist,Bachelor,14,20921,0,1,4,Approved,25
+47,Nigeria,Canada,Dependent,Master,1,39640,0,0,2,Approved,57
+34,Brazil,USA,Student,Master,1,37635,1,0,6,Rejected,84
+43,Nigeria,Germany,Work,Bachelor,9,39688,0,0,2,Approved,67
+53,Nigeria,UK,Work,Master,2,8693,0,1,5,Approved,81
+18,China,Germany,Work,Master,13,23266,0,0,1,Approved,79
+25,India,USA,Student,Bachelor,7,46716,0,1,3,Approved,53
+52,Brazil,Germany,Tourist,Bachelor,3,29488,1,1,10,Rejected,38
+32,Philippines,USA,Work,PhD,6,27122,0,1,5,Approved,89
+39,Brazil,USA,Work,Master,11,44224,0,0,7,Approved,84
+31,Brazil,Germany,Student,Master,9,32004,0,1,8,Approved,65
+43,Philippines,USA,Student,High School,2,9331,0,0,7,Rejected,75
+45,China,Canada,Student,Bachelor,9,24566,0,0,7,Approved,67
+40,Germany,USA,Tourist,Master,11,48875,0,0,11,Approved,28
+31,Nigeria,Australia,Student,Bachelor,13,45262,1,0,2,Approved,66
+41,India,USA,Tourist,Bachelor,14,49621,0,1,6,Approved,37
+19,UK,Australia,Work,Master,13,45154,2,1,5,Approved,100
+43,Philippines,USA,Work,Bachelor,12,43899,0,1,11,Approved,68
+31,Germany,USA,Work,Master,10,47564,0,0,9,Approved,73
+24,Philippines,Germany,Work,Master,13,23778,0,1,12,Approved,76
+20,Nigeria,Canada,Student,Bachelor,2,36926,1,0,10,Rejected,66
+40,China,Canada,Student,Master,1,23751,0,1,11,Approved,54
+35,Philippines,UK,Tourist,High School,12,20528,0,0,4,Approved,32
+52,Nigeria,Germany,Tourist,Master,11,3068,0,1,12,Approved,30
+32,Nigeria,Germany,Student,Bachelor,5,6717,0,1,7,Approved,78
+42,China,Canada,Work,High School,5,18218,0,0,11,Rejected,70
+54,Brazil,Germany,Student,Master,0,46968,0,1,8,Approved,65
+45,Brazil,Canada,Student,Bachelor,6,28402,0,1,6,Approved,71
+27,India,Germany,Student,PhD,11,34643,0,1,3,Approved,61
+34,India,USA,Business,Bachelor,13,45129,0,1,11,Approved,29
+39,Brazil,Canada,Student,Bachelor,13,32152,0,1,5,Approved,71
+43,Germany,Canada,Student,Bachelor,3,14526,0,1,1,Approved,54
+42,UK,Australia,Student,Bachelor,12,29916,0,1,8,Approved,69
+34,Nigeria,Germany,Student,Bachelor,10,45975,0,1,12,Approved,52
+30,UK,Germany,Work,Master,11,29028,0,1,12,Approved,69
+37,Nigeria,Canada,Student,Master,2,29709,0,1,12,Approved,57
+42,Brazil,USA,Student,Master,12,44999,0,0,11,Approved,63
+21,India,USA,Work,PhD,12,18063,0,0,2,Approved,72
+27,Germany,USA,Student,Bachelor,7,7723,0,1,10,Approved,51
+20,India,Germany,Tourist,Master,1,7213,0,1,7,Approved,45
+35,UK,Australia,Work,Bachelor,8,25797,0,0,9,Approved,65
+53,India,Canada,Student,Master,12,39234,0,1,1,Approved,51
+39,Brazil,UK,Tourist,Bachelor,7,22410,0,0,4,Approved,30
+51,Germany,Australia,Student,PhD,7,26382,0,1,7,Approved,71
+25,UK,UK,Work,Master,12,48217,0,1,9,Approved,67
+36,Germany,Australia,Work,PhD,2,5747,0,1,2,Approved,72
+54,Nigeria,USA,Student,Master,12,26655,1,1,2,Approved,63
+23,India,Germany,Work,PhD,3,33348,0,1,6,Approved,89
+43,Germany,UK,Business,Master,1,15454,2,0,3,Rejected,54
+51,China,Australia,Dependent,Bachelor,1,15587,0,1,4,Approved,52
+23,India,Germany,Work,Bachelor,3,25555,1,0,3,Rejected,88
+54,Nigeria,UK,Work,Bachelor,5,31071,0,1,1,Approved,66
+50,Germany,Canada,Student,High School,4,23239,0,1,6,Approved,77
+39,UK,Australia,Student,Bachelor,14,34602,0,1,11,Approved,63
+38,Nigeria,Canada,Work,Bachelor,0,5203,0,1,11,Rejected,79
+23,China,USA,Work,Bachelor,12,16635,1,1,2,Approved,79
+23,Germany,Canada,Business,PhD,9,4144,0,1,2,Approved,30
+21,Philippines,Canada,Work,PhD,0,35699,0,0,7,Approved,80
+47,Philippines,Australia,Work,Bachelor,14,22083,0,0,5,Approved,94
+28,Brazil,USA,Work,Bachelor,5,29127,0,1,8,Approved,93
+47,India,Canada,Tourist,Bachelor,2,15213,1,1,2,Rejected,30
+48,UK,Germany,Tourist,Bachelor,2,19944,0,1,10,Approved,33
+41,Brazil,UK,Work,Master,6,4187,0,1,8,Approved,88
+26,Germany,Canada,Student,Bachelor,12,6133,0,1,7,Approved,69
+20,Philippines,USA,Tourist,Master,12,6411,0,1,10,Approved,34
+48,Philippines,Canada,Student,Master,0,37457,1,1,8,Rejected,89
+54,Philippines,UK,Business,Master,0,40175,1,1,11,Approved,48
+53,Germany,USA,Work,High School,13,38191,0,1,3,Approved,68
+41,Philippines,Australia,Work,Master,12,9728,0,1,8,Approved,93
+48,Nigeria,USA,Work,Bachelor,9,36744,1,1,6,Approved,90
+23,Germany,Australia,Tourist,Bachelor,2,25881,0,0,2,Rejected,34
+19,UK,USA,Student,High School,13,15801,0,1,6,Approved,67
+37,Brazil,UK,Business,Bachelor,7,13548,0,0,5,Approved,52
+45,UK,UK,Work,Bachelor,0,35886,0,0,3,Rejected,68
+28,China,USA,Student,Bachelor,9,37310,0,1,1,Approved,60
+21,Philippines,Canada,Student,Master,12,22427,2,1,7,Approved,95
+32,China,UK,Work,Master,3,3972,0,0,2,Rejected,69
+23,India,Australia,Work,Bachelor,8,36683,0,0,1,Approved,78
+47,India,Australia,Work,High School,13,9621,0,1,1,Approved,74
+19,China,Germany,Tourist,Master,3,29013,0,1,7,Approved,46
+32,Germany,Australia,Work,High School,9,17530,0,0,12,Approved,78
+28,UK,Germany,Dependent,PhD,7,10354,0,1,1,Approved,49
+25,China,USA,Work,Master,6,49529,0,0,9,Approved,74
+43,India,USA,Tourist,Bachelor,2,40359,0,1,6,Approved,42
+22,China,USA,Student,Bachelor,6,26223,0,1,4,Approved,62
+23,Germany,Canada,Work,High School,14,44232,0,1,12,Approved,77
+43,China,Canada,Student,Bachelor,6,15550,0,1,4,Approved,52
+21,UK,Germany,Work,High School,9,25660,0,0,12,Approved,71
+36,Brazil,Australia,Business,Master,2,34029,2,1,5,Rejected,73
+37,Germany,Australia,Student,Bachelor,1,33268,0,0,2,Rejected,62
+50,India,USA,Student,Bachelor,14,29340,0,1,5,Approved,70
+37,UK,UK,Business,Master,8,7290,0,1,2,Approved,34
+29,China,Canada,Student,Bachelor,14,33138,0,0,12,Approved,60
+18,China,Canada,Tourist,High School,0,9446,0,1,4,Rejected,29
+43,Brazil,USA,Work,High School,13,16432,1,0,10,Rejected,84
+31,India,Canada,Tourist,High School,6,4522,0,1,11,Approved,30
+54,India,USA,Student,Master,3,36329,0,1,5,Approved,70
+28,Nigeria,Germany,Student,Bachelor,1,6540,2,1,6,Rejected,94
+53,India,Australia,Work,Master,14,15328,0,1,6,Approved,88
+30,Brazil,UK,Business,Bachelor,1,37247,0,0,9,Rejected,38
+20,Philippines,Australia,Work,Bachelor,7,9677,0,1,4,Approved,79
+50,Nigeria,Australia,Student,Bachelor,6,44616,1,1,5,Approved,81
+23,Nigeria,Germany,Work,Master,11,28947,0,0,6,Approved,92
+27,China,Canada,Business,Bachelor,6,48534,0,0,4,Approved,35
+22,China,UK,Tourist,High School,4,16520,0,1,6,Approved,41
+40,India,Canada,Dependent,Master,13,47711,0,1,2,Approved,55
+27,Nigeria,Australia,Student,Bachelor,9,25805,0,1,12,Approved,63
+19,China,USA,Student,Bachelor,7,33444,0,1,7,Approved,65
+30,Brazil,Australia,Work,Master,13,23143,0,1,3,Approved,65
+19,China,Canada,Tourist,Bachelor,1,13292,0,0,10,Rejected,28
+37,Germany,Australia,Student,Master,1,45844,1,1,4,Approved,68
+18,Germany,USA,Student,Bachelor,4,19017,0,0,9,Rejected,61
+54,China,Germany,Tourist,Master,14,28323,0,1,12,Approved,30
+26,Nigeria,Canada,Student,Master,0,44423,0,0,5,Approved,74
+34,Philippines,Australia,Work,Bachelor,5,44713,0,1,9,Approved,67
+26,Philippines,Canada,Work,Master,3,25320,0,1,10,Approved,79
+28,Nigeria,Germany,Work,Master,5,11774,0,1,10,Approved,75
+32,UK,Australia,Tourist,Bachelor,6,5205,0,0,10,Rejected,30
+41,Philippines,Australia,Work,Bachelor,12,15342,0,1,12,Approved,72
+52,Germany,Canada,Work,Master,2,7027,0,0,10,Rejected,73
+47,Brazil,Canada,Work,Master,10,19327,0,1,6,Approved,80
+48,Nigeria,USA,Work,High School,12,24200,0,1,8,Approved,91
+22,India,Germany,Work,Master,7,10188,0,1,5,Approved,93
+31,Germany,USA,Student,High School,6,5808,0,0,5,Rejected,67
+28,Brazil,Australia,Student,Master,12,16851,1,1,3,Approved,72
+26,Brazil,Canada,Student,Master,0,18354,1,1,7,Rejected,80
+51,Nigeria,Australia,Student,PhD,5,18058,0,1,2,Approved,64
+29,Brazil,Australia,Work,High School,6,17620,0,1,11,Approved,68
+52,Nigeria,UK,Tourist,Master,13,34230,0,1,12,Approved,27
+52,Philippines,UK,Tourist,Bachelor,10,39681,0,1,3,Approved,34
+18,China,Australia,Tourist,Bachelor,14,20803,2,1,2,Approved,48
+39,Germany,Canada,Work,High School,3,5167,0,1,8,Rejected,86
+46,UK,Australia,Work,Master,13,5144,0,0,4,Approved,75
+25,China,UK,Work,Bachelor,1,5167,1,1,10,Rejected,75
+28,Germany,Canada,Student,High School,9,45520,0,1,8,Approved,78
+54,Nigeria,Australia,Student,Master,8,45136,0,1,8,Approved,66
+31,Germany,Germany,Work,Master,6,28844,0,0,8,Approved,80
+47,Philippines,Germany,Dependent,Master,0,31163,0,0,8,Approved,68
+52,Nigeria,Australia,Student,PhD,7,25920,0,1,8,Approved,68
+38,China,Canada,Student,Bachelor,14,20550,1,1,12,Approved,69
+54,India,Australia,Tourist,PhD,2,39343,0,1,9,Approved,33
+22,India,Australia,Student,Master,3,21254,0,0,2,Approved,57
+36,Germany,UK,Tourist,Bachelor,11,43011,1,0,9,Approved,34
+31,India,Germany,Tourist,Bachelor,4,23147,0,1,8,Approved,39
+43,Nigeria,UK,Business,Bachelor,0,15926,0,1,11,Rejected,29
+21,Brazil,UK,Work,Bachelor,14,36823,0,0,10,Approved,75
+42,Nigeria,Australia,Tourist,Master,5,26991,0,0,1,Approved,24
+42,Brazil,UK,Work,Master,9,44851,0,1,5,Approved,82
+35,China,Germany,Work,Master,5,30563,1,0,11,Rejected,80
+25,UK,UK,Work,Bachelor,1,33688,0,1,2,Approved,78
+31,Brazil,Germany,Student,High School,10,32023,0,0,10,Approved,50
+49,India,UK,Work,Master,9,37130,0,1,5,Approved,87
+50,Nigeria,Germany,Work,Bachelor,5,3925,1,0,8,Rejected,102
+40,China,UK,Tourist,PhD,7,19321,0,1,9,Approved,23
+32,India,UK,Tourist,High School,5,13769,1,0,9,Rejected,35
+50,China,Canada,Tourist,PhD,3,39748,0,0,1,Approved,21
+42,UK,Germany,Student,High School,14,43028,1,0,7,Approved,76
+34,Philippines,Germany,Tourist,Bachelor,3,19151,1,1,12,Rejected,37
+50,Nigeria,Germany,Work,High School,8,13597,0,1,11,Approved,78
+19,Germany,USA,Business,Master,5,37187,0,0,8,Approved,40
+31,Nigeria,UK,Business,Master,7,46835,0,0,10,Approved,32
+23,UK,Germany,Student,Bachelor,7,3059,0,1,3,Approved,64
+23,Nigeria,USA,Tourist,PhD,6,38292,0,1,6,Approved,44
+20,Germany,Canada,Student,Master,2,23181,0,1,11,Approved,59
+24,Brazil,Germany,Work,Master,9,30235,0,1,3,Approved,79
+25,China,Germany,Work,Master,0,31672,0,0,9,Approved,65
+32,Germany,USA,Student,Bachelor,4,4578,0,0,3,Rejected,64
+46,India,UK,Tourist,Bachelor,12,48366,0,0,2,Approved,28
+50,UK,Canada,Student,PhD,14,19047,0,1,9,Approved,50
+47,Brazil,Germany,Student,PhD,9,35160,0,1,11,Approved,53
+44,India,UK,Work,PhD,9,36475,0,0,8,Approved,88
+53,India,Canada,Tourist,PhD,14,27549,0,0,8,Approved,35
+46,UK,Australia,Business,High School,1,8277,0,1,2,Rejected,33
+50,Brazil,Australia,Tourist,Master,11,4780,0,0,6,Approved,48
+54,Philippines,Canada,Tourist,Bachelor,9,49579,1,0,5,Approved,52
+44,India,USA,Work,PhD,12,48913,0,1,12,Approved,69
+50,India,Canada,Student,Bachelor,1,17662,0,0,2,Rejected,55
+21,Brazil,Canada,Student,Master,13,34516,0,0,5,Approved,69
+39,Nigeria,USA,Work,Bachelor,6,35161,0,1,4,Approved,68
+19,India,USA,Tourist,Bachelor,10,47499,0,1,9,Approved,31
+27,China,UK,Work,High School,12,34886,0,1,12,Approved,74
+22,Brazil,UK,Tourist,Master,2,11800,0,0,1,Rejected,34
+27,India,USA,Work,Master,12,8439,0,1,6,Approved,94
+50,UK,Australia,Student,High School,7,7307,0,1,7,Approved,78
+30,Germany,Australia,Student,Master,8,5364,0,0,12,Approved,62
+48,China,Canada,Tourist,Master,13,19568,0,1,6,Approved,46
+53,Germany,Germany,Tourist,Bachelor,12,41092,1,1,5,Approved,48
+41,Germany,Canada,Business,Bachelor,7,8483,0,1,12,Approved,38
+32,India,Canada,Student,Master,5,3245,0,1,4,Approved,59
+46,China,Germany,Dependent,Master,4,11430,0,1,5,Approved,67
+25,China,USA,Student,Bachelor,2,11183,1,1,9,Rejected,67
+22,Nigeria,Australia,Student,Master,2,41692,0,1,5,Approved,73
+46,Germany,Canada,Dependent,High School,6,33086,0,0,10,Rejected,47
+21,China,Germany,Student,Bachelor,12,35726,0,1,8,Approved,74
+29,Nigeria,UK,Tourist,Bachelor,4,16901,2,0,7,Rejected,69
+19,Brazil,Canada,Student,Bachelor,11,6907,0,0,4,Approved,57
+44,Nigeria,Australia,Work,Master,13,36044,0,1,10,Approved,79
+48,UK,USA,Business,PhD,5,31604,1,1,5,Approved,52
+53,Philippines,Canada,Student,Bachelor,13,40869,0,0,7,Approved,66
+53,India,Canada,Tourist,Bachelor,5,17537,0,1,6,Approved,36
+43,Brazil,Germany,Student,Master,8,15501,0,0,3,Approved,58
+44,Philippines,UK,Work,Master,0,40371,0,1,10,Approved,68
+22,Philippines,UK,Student,Master,7,49154,0,0,3,Approved,54
+37,Brazil,USA,Student,Master,9,39821,2,1,2,Approved,71
+28,UK,Australia,Student,Bachelor,12,26196,0,1,3,Approved,58
+27,Nigeria,USA,Student,Master,12,9073,0,1,11,Approved,56
+23,India,Canada,Business,High School,4,13561,0,0,10,Rejected,27
+25,Nigeria,Canada,Work,Bachelor,12,21101,0,1,1,Approved,70
+40,China,UK,Student,Bachelor,5,48516,0,1,9,Approved,56
+43,Nigeria,Australia,Work,Bachelor,5,34426,0,1,2,Approved,78
+29,Brazil,Germany,Student,PhD,0,32341,0,1,12,Approved,61
+43,India,Australia,Tourist,Master,2,10313,0,1,3,Approved,25
+30,Nigeria,Canada,Dependent,High School,11,33773,0,0,5,Approved,69
+35,India,Germany,Work,Bachelor,5,31003,0,0,10,Approved,75
+42,India,Australia,Business,Bachelor,13,29420,2,1,12,Approved,54
+50,China,Australia,Work,Bachelor,14,8714,0,1,4,Approved,70
+29,China,Germany,Student,Master,13,30139,0,1,5,Approved,77
+53,Brazil,Canada,Tourist,PhD,10,29098,0,1,6,Approved,49
+21,UK,Australia,Work,PhD,10,45294,0,0,5,Approved,87
+22,Philippines,Germany,Tourist,Master,8,16582,0,0,10,Approved,33
+54,India,Canada,Business,Master,5,46583,0,1,1,Approved,32
+25,UK,Germany,Work,Bachelor,14,16760,0,1,6,Approved,84
+45,Philippines,Germany,Business,Bachelor,11,9255,0,1,9,Approved,38
+48,Philippines,Australia,Tourist,Bachelor,12,19622,1,0,3,Approved,33
+26,Brazil,Canada,Work,Master,5,38983,0,0,2,Approved,75
+46,Philippines,Australia,Work,Master,0,43309,0,0,6,Approved,84
+31,Philippines,USA,Student,Bachelor,8,32715,0,1,12,Approved,58
+39,India,USA,Dependent,Bachelor,3,39415,0,1,3,Approved,56
+28,India,Canada,Tourist,Bachelor,14,24792,0,1,4,Approved,29
+40,Germany,Germany,Student,PhD,1,45576,0,1,6,Approved,70
+18,UK,Australia,Student,Bachelor,0,25724,0,1,12,Approved,52
+54,Nigeria,Australia,Work,Master,2,6652,0,1,12,Approved,67
+38,China,Canada,Student,Master,2,29297,1,1,6,Approved,88
+43,Nigeria,Canada,Student,Bachelor,4,35422,0,1,12,Approved,50
+53,UK,USA,Work,Master,0,17028,1,1,2,Rejected,89
+40,China,UK,Student,Master,6,16803,0,1,3,Approved,64
+18,Nigeria,Canada,Work,Bachelor,12,9307,0,0,9,Approved,69
+32,Germany,UK,Student,PhD,0,34325,1,1,2,Approved,65
+38,China,Canada,Student,Bachelor,3,34574,0,0,3,Approved,57
+26,India,Germany,Tourist,High School,5,22262,0,0,9,Rejected,30
+26,Nigeria,Germany,Work,Master,14,4535,0,0,4,Approved,73
+27,China,USA,Student,Master,0,17932,0,1,1,Approved,56
+43,Germany,USA,Student,PhD,6,18749,0,1,11,Approved,50
+52,Philippines,UK,Work,Master,9,11727,0,0,2,Approved,71
+42,China,Canada,Student,PhD,14,20332,0,0,3,Approved,59
+43,China,Australia,Student,Master,6,32534,0,1,9,Approved,58
+28,Germany,USA,Student,Master,2,13834,0,1,9,Approved,53
+19,Philippines,Australia,Tourist,Master,3,23325,0,1,11,Approved,30
+24,Nigeria,Australia,Tourist,Bachelor,5,12213,0,1,6,Approved,46
+35,Brazil,Canada,Tourist,PhD,13,4403,1,1,11,Approved,36
+44,Nigeria,UK,Tourist,Bachelor,10,10506,1,0,6,Rejected,53
+51,Philippines,Canada,Tourist,Bachelor,6,32659,1,1,3,Approved,30
+44,UK,USA,Work,Bachelor,13,10591,0,0,5,Approved,91
+34,Germany,Australia,Work,Master,12,15996,0,0,11,Approved,74
+41,Nigeria,Canada,Student,Bachelor,3,40828,0,0,4,Approved,58
+42,China,Canada,Work,High School,9,37370,0,1,10,Approved,68
+24,Germany,Canada,Tourist,Master,10,16472,0,1,10,Approved,31
+23,India,USA,Work,Bachelor,8,32098,0,1,12,Approved,72
+41,Philippines,UK,Work,Master,8,5196,0,1,9,Approved,67
+50,Nigeria,Canada,Student,High School,8,14091,0,1,9,Approved,51
+46,Germany,USA,Work,High School,11,18040,0,0,1,Approved,77
+39,Nigeria,Australia,Tourist,Bachelor,9,9023,0,0,8,Approved,46
+43,Germany,Germany,Business,Master,5,23543,0,1,9,Approved,32
+45,China,USA,Student,High School,1,31377,0,0,5,Rejected,72
+38,India,Germany,Tourist,PhD,1,39635,0,1,4,Approved,22
+24,India,Canada,Work,Bachelor,10,45337,0,0,10,Approved,77
+34,UK,Canada,Business,Bachelor,3,43409,0,1,4,Approved,32
+37,Germany,USA,Work,Bachelor,8,8004,0,1,2,Approved,75
+37,Nigeria,Germany,Work,High School,2,12963,0,0,9,Rejected,75
+39,India,Canada,Work,Master,5,16796,0,1,5,Approved,85
+45,Philippines,Australia,Tourist,Master,1,43972,0,0,11,Approved,29
+24,India,UK,Dependent,Master,14,10077,0,1,3,Approved,53
+18,Brazil,UK,Student,Bachelor,0,32848,0,0,6,Rejected,74
+49,Brazil,Canada,Student,Bachelor,11,15526,0,0,9,Approved,62
+30,India,Germany,Business,Bachelor,4,6261,0,0,9,Rejected,30
+47,Germany,Canada,Work,PhD,7,20046,0,1,12,Approved,72
+40,UK,Germany,Work,Bachelor,9,16397,0,1,5,Approved,81
+36,India,Australia,Work,Master,9,28269,0,0,8,Approved,80
+49,China,Germany,Student,Bachelor,1,39158,0,1,4,Approved,59
+47,Nigeria,Canada,Tourist,Bachelor,9,28757,0,0,5,Approved,44
+46,UK,Australia,Tourist,Bachelor,8,18299,0,0,7,Approved,36
+46,China,USA,Student,High School,11,4902,1,1,7,Rejected,86
+47,UK,UK,Student,Master,7,45399,1,0,7,Approved,78
+33,China,Canada,Tourist,Bachelor,2,49308,0,1,8,Approved,44
+36,Nigeria,Canada,Student,Master,0,6846,0,1,11,Approved,58
+35,Nigeria,Canada,Business,High School,3,15359,0,0,5,Rejected,46
+18,Brazil,Australia,Student,PhD,7,5520,0,1,1,Approved,58
+31,Germany,USA,Work,Bachelor,2,43832,0,1,11,Approved,73
+19,China,Germany,Business,Master,9,23098,0,1,9,Approved,33
+45,Brazil,USA,Tourist,Master,11,42451,0,0,9,Approved,27
+47,China,Australia,Work,PhD,1,26136,0,1,7,Approved,85
+21,Brazil,Canada,Tourist,Bachelor,6,38885,0,1,12,Approved,33
+18,Nigeria,UK,Student,Master,3,33720,0,0,6,Approved,75
+25,UK,Canada,Student,Bachelor,5,24157,0,0,5,Approved,74
+46,Philippines,Germany,Dependent,Bachelor,4,22674,0,0,5,Rejected,66
+20,Brazil,UK,Tourist,Bachelor,1,35357,0,0,3,Rejected,34
+49,China,Canada,Work,Bachelor,9,15578,0,1,10,Approved,66
+27,China,UK,Work,PhD,1,5251,1,0,1,Rejected,85
+27,Philippines,USA,Student,High School,13,16513,0,0,6,Approved,65
+36,Germany,Australia,Student,Master,8,40429,1,0,8,Approved,87
+51,Nigeria,Canada,Work,Master,10,30105,0,1,2,Approved,69
+50,China,Germany,Tourist,Bachelor,9,49871,0,1,8,Approved,42
+40,India,USA,Work,Master,1,23990,0,1,8,Approved,82
+45,UK,Canada,Tourist,High School,7,28499,0,0,10,Approved,26
+49,Brazil,USA,Student,Master,7,9421,0,1,8,Approved,69
+24,Germany,Germany,Work,Bachelor,0,27591,0,0,10,Rejected,76
+46,Philippines,Canada,Student,PhD,0,29979,0,1,3,Approved,59
+25,UK,Germany,Work,Master,12,23835,0,0,10,Approved,77
+18,Nigeria,UK,Student,PhD,3,40693,0,0,8,Approved,72
+20,Germany,Germany,Dependent,High School,1,15202,0,0,11,Rejected,50
+41,Brazil,UK,Student,Bachelor,11,38414,1,0,12,Approved,65
+40,Brazil,Canada,Business,Bachelor,14,28666,0,0,12,Approved,31
+25,Philippines,UK,Work,High School,0,22290,1,1,4,Rejected,81
+54,India,Canada,Dependent,Bachelor,8,21130,0,1,3,Approved,48
+20,Philippines,Canada,Work,Master,12,40077,0,0,11,Approved,74
+50,Nigeria,Australia,Business,Bachelor,2,22396,0,1,9,Approved,36
+45,Germany,Canada,Student,Bachelor,13,20952,0,1,8,Approved,74
+25,Germany,UK,Tourist,Master,13,30122,0,0,10,Approved,29
+51,China,Australia,Business,Master,13,32381,0,0,2,Approved,39
+52,India,Australia,Student,Bachelor,0,48435,0,0,8,Rejected,77
+49,India,Canada,Student,Bachelor,1,43078,0,1,11,Approved,57
+41,Germany,Germany,Work,Bachelor,7,26267,0,1,11,Approved,70
+31,Germany,Germany,Business,Bachelor,4,45007,0,0,3,Approved,35
+49,UK,Australia,Work,Master,10,10088,0,0,10,Approved,77
+33,UK,Canada,Work,Bachelor,6,34818,0,1,12,Approved,72
+21,UK,Germany,Student,Master,5,15822,0,1,6,Approved,71
+54,India,Canada,Student,Master,12,39589,2,1,5,Approved,85
+38,China,Canada,Tourist,Master,0,4436,0,0,8,Rejected,38
+31,Brazil,Australia,Student,Bachelor,5,48665,0,1,9,Approved,56
+48,UK,Australia,Work,Bachelor,10,30281,0,1,11,Approved,73
+35,China,USA,Business,Master,6,25481,0,0,7,Approved,41
+24,Philippines,Germany,Student,Bachelor,3,33469,0,1,6,Approved,79
+27,Nigeria,Germany,Tourist,Bachelor,7,21867,0,0,6,Approved,39
+24,UK,Germany,Student,Bachelor,7,43487,1,0,1,Rejected,68
+50,Philippines,UK,Work,Bachelor,6,25766,0,1,5,Approved,88
+40,Brazil,Canada,Student,Master,10,32737,0,0,8,Approved,70
+38,Nigeria,Australia,Tourist,Bachelor,14,24213,0,1,6,Approved,41
+36,Nigeria,Germany,Student,Bachelor,1,31355,0,0,12,Rejected,58
+36,Brazil,USA,Work,Bachelor,5,25537,0,1,1,Approved,78
+53,UK,Germany,Work,Master,5,5794,0,0,5,Approved,93
+46,India,Canada,Student,Master,11,47296,0,1,11,Approved,59
+35,Brazil,Canada,Tourist,Master,14,35324,0,0,12,Approved,27
+19,Brazil,Australia,Student,Bachelor,11,33858,0,0,5,Approved,78
+18,Brazil,UK,Tourist,High School,6,45850,2,1,12,Rejected,49
+22,Nigeria,Australia,Student,Bachelor,5,16018,0,1,3,Approved,55
+37,China,Germany,Tourist,Master,1,20481,0,1,8,Approved,40
+28,Philippines,USA,Student,Master,7,18584,0,1,9,Approved,56
+19,India,Australia,Work,Master,14,12850,0,1,6,Approved,86
+20,UK,UK,Student,Bachelor,3,28701,1,0,6,Rejected,76
+40,UK,Australia,Tourist,Master,8,44223,0,1,2,Approved,28
+29,Philippines,Canada,Student,Bachelor,7,46952,0,1,10,Approved,53
+37,China,Germany,Business,Master,13,48975,0,1,2,Approved,37
+22,Brazil,Germany,Business,Bachelor,2,3160,0,1,6,Rejected,52
+54,India,Germany,Student,Master,2,28832,0,1,12,Approved,59
+47,UK,Germany,Work,High School,7,34210,0,1,8,Approved,88
+26,Philippines,Germany,Student,Bachelor,1,25290,1,1,2,Rejected,74
+51,Germany,Germany,Work,Master,8,32441,0,0,9,Approved,79
+52,Philippines,USA,Tourist,Bachelor,3,27886,0,1,12,Approved,31
+39,UK,UK,Tourist,Master,14,35394,1,0,9,Approved,40
+41,Brazil,Germany,Work,Master,5,11418,2,0,4,Rejected,99
+34,Germany,UK,Student,Master,2,10081,0,1,4,Approved,59
+27,China,Germany,Work,Bachelor,2,40180,1,1,4,Rejected,77
+47,India,Australia,Student,Bachelor,2,13114,1,0,11,Rejected,64
+40,China,Germany,Tourist,Master,10,21722,0,0,5,Approved,39
+49,China,Canada,Work,Bachelor,12,24972,2,1,8,Rejected,106
+34,Philippines,USA,Tourist,Master,9,20985,0,1,2,Approved,31
+34,India,Australia,Student,Bachelor,11,8888,0,0,11,Approved,53
+31,India,Australia,Student,Bachelor,13,6718,1,0,5,Rejected,85
+26,UK,Canada,Student,Bachelor,13,35147,0,1,2,Approved,64
+19,UK,Germany,Student,High School,13,46382,0,1,11,Approved,62
+42,India,USA,Student,Bachelor,11,21309,0,0,11,Approved,61
+26,Germany,Australia,Tourist,Master,1,22299,1,0,8,Rejected,48
+39,Nigeria,USA,Business,Master,7,44211,0,0,1,Approved,37
+21,UK,Australia,Work,Bachelor,8,25036,0,1,7,Approved,94
+43,Nigeria,Germany,Work,PhD,14,22885,0,1,3,Approved,77
+46,Philippines,Australia,Student,Bachelor,7,32346,0,0,4,Approved,50
+51,Germany,Australia,Business,PhD,14,29691,0,1,8,Approved,45
+40,India,UK,Student,Master,9,43042,0,0,3,Approved,53
+54,Germany,Germany,Business,Master,2,20986,0,0,12,Approved,35
+28,UK,Canada,Work,High School,6,30846,1,1,7,Rejected,104
+23,China,Canada,Student,Bachelor,10,44401,0,1,12,Approved,59
+35,Philippines,Germany,Business,High School,9,11192,1,1,1,Rejected,44
+38,India,Canada,Student,Master,1,42269,0,1,9,Approved,54
+53,Brazil,Germany,Work,Bachelor,3,41487,2,0,6,Rejected,113
+51,Philippines,Canada,Work,Master,11,12412,0,1,3,Approved,79
+34,Nigeria,UK,Student,Bachelor,12,18963,0,1,7,Approved,79
+54,Germany,Canada,Work,Master,13,36623,0,0,5,Approved,90
+42,India,Australia,Tourist,High School,12,4017,0,1,8,Approved,43
+29,Philippines,Germany,Tourist,Bachelor,5,8279,0,1,8,Approved,38
+40,Germany,USA,Student,Bachelor,10,13412,0,1,12,Approved,50
+39,India,USA,Business,Bachelor,4,10712,0,1,9,Approved,39
+38,UK,Germany,Student,Bachelor,12,18817,0,1,6,Approved,75
+44,Philippines,UK,Student,Master,8,31080,2,0,4,Rejected,78
+48,UK,Canada,Student,High School,9,9624,0,1,2,Approved,54
+23,Philippines,UK,Student,Bachelor,3,32126,2,1,3,Rejected,79
+44,UK,USA,Student,Master,4,19579,0,0,5,Approved,77
+51,Germany,Germany,Dependent,High School,3,18131,0,1,8,Rejected,71
+29,Brazil,Germany,Student,PhD,13,40462,0,1,12,Approved,62
+24,Philippines,UK,Student,PhD,12,49815,1,0,10,Approved,70
+27,Philippines,UK,Student,High School,13,40419,0,1,2,Approved,56
+34,UK,Canada,Tourist,Bachelor,7,26375,0,1,5,Approved,37
+43,India,Australia,Business,Bachelor,12,29093,0,1,9,Approved,28
+38,Philippines,Australia,Student,Master,7,48494,0,1,2,Approved,61
+45,UK,Canada,Student,Master,14,35525,0,0,8,Approved,74
+19,China,Australia,Student,Master,2,32030,0,1,3,Approved,58
+18,UK,USA,Student,Master,0,47067,0,0,8,Approved,74
+53,Germany,Australia,Student,High School,5,8207,0,1,4,Rejected,62
+43,Brazil,Canada,Work,Master,1,13897,1,1,4,Rejected,75
+46,China,Australia,Student,Master,1,29639,0,0,12,Approved,61
+38,Germany,Germany,Work,Master,2,5792,0,0,7,Rejected,90
+28,Germany,UK,Student,Master,7,3420,2,0,5,Rejected,89
+28,Germany,USA,Business,Master,2,32224,0,0,4,Approved,32
+53,India,Germany,Business,Bachelor,6,22198,0,0,7,Approved,49
+52,Germany,Germany,Work,Bachelor,9,38608,1,1,12,Approved,81
+51,India,Canada,Work,Bachelor,13,49205,0,1,3,Approved,78
+41,Germany,UK,Work,High School,9,20415,0,1,9,Approved,78
+39,Nigeria,UK,Work,PhD,8,43407,0,1,5,Approved,83
+22,China,USA,Tourist,High School,12,20875,0,1,12,Approved,26
+50,Nigeria,Canada,Work,Master,7,7975,0,0,3,Approved,65
+53,Germany,USA,Business,Bachelor,0,29461,0,1,2,Approved,30
+37,China,Australia,Business,High School,6,24331,0,1,7,Approved,48
+36,China,Germany,Student,PhD,6,19893,1,0,12,Approved,62
+52,Philippines,USA,Work,Master,7,21243,0,1,7,Approved,83
+34,Brazil,Germany,Student,Bachelor,9,18535,0,1,12,Approved,57
+51,Nigeria,Canada,Student,Bachelor,4,8061,0,1,5,Approved,76
+26,Brazil,Australia,Work,High School,9,4858,1,1,4,Rejected,79
+43,China,Canada,Student,Bachelor,8,28489,1,1,11,Approved,64
+19,India,Australia,Business,Bachelor,8,16678,1,0,2,Rejected,49
+26,China,Australia,Student,Bachelor,7,37833,1,0,2,Rejected,60
+26,Brazil,Germany,Work,PhD,5,22350,0,1,7,Approved,85
+34,Nigeria,Canada,Work,Master,5,16346,0,0,10,Approved,78
+18,Germany,Canada,Tourist,Master,0,9773,0,0,7,Rejected,36
+42,Philippines,USA,Work,Master,12,32465,0,1,4,Approved,65
+42,Philippines,Canada,Business,Bachelor,14,12788,0,1,4,Approved,30
+52,Philippines,USA,Work,Master,5,35343,0,0,4,Approved,69
+20,Germany,UK,Work,Bachelor,13,49862,0,0,11,Approved,77
+54,Philippines,UK,Student,Master,3,40210,1,1,2,Approved,64
+47,Nigeria,UK,Work,Bachelor,3,12247,0,1,9,Approved,73
+51,Germany,Canada,Tourist,High School,13,48963,0,0,1,Approved,31
+29,Philippines,Canada,Work,Master,1,44983,0,1,8,Approved,94
+36,Germany,USA,Tourist,Master,12,38972,0,1,6,Approved,44
+54,Brazil,Australia,Work,Master,10,19959,0,1,10,Approved,74
+34,Nigeria,USA,Student,PhD,13,26807,0,0,7,Approved,77
+27,UK,UK,Student,High School,3,37133,0,1,12,Approved,52
+29,India,USA,Student,Bachelor,4,27218,0,1,5,Approved,65
+33,Philippines,Australia,Tourist,Bachelor,12,24734,0,1,6,Approved,48
+41,India,Canada,Tourist,Master,11,25828,0,0,6,Approved,48
+36,Germany,USA,Student,Master,4,20400,0,1,9,Approved,57
+25,India,UK,Work,Bachelor,4,23002,0,1,10,Approved,79
+48,Nigeria,UK,Work,Master,3,35793,0,1,4,Approved,76
+38,Nigeria,Canada,Work,Master,0,39492,1,0,12,Rejected,79
+34,China,USA,Student,High School,13,35217,0,1,11,Approved,60
+40,Philippines,Australia,Student,Master,9,39226,0,1,12,Approved,54
+54,China,Canada,Student,Master,7,30932,2,1,5,Rejected,92
+33,India,USA,Student,PhD,2,46327,1,0,4,Approved,67
+23,UK,Germany,Student,Bachelor,1,33875,1,0,1,Rejected,70
+25,China,UK,Student,High School,8,28046,0,0,10,Approved,51
+42,China,Australia,Work,Bachelor,6,26664,0,0,6,Approved,82
+35,Nigeria,Australia,Student,High School,8,27453,0,1,5,Approved,74
+42,UK,Australia,Dependent,PhD,12,7746,0,0,4,Approved,54
+29,Germany,UK,Student,High School,1,26973,0,0,6,Rejected,65
+32,India,USA,Student,Master,8,16217,0,0,12,Approved,64
+43,China,Canada,Work,Bachelor,9,26362,0,1,5,Approved,82
+43,UK,USA,Student,Bachelor,8,44835,2,1,3,Rejected,81
+49,Philippines,Canada,Tourist,High School,10,12133,0,1,2,Approved,23
+27,UK,Australia,Student,Master,8,38809,0,1,6,Approved,75
+33,India,USA,Business,Master,9,43533,0,0,4,Approved,31
+24,UK,Australia,Business,Bachelor,12,8404,0,1,11,Approved,33
+34,UK,Germany,Work,PhD,9,36339,0,0,10,Approved,76
+40,UK,Australia,Work,Bachelor,3,31725,0,0,3,Rejected,69
+43,Philippines,Australia,Tourist,Bachelor,9,11796,0,1,8,Approved,46
+38,China,Canada,Work,Bachelor,2,48380,0,1,12,Approved,65
+39,India,Germany,Work,High School,5,24364,0,0,9,Rejected,66
+24,Philippines,Australia,Student,PhD,2,44341,0,0,7,Approved,74
+31,UK,Australia,Student,Bachelor,10,4236,0,1,2,Approved,51
+32,UK,Germany,Work,High School,8,5380,0,1,8,Approved,88
+24,China,Germany,Work,Bachelor,2,42945,0,1,11,Approved,74
+26,India,USA,Business,Master,1,17538,0,1,11,Approved,31
+25,Nigeria,Canada,Student,Bachelor,7,14971,0,1,5,Approved,66
+40,Philippines,Germany,Tourist,Master,5,46065,0,0,11,Approved,20
+46,China,Germany,Student,High School,7,37285,0,0,10,Approved,54
+35,India,UK,Work,Bachelor,14,20917,1,0,7,Approved,101
+48,Philippines,Germany,Student,Master,12,41655,0,1,5,Approved,65
+47,UK,Canada,Work,High School,6,14486,1,0,2,Rejected,83
+52,India,Australia,Student,Master,2,40410,0,1,12,Approved,52
+35,India,Australia,Work,High School,7,28446,0,1,12,Approved,66
+34,Germany,Australia,Tourist,Master,9,24703,0,0,12,Approved,33
+31,India,Australia,Work,Bachelor,0,47191,1,0,4,Rejected,87
+48,Nigeria,UK,Work,Master,0,14399,1,1,11,Rejected,80
+41,India,Germany,Tourist,Bachelor,12,41829,0,0,5,Approved,37
+52,Nigeria,Australia,Tourist,High School,12,15685,0,1,6,Approved,39
+51,UK,USA,Work,Bachelor,9,25241,1,1,5,Approved,99
+20,Nigeria,Australia,Student,High School,12,7487,0,0,10,Approved,63
+54,Philippines,Germany,Business,Bachelor,7,15018,1,1,11,Rejected,42
+43,UK,Australia,Work,Bachelor,12,33825,0,0,1,Approved,74
+40,UK,UK,Student,Master,8,10750,1,1,1,Approved,61
+32,Nigeria,Canada,Student,Master,9,20684,1,0,3,Approved,71
+21,China,Canada,Tourist,Master,5,46118,0,1,9,Approved,32
+46,Brazil,Germany,Student,Master,4,17410,0,1,11,Approved,54
+39,India,Canada,Dependent,Bachelor,1,18105,0,1,2,Approved,55
+42,Germany,Canada,Student,Bachelor,10,21913,0,1,10,Approved,57
+30,Brazil,USA,Tourist,Bachelor,8,39028,0,0,5,Approved,35
+35,India,Germany,Work,Master,5,49480,0,1,9,Approved,74
+50,India,Germany,Work,Bachelor,7,20711,0,1,7,Approved,89
+33,UK,Canada,Business,High School,8,27967,2,1,11,Rejected,58
+19,India,Canada,Work,Master,8,39023,0,1,8,Approved,90
+52,Germany,Canada,Work,Bachelor,7,39005,0,0,2,Approved,77
+51,India,UK,Student,Master,11,29622,1,1,5,Approved,86
+47,Nigeria,Australia,Student,Master,9,48201,1,1,9,Approved,72
+30,Brazil,UK,Student,High School,7,12497,0,1,1,Approved,61
+30,Nigeria,Germany,Tourist,High School,2,19350,0,1,1,Rejected,23
+35,Germany,USA,Student,Bachelor,12,25696,1,0,10,Approved,64
+49,India,Australia,Student,Master,2,30470,0,1,8,Approved,78
+49,Philippines,USA,Work,Bachelor,1,33889,1,0,2,Rejected,84
+52,Germany,Germany,Work,Master,0,13224,1,1,9,Rejected,86
+46,UK,Germany,Tourist,Master,3,44724,1,1,10,Approved,43
+46,Nigeria,USA,Student,Bachelor,1,8465,0,0,9,Rejected,60
+33,Nigeria,USA,Student,High School,13,19882,1,1,4,Approved,62
+27,China,USA,Business,Master,13,35203,0,0,2,Approved,36
+47,India,Germany,Student,Bachelor,1,30944,0,1,3,Approved,51
+42,UK,Canada,Business,Master,12,32837,1,1,10,Approved,46
+37,Philippines,USA,Business,Bachelor,10,5944,0,1,1,Approved,27
+22,Nigeria,Australia,Tourist,Master,10,27336,0,1,3,Approved,34
+18,Nigeria,Germany,Student,Master,4,41624,1,1,5,Approved,85
+47,UK,UK,Tourist,Master,3,47764,1,0,3,Rejected,34
+20,Germany,UK,Tourist,Bachelor,0,34796,1,1,3,Rejected,36
+31,Germany,Australia,Work,Bachelor,14,31789,0,0,10,Approved,66
+47,India,Canada,Student,Master,14,48420,0,1,6,Approved,77
+21,China,USA,Student,Bachelor,8,27222,0,1,3,Approved,64
+35,Nigeria,Germany,Student,Bachelor,13,41845,1,1,3,Approved,73
+54,China,USA,Work,PhD,3,3135,0,0,9,Approved,71
+42,Germany,Germany,Work,Bachelor,4,18773,0,0,2,Rejected,70
+18,Germany,UK,Work,High School,6,45060,0,0,1,Approved,78
+32,Brazil,USA,Work,High School,1,29447,2,0,10,Rejected,91
+26,Philippines,Australia,Work,Master,7,7033,0,0,8,Approved,86
+32,India,Canada,Work,Master,10,23497,0,1,3,Approved,73
+41,Brazil,Australia,Business,Bachelor,1,17178,0,0,7,Rejected,46
+21,Philippines,Canada,Student,Bachelor,10,9546,0,1,2,Approved,63
+29,Brazil,USA,Work,Bachelor,9,11396,0,1,11,Approved,76
+54,Brazil,USA,Student,Master,4,23978,0,1,11,Approved,62
+54,India,Canada,Work,High School,12,46331,0,0,12,Approved,70
+23,India,UK,Tourist,PhD,11,15882,1,1,8,Approved,54
+41,UK,Germany,Business,Bachelor,1,19945,0,0,9,Rejected,32
+28,China,Australia,Student,PhD,1,24784,0,0,8,Approved,71
+30,China,Australia,Dependent,Bachelor,3,6314,0,1,8,Approved,65
+51,UK,Australia,Student,Master,3,21595,1,1,8,Rejected,78
+42,UK,USA,Work,Bachelor,12,21755,0,0,7,Approved,86
+24,Germany,Australia,Student,High School,7,35311,1,0,2,Rejected,71
+21,Philippines,Germany,Business,Master,12,48695,1,0,8,Approved,57
+25,Brazil,Germany,Work,Master,5,33598,0,1,5,Approved,87
+37,UK,Canada,Tourist,Bachelor,9,38449,0,1,6,Approved,46
+46,Nigeria,USA,Tourist,Master,7,38574,0,0,4,Approved,31
+27,China,Germany,Student,Master,12,47729,2,0,1,Approved,73
+51,UK,UK,Student,Master,6,21639,0,1,5,Approved,74
+43,Nigeria,USA,Business,Bachelor,12,48370,0,0,3,Approved,33
+20,Nigeria,USA,Student,Bachelor,9,34023,0,1,9,Approved,52
+23,Nigeria,Germany,Student,Bachelor,3,12092,0,0,4,Rejected,58
+22,Germany,UK,Work,Bachelor,1,9382,0,1,10,Rejected,67
+22,Germany,Canada,Work,Master,14,45710,0,1,2,Approved,77
+40,Nigeria,Germany,Student,Bachelor,8,6159,0,1,4,Approved,56
+26,Philippines,UK,Student,High School,1,8656,0,0,3,Rejected,53
+52,Germany,USA,Student,Master,0,4452,0,0,3,Rejected,54
+37,Brazil,UK,Work,Master,7,45203,0,0,5,Approved,92
+52,Nigeria,USA,Business,Bachelor,9,21706,0,1,1,Approved,39
+35,Brazil,Germany,Dependent,Bachelor,14,12862,1,1,5,Approved,72
+34,Brazil,Germany,Work,PhD,8,13219,0,1,8,Approved,81
+41,Nigeria,Australia,Student,Bachelor,0,26481,0,0,10,Rejected,61
+20,China,Australia,Business,Master,6,37536,0,1,12,Approved,32
+49,Philippines,Australia,Work,Master,1,9096,0,0,9,Rejected,78
+52,Nigeria,Germany,Student,Bachelor,5,40953,0,1,12,Approved,56
+30,Nigeria,Canada,Business,PhD,12,14855,0,1,1,Approved,31
+42,Germany,Germany,Tourist,Master,10,46262,0,0,2,Approved,27
+26,Nigeria,UK,Tourist,Bachelor,4,17460,1,0,2,Rejected,42
+21,China,Germany,Tourist,Master,0,36937,0,0,6,Approved,35
+31,Germany,Germany,Student,Master,1,24094,0,1,1,Approved,61
+54,India,USA,Student,Master,1,42358,1,1,11,Approved,67
+51,India,USA,Tourist,Master,9,30924,0,1,1,Approved,29
+28,Brazil,USA,Student,Bachelor,9,20789,0,1,2,Approved,61
+20,Philippines,Germany,Work,Bachelor,5,3123,0,1,12,Approved,78
+45,Brazil,Canada,Tourist,Bachelor,10,8909,0,1,4,Approved,33
+46,China,UK,Tourist,High School,11,34854,0,1,2,Approved,24
+26,UK,UK,Work,High School,0,6896,2,0,4,Rejected,92
+20,Philippines,Canada,Tourist,Master,10,43834,0,0,3,Approved,28
+42,India,Canada,Tourist,Master,12,45141,0,1,3,Approved,32
+51,Brazil,UK,Tourist,Master,3,20111,0,1,9,Approved,21
+29,India,Australia,Student,Master,11,10039,0,1,8,Approved,67
+26,China,USA,Student,Master,9,47844,1,0,12,Approved,65
+32,China,USA,Student,Bachelor,10,27099,0,0,12,Approved,58
+42,UK,UK,Student,Master,4,6670,1,0,10,Rejected,73
+22,UK,Canada,Student,Bachelor,1,46335,0,0,9,Approved,59
+28,Germany,Australia,Student,PhD,1,18029,1,1,1,Approved,69
+51,Philippines,UK,Work,Master,14,34811,0,1,12,Approved,72
+41,China,USA,Business,Bachelor,6,18793,1,1,5,Rejected,63
+32,Brazil,Germany,Student,Master,6,44318,0,1,12,Approved,62
+25,India,Canada,Tourist,Bachelor,5,23126,1,1,12,Rejected,35
+22,Nigeria,Germany,Tourist,High School,0,22228,0,0,4,Rejected,24
+43,UK,UK,Student,Master,11,21595,0,1,11,Approved,63
+35,Nigeria,USA,Business,Bachelor,12,3972,1,1,9,Approved,47
+23,Brazil,Australia,Work,High School,11,3360,0,0,3,Rejected,67
+54,UK,Germany,Work,PhD,2,5632,1,1,5,Rejected,101
+30,Nigeria,Australia,Tourist,Master,8,38958,0,1,8,Approved,38
+45,Philippines,USA,Student,Master,9,40716,0,0,10,Approved,62
+22,Brazil,Germany,Tourist,Master,0,18346,1,0,5,Rejected,57
+30,India,Australia,Student,Bachelor,1,21008,0,0,9,Rejected,56
+34,Philippines,Australia,Tourist,Bachelor,7,15120,0,0,2,Approved,26
+49,Brazil,Germany,Work,Master,6,33283,2,0,6,Rejected,102
+46,Germany,USA,Work,PhD,8,10818,0,1,5,Approved,83
+20,UK,Australia,Student,Bachelor,9,8119,0,1,9,Approved,52
+51,China,UK,Tourist,Master,11,33579,0,1,7,Approved,49
+44,India,Germany,Tourist,PhD,14,48721,1,1,8,Approved,59
+30,Philippines,Canada,Work,Master,14,32837,2,1,7,Approved,101
+50,Philippines,Canada,Work,PhD,14,3975,2,1,10,Approved,90
+23,Nigeria,USA,Work,Bachelor,11,19265,0,1,10,Approved,71
+41,UK,UK,Business,PhD,3,7318,0,1,5,Approved,43
+36,China,Australia,Work,Master,3,38081,0,0,11,Approved,69
+33,Brazil,Canada,Tourist,High School,6,44515,0,0,5,Approved,42
+45,China,USA,Tourist,PhD,0,46069,0,1,11,Approved,28
+50,UK,UK,Work,Bachelor,9,16134,0,1,4,Approved,71
+30,UK,UK,Student,Bachelor,11,42432,1,1,2,Approved,69
+42,Germany,USA,Work,Master,8,49150,1,1,9,Approved,88
+53,Germany,USA,Tourist,High School,1,13841,0,1,10,Rejected,20
+44,China,Australia,Student,Bachelor,14,29135,2,0,10,Rejected,80
+24,Brazil,USA,Work,Master,0,15427,2,1,12,Rejected,98
+22,China,Australia,Tourist,High School,6,43251,0,1,10,Approved,22
+48,UK,Australia,Work,Bachelor,5,37131,0,0,10,Approved,75
+40,UK,Germany,Work,High School,11,39727,0,0,3,Approved,69
+27,Nigeria,UK,Student,Bachelor,2,28165,0,0,11,Rejected,52
+49,Germany,UK,Student,Master,0,4749,0,1,11,Approved,64
+47,Nigeria,UK,Tourist,Master,11,36308,0,0,3,Approved,20
+48,India,Germany,Student,PhD,4,10634,1,1,3,Approved,61
+35,UK,Australia,Student,Master,9,13614,0,0,8,Approved,72
+53,Nigeria,Australia,Business,Bachelor,13,27866,0,1,6,Approved,46
+19,China,USA,Student,PhD,3,13282,0,1,1,Approved,62
+31,Germany,Germany,Dependent,Master,4,23319,0,0,12,Approved,54
+30,Germany,USA,Dependent,Master,0,39726,0,0,3,Approved,47
+46,Brazil,Germany,Student,Master,0,18412,0,1,4,Approved,53
+29,China,USA,Student,PhD,4,39627,2,1,2,Approved,83
+19,Brazil,Canada,Tourist,Master,5,11050,0,0,6,Approved,47
+49,Nigeria,UK,Work,Bachelor,4,27583,1,1,10,Rejected,77
+30,Philippines,UK,Student,Master,1,21041,0,1,12,Approved,62
+44,India,Australia,Tourist,High School,8,9185,0,0,1,Rejected,23
+34,China,Canada,Student,Bachelor,4,23812,0,0,1,Rejected,57
+48,China,UK,Business,Bachelor,10,28832,1,1,8,Approved,58
+51,China,Australia,Student,Bachelor,10,20423,1,1,4,Approved,66
+41,Brazil,Canada,Student,High School,4,44644,0,0,1,Rejected,58
+52,Nigeria,UK,Student,High School,9,39786,0,1,7,Approved,78
+23,China,USA,Dependent,Master,8,32665,0,1,9,Approved,53
+36,Philippines,Germany,Tourist,Master,2,12989,1,0,10,Rejected,36
+47,China,Canada,Tourist,PhD,4,21208,0,1,7,Approved,41
+24,Germany,Australia,Work,Bachelor,14,26054,0,0,1,Approved,72
+27,India,Canada,Student,Master,12,33477,0,1,1,Approved,61
+49,Germany,Australia,Student,PhD,11,33374,0,1,12,Approved,59
+51,Germany,Canada,Work,Bachelor,4,44220,1,1,1,Approved,86
+45,India,Australia,Work,Master,1,6571,0,1,8,Approved,91
+32,Philippines,UK,Work,Master,10,22576,0,0,7,Approved,82
+47,Nigeria,USA,Student,High School,3,12680,0,1,3,Rejected,57
+54,Germany,UK,Business,Master,10,28706,0,1,3,Approved,25
+46,Nigeria,USA,Student,Master,10,17318,0,0,12,Approved,62
+39,Germany,UK,Dependent,High School,1,23659,1,1,3,Rejected,69
+21,UK,UK,Student,High School,4,8029,0,0,2,Rejected,55
+37,India,Canada,Work,High School,9,5774,0,1,4,Approved,66
+49,Germany,Germany,Student,Bachelor,12,19972,0,0,7,Approved,71
+53,UK,Australia,Work,Bachelor,11,17048,0,1,9,Approved,77
+21,Brazil,Australia,Work,Bachelor,1,36372,0,0,3,Rejected,67
+44,UK,Australia,Work,Bachelor,9,46188,1,0,10,Approved,85
+34,China,USA,Work,PhD,14,44133,0,0,7,Approved,89
+29,Germany,Australia,Tourist,Bachelor,13,17689,1,1,12,Approved,34
+39,UK,Australia,Tourist,High School,8,19737,0,1,4,Approved,29
+34,Nigeria,Canada,Tourist,Bachelor,9,19014,0,1,1,Approved,21
+27,Brazil,UK,Student,Bachelor,5,24818,0,1,5,Approved,65
+18,Philippines,Australia,Work,Bachelor,7,36201,1,1,8,Approved,94
+39,Germany,Germany,Work,Bachelor,8,14144,1,1,3,Approved,83
+43,China,Australia,Work,High School,14,34001,0,1,10,Approved,79
+35,Philippines,USA,Work,Master,12,3867,0,0,4,Approved,73
+31,UK,USA,Student,PhD,7,30182,0,1,3,Approved,56
+46,Philippines,USA,Student,Bachelor,4,17340,0,1,10,Approved,63
+29,Philippines,Australia,Student,Bachelor,4,14837,2,0,8,Rejected,93
+53,Brazil,Canada,Student,Master,5,11787,1,1,10,Approved,63
+52,Philippines,Germany,Tourist,Master,13,3393,0,1,8,Approved,37
+29,Philippines,Australia,Tourist,Bachelor,0,15056,0,0,4,Rejected,30
+24,Germany,Canada,Dependent,PhD,12,46160,0,0,11,Approved,48
+46,Brazil,Canada,Tourist,Master,10,47957,0,0,2,Approved,34
+28,China,Australia,Student,Bachelor,7,31429,0,0,12,Approved,56
+50,UK,Australia,Business,Master,1,48909,0,0,3,Approved,32
+23,Brazil,Canada,Business,PhD,5,34899,0,0,3,Approved,26
+32,Brazil,Canada,Work,Master,13,35221,1,0,4,Approved,79
+49,India,Canada,Work,High School,13,23754,0,1,11,Approved,69
+28,Brazil,Australia,Dependent,Bachelor,8,47389,1,0,2,Approved,67
+40,India,Canada,Work,Bachelor,12,23905,1,1,2,Approved,83
+43,UK,USA,Business,Bachelor,2,27083,0,0,3,Rejected,37
+51,Philippines,Australia,Student,Master,1,44098,1,0,12,Rejected,72
+51,Germany,USA,Student,Master,9,32621,0,1,1,Approved,64
+46,Germany,UK,Work,Master,4,23577,2,1,8,Rejected,112
+21,UK,Australia,Work,PhD,10,39728,0,1,6,Approved,82
+34,UK,UK,Tourist,Bachelor,8,3663,1,1,3,Rejected,41
+52,Nigeria,Canada,Dependent,Master,5,22216,0,1,1,Approved,50
+30,Philippines,Canada,Work,Master,13,12265,0,0,3,Approved,79
+32,UK,Germany,Student,Bachelor,7,7574,0,0,1,Rejected,59
+46,Brazil,Canada,Tourist,Master,7,25755,0,1,3,Approved,31
+46,Germany,UK,Work,High School,6,34241,0,1,4,Approved,69
+28,China,Canada,Student,Master,4,25676,0,0,6,Approved,66
+49,Germany,Australia,Work,Bachelor,1,24561,1,1,7,Rejected,91
+19,India,Canada,Tourist,Bachelor,13,27737,0,0,7,Approved,38
+31,Germany,Germany,Tourist,Master,14,26390,0,0,9,Approved,31
+37,Nigeria,Canada,Work,Master,9,29076,0,1,8,Approved,83
+39,Philippines,UK,Student,Bachelor,9,8546,0,0,4,Approved,64
+28,UK,UK,Dependent,High School,4,24280,0,1,6,Approved,66
+44,Philippines,Canada,Tourist,Bachelor,11,35953,0,1,11,Approved,33
+20,UK,UK,Work,Master,6,24037,2,0,1,Rejected,96
+34,Germany,UK,Student,Master,11,43576,0,1,8,Approved,78
+45,China,Germany,Tourist,PhD,11,31564,1,1,6,Approved,45
+46,China,Australia,Student,Bachelor,6,36597,0,0,2,Approved,60
+38,Nigeria,Germany,Student,Master,10,22903,1,1,8,Approved,80
+33,India,USA,Work,Bachelor,12,33806,0,1,4,Approved,75
+54,Germany,Germany,Student,Master,14,49328,0,0,9,Approved,62
+37,UK,Canada,Work,Bachelor,1,27392,0,1,4,Approved,73
+23,Germany,Australia,Student,Bachelor,6,31087,1,0,1,Rejected,61
+36,Nigeria,Canada,Tourist,Master,5,47288,0,0,7,Approved,46
+22,Brazil,USA,Student,High School,6,47308,2,1,10,Rejected,74
+20,Brazil,Australia,Student,Master,10,25293,0,0,5,Approved,74
+18,Nigeria,UK,Student,Master,7,13677,0,1,10,Approved,64
+32,UK,Germany,Business,Bachelor,3,15803,0,1,11,Approved,35
+51,Philippines,Canada,Business,Bachelor,0,49656,0,0,12,Rejected,34
+52,Nigeria,USA,Student,Master,7,49002,1,1,5,Approved,78
+42,UK,UK,Tourist,Master,7,4225,0,1,4,Approved,23
+41,China,Germany,Work,Bachelor,2,8774,0,1,6,Approved,87
+29,Nigeria,UK,Dependent,Bachelor,2,16043,0,0,1,Rejected,58
+35,UK,Germany,Work,Master,4,19163,0,0,3,Approved,70
+32,Nigeria,Australia,Tourist,Master,13,5844,0,1,11,Approved,26
+33,Nigeria,UK,Student,Bachelor,2,10347,0,1,12,Approved,60
+44,Philippines,UK,Work,Bachelor,14,23804,0,0,7,Approved,91
+25,Philippines,UK,Dependent,Master,13,39764,0,1,11,Approved,53
+42,UK,Australia,Work,Master,4,30246,0,1,8,Approved,92
+34,UK,USA,Student,PhD,14,45458,0,0,12,Approved,52
+46,India,Germany,Student,Master,7,4688,0,1,9,Approved,60
+25,Nigeria,UK,Tourist,PhD,0,20251,1,0,1,Rejected,31
+32,Brazil,Australia,Work,Bachelor,1,15504,1,0,4,Rejected,77
+44,Nigeria,USA,Work,Master,1,42720,1,0,2,Rejected,89
+24,Nigeria,Germany,Dependent,High School,11,30584,2,0,2,Rejected,72
+20,UK,Australia,Student,Master,3,47484,0,0,1,Approved,62
+46,Nigeria,Germany,Student,Bachelor,8,41852,0,1,5,Approved,73
+41,Germany,UK,Business,Bachelor,1,16219,0,1,2,Approved,34
+20,Nigeria,USA,Student,Master,11,45972,0,0,4,Approved,54
+37,Germany,Australia,Student,Master,13,27815,0,1,9,Approved,57
+32,Philippines,USA,Work,High School,10,27623,1,1,11,Approved,88
+42,Brazil,UK,Tourist,Master,12,39817,0,0,3,Approved,30
+47,UK,USA,Student,Bachelor,14,6457,0,0,8,Approved,71
+31,Nigeria,USA,Business,Bachelor,11,30855,0,0,10,Approved,36
+24,Germany,Canada,Tourist,Master,8,39258,0,0,6,Approved,48
+34,Germany,USA,Student,Bachelor,6,18470,0,1,10,Approved,61
+37,Philippines,Germany,Tourist,PhD,9,48930,1,1,5,Approved,57
+53,Germany,Australia,Work,Bachelor,7,21281,0,1,2,Approved,73
+26,China,Canada,Work,Master,0,14728,1,1,11,Rejected,78
+39,India,Australia,Tourist,Master,12,48680,2,0,3,Approved,54
+19,Brazil,Australia,Dependent,Bachelor,4,41723,0,1,8,Approved,72
+41,Philippines,UK,Student,Bachelor,8,13162,0,0,12,Approved,59
+25,Philippines,UK,Work,Master,11,32272,0,0,12,Approved,67
+28,Nigeria,Canada,Work,Master,3,38488,0,1,9,Approved,73
+30,China,UK,Work,Bachelor,1,46341,0,0,11,Approved,72
+34,Nigeria,UK,Work,Bachelor,5,14338,1,0,11,Rejected,89
+25,Nigeria,UK,Student,High School,1,25296,0,1,7,Rejected,71
+38,UK,Australia,Tourist,Bachelor,2,14675,0,1,1,Approved,20
+35,UK,Canada,Work,Bachelor,13,27070,0,0,12,Approved,66
+47,UK,Australia,Student,High School,7,23080,0,0,12,Rejected,58
+35,China,Germany,Tourist,Master,14,16936,0,1,6,Approved,39
+48,Nigeria,Australia,Tourist,Master,2,13019,0,1,7,Approved,35
+49,India,Germany,Work,PhD,1,44182,0,0,12,Approved,73
+28,Brazil,USA,Student,Master,5,4746,0,1,6,Approved,65
+42,UK,USA,Work,PhD,13,25768,2,1,10,Approved,92
+50,UK,Germany,Student,Master,2,11325,1,1,11,Rejected,64
+25,Philippines,Germany,Student,Master,0,47763,0,1,2,Approved,63
+28,Nigeria,Australia,Tourist,PhD,11,7486,0,1,9,Approved,30
+39,Nigeria,Germany,Student,Master,13,19485,0,0,3,Approved,61
+41,China,Canada,Student,High School,14,17328,0,0,6,Approved,70
+34,China,USA,Student,Master,14,22112,1,1,6,Approved,75
+29,UK,USA,Student,PhD,13,47001,0,1,8,Approved,66
+49,Nigeria,Germany,Student,Master,2,35280,0,1,4,Approved,56
+32,India,UK,Dependent,Master,5,29576,0,1,6,Approved,61
+33,Brazil,UK,Student,Master,2,45528,1,1,1,Approved,64
+39,Nigeria,Germany,Student,PhD,8,18702,1,0,9,Approved,70
+45,Philippines,Canada,Student,High School,6,24320,0,1,12,Approved,58
+37,Nigeria,UK,Business,Master,13,21437,0,1,9,Approved,29
+50,Germany,Germany,Work,Bachelor,4,3193,0,1,7,Approved,91
+27,China,Canada,Work,Master,1,28317,0,1,11,Approved,67
+49,Philippines,Canada,Business,Master,14,31482,0,1,1,Approved,35
+50,Brazil,Australia,Work,Bachelor,8,22343,1,0,3,Rejected,87
+19,UK,Canada,Student,Bachelor,4,32144,0,1,12,Approved,55
+50,Philippines,UK,Student,Master,6,14612,1,1,5,Approved,81
+50,Nigeria,UK,Work,High School,8,22307,2,1,4,Rejected,94
+30,UK,Germany,Student,Bachelor,3,22623,0,1,5,Approved,78
+47,Nigeria,Germany,Tourist,Master,8,23249,0,0,7,Approved,45
+50,UK,Canada,Student,Bachelor,0,11229,1,1,9,Rejected,69
+30,Brazil,USA,Work,Bachelor,11,29274,0,1,1,Approved,75
+43,China,Australia,Student,PhD,5,40334,0,0,5,Approved,72
+39,Brazil,USA,Student,Bachelor,1,9595,0,1,3,Rejected,64
+19,Germany,Canada,Work,Bachelor,7,31602,0,1,3,Approved,67
+43,India,Canada,Business,Master,4,41377,0,0,11,Approved,35
+32,China,USA,Work,Master,14,40876,0,0,2,Approved,68
+51,Brazil,Australia,Tourist,PhD,2,37551,0,1,6,Approved,44
+28,Germany,USA,Student,PhD,1,45926,0,0,6,Approved,68
+20,India,Germany,Student,Master,7,27678,0,1,3,Approved,51
+23,Germany,UK,Student,Bachelor,6,25214,0,1,1,Approved,64
+26,Nigeria,Germany,Student,High School,8,41599,0,0,7,Approved,71
+23,Nigeria,UK,Student,Bachelor,7,35809,0,0,2,Approved,61
+26,UK,Canada,Student,High School,10,46954,0,1,8,Approved,68
+48,China,Australia,Tourist,Master,3,30794,1,1,3,Approved,33
+49,Nigeria,USA,Student,Master,1,25593,1,0,1,Rejected,74
+29,Philippines,Australia,Work,High School,13,31864,1,1,10,Approved,89
+25,Germany,USA,Work,Master,12,47329,1,1,9,Approved,87
+25,China,Germany,Work,Bachelor,1,45636,0,0,5,Approved,91
+45,Philippines,Germany,Work,Bachelor,1,6689,0,0,1,Rejected,72
+37,Nigeria,USA,Student,Master,13,43363,0,1,10,Approved,55
+24,UK,Australia,Student,Bachelor,10,17687,1,0,11,Rejected,65
+28,Brazil,USA,Tourist,Bachelor,11,23381,1,1,6,Approved,55
+37,UK,Canada,Business,High School,5,36093,0,0,10,Rejected,33
+33,Philippines,Germany,Student,Bachelor,6,26589,0,0,3,Approved,53
+21,India,Canada,Student,Master,11,4120,0,0,11,Approved,58
+23,Nigeria,Germany,Business,PhD,5,19491,0,0,4,Approved,25
+39,Philippines,Germany,Student,Bachelor,1,46638,0,0,8,Approved,75
+43,India,UK,Work,Bachelor,3,42062,1,0,5,Rejected,98
+20,India,Canada,Work,Master,2,8193,0,0,12,Rejected,79
+31,Germany,Canada,Student,PhD,10,26608,1,0,6,Approved,75
+28,China,UK,Work,Bachelor,12,18213,0,1,10,Approved,79
+35,Germany,Australia,Work,Bachelor,3,17230,0,1,4,Approved,71
+29,Nigeria,Canada,Student,Master,4,21423,1,1,6,Approved,80
+40,India,USA,Work,Master,6,20187,0,1,3,Approved,71
+29,Philippines,UK,Tourist,High School,13,13040,0,1,10,Approved,28
+30,Brazil,Canada,Work,Master,8,3766,0,0,12,Approved,74
+42,India,Australia,Student,Bachelor,14,32949,1,0,1,Approved,63
+36,Philippines,Canada,Work,Bachelor,10,49464,0,0,6,Approved,91
+53,Brazil,Germany,Tourist,Bachelor,1,6527,0,1,1,Rejected,28
+25,Germany,USA,Tourist,Master,7,14021,0,1,10,Approved,22
+46,Germany,UK,Work,Bachelor,2,20872,1,1,12,Rejected,84
+49,China,Germany,Student,Bachelor,8,39897,2,0,3,Rejected,80
+35,Philippines,Australia,Tourist,Bachelor,9,14758,0,1,12,Approved,30
+23,India,Germany,Tourist,Master,11,21757,0,0,8,Approved,43
+35,UK,Germany,Student,Bachelor,3,28412,1,1,7,Rejected,87
+36,Germany,Australia,Work,Bachelor,14,17312,0,1,8,Approved,80
+39,Germany,Germany,Student,Bachelor,2,25119,0,0,10,Rejected,63
+54,China,UK,Tourist,Master,9,14804,0,0,10,Approved,24
+49,Brazil,Canada,Student,Bachelor,5,49545,0,1,2,Approved,64
+20,China,Germany,Work,Bachelor,9,13983,0,1,10,Approved,74
+45,India,UK,Business,Bachelor,12,32999,0,0,7,Approved,44
+27,Philippines,Canada,Tourist,Master,8,33557,0,1,4,Approved,20
+52,Nigeria,Canada,Business,Master,6,42758,1,1,1,Approved,35
+46,Nigeria,Germany,Dependent,Master,3,31788,0,0,11,Approved,47
+32,Philippines,UK,Student,Master,2,34950,0,0,3,Approved,58
+50,Brazil,Germany,Work,PhD,9,6983,1,1,5,Approved,96
+24,Germany,Australia,Work,Bachelor,3,6768,1,1,10,Rejected,80
+29,Brazil,Canada,Business,PhD,2,4504,0,0,8,Approved,48
+47,Germany,Germany,Student,High School,11,5450,0,0,2,Approved,53
+38,Germany,Canada,Dependent,Bachelor,2,14236,0,0,2,Rejected,48
+48,Nigeria,UK,Work,Master,11,11002,0,1,8,Approved,82
+41,Brazil,USA,Tourist,Bachelor,13,12891,0,0,9,Approved,24
+37,China,Germany,Student,Bachelor,12,41787,0,1,10,Approved,54
+54,Germany,Germany,Student,Bachelor,8,16898,0,1,1,Approved,61
+21,UK,Canada,Tourist,Master,3,13472,1,1,2,Rejected,43
+45,UK,UK,Student,Bachelor,8,18264,0,1,4,Approved,59
+37,China,Australia,Tourist,Master,11,20691,0,1,12,Approved,26
+41,UK,UK,Student,Master,14,46487,0,1,3,Approved,56
+49,India,Germany,Tourist,Master,9,35632,0,1,1,Approved,34
+53,Germany,Australia,Work,Bachelor,4,36743,0,1,4,Approved,70
+51,China,UK,Work,PhD,6,46016,1,0,11,Approved,78
+53,Brazil,USA,Tourist,Bachelor,13,16002,0,0,11,Approved,26
+19,Germany,Canada,Student,High School,4,49981,0,1,2,Approved,63
+32,China,UK,Student,High School,0,46386,0,1,10,Approved,51
+51,Nigeria,UK,Student,Master,1,31250,0,1,5,Approved,77
+53,Brazil,USA,Work,High School,10,46388,0,1,1,Approved,76
+23,Nigeria,Germany,Work,High School,14,24323,0,1,8,Approved,88
+29,Germany,Canada,Tourist,Bachelor,4,6733,1,1,10,Rejected,36
+20,Brazil,UK,Work,Bachelor,5,44319,1,0,2,Rejected,76
+35,UK,Australia,Work,Master,6,5223,0,1,11,Approved,74
+38,China,UK,Work,Master,1,19868,1,1,3,Rejected,76
+32,Germany,Canada,Student,Master,9,37196,2,1,3,Approved,82
+50,India,UK,Student,Bachelor,8,5080,0,1,4,Approved,55
+52,Brazil,USA,Dependent,Bachelor,5,16776,2,1,7,Rejected,90
+43,Brazil,UK,Business,PhD,1,3695,0,1,9,Approved,31
+25,Philippines,UK,Student,High School,1,35969,1,0,3,Rejected,68
+53,Germany,Australia,Work,Master,2,15049,0,0,1,Rejected,79
+47,Germany,USA,Tourist,Bachelor,0,18628,0,1,11,Rejected,23
+40,Nigeria,USA,Work,PhD,8,11265,0,0,10,Approved,72
+31,Philippines,UK,Student,Bachelor,13,27671,0,1,1,Approved,63
+31,UK,Australia,Student,Bachelor,9,15460,1,0,12,Rejected,69
+19,Nigeria,UK,Work,Master,10,6477,0,0,11,Approved,79
+54,Philippines,UK,Dependent,Master,3,5202,0,0,6,Rejected,72
+22,Nigeria,Canada,Tourist,Bachelor,4,26874,0,0,5,Approved,36
+31,UK,Canada,Student,Master,6,44217,0,0,10,Approved,55
+42,Philippines,Australia,Student,Master,0,14850,0,1,7,Approved,68
+37,Philippines,Germany,Tourist,High School,2,42085,0,0,7,Rejected,42
+19,India,Canada,Tourist,High School,13,23809,0,1,3,Approved,28
+23,Nigeria,Germany,Work,Bachelor,2,8350,0,1,7,Approved,81
+34,Nigeria,USA,Work,High School,1,5806,0,1,9,Rejected,71
+42,Brazil,Canada,Student,Master,7,10163,0,1,8,Approved,71
+45,UK,Canada,Tourist,Bachelor,4,31832,2,1,3,Rejected,47
+19,China,Australia,Tourist,Bachelor,0,3185,0,0,10,Rejected,32
+52,India,Germany,Student,Bachelor,11,43838,0,0,5,Approved,69
+54,Philippines,Canada,Tourist,Bachelor,1,27718,0,1,8,Approved,45
+22,Philippines,Canada,Student,High School,0,14545,0,0,2,Rejected,62
+18,Philippines,Australia,Student,High School,14,28215,0,1,7,Approved,67
+29,India,Australia,Student,High School,5,31325,0,1,11,Approved,50
+53,Philippines,Germany,Student,PhD,8,21458,0,1,10,Approved,53
+40,Philippines,USA,Student,High School,10,19006,0,0,10,Approved,52
+48,UK,USA,Work,Master,6,31544,0,1,7,Approved,81
+28,Germany,UK,Work,High School,4,35969,1,1,11,Rejected,80
+27,Germany,Canada,Work,High School,11,14284,0,1,12,Approved,71
+20,Brazil,Germany,Student,Bachelor,12,41478,0,1,8,Approved,74
+31,Brazil,Canada,Student,Bachelor,2,30655,0,0,1,Rejected,56
+33,Philippines,Germany,Work,PhD,11,32143,0,0,8,Approved,91
+27,UK,Germany,Work,PhD,11,18698,0,0,1,Approved,72
+46,Philippines,Germany,Student,Master,7,37870,0,0,3,Approved,62
+27,Brazil,Canada,Business,Master,9,12102,0,0,9,Approved,38
+29,India,Australia,Tourist,Bachelor,3,4571,0,0,4,Rejected,21
+47,India,Canada,Business,Bachelor,8,40893,0,1,10,Approved,38
+18,China,Germany,Work,PhD,4,42465,0,1,9,Approved,75
+22,Germany,UK,Student,Master,13,24553,0,0,1,Approved,61
+37,UK,USA,Tourist,Master,5,21543,0,1,8,Approved,44
+25,Nigeria,Germany,Student,Bachelor,4,31901,0,1,3,Approved,62
+29,Germany,UK,Work,High School,9,17034,0,1,11,Approved,70
+18,Nigeria,Australia,Student,PhD,11,30120,0,1,7,Approved,77
+37,China,Germany,Tourist,Bachelor,10,4329,0,0,2,Approved,25
+45,China,UK,Student,Bachelor,6,44420,0,0,7,Approved,74
+54,Philippines,Germany,Business,High School,6,28382,1,0,7,Rejected,61
+54,Brazil,Canada,Business,Master,0,6699,0,0,9,Rejected,25
+29,China,UK,Work,High School,1,41795,0,1,2,Approved,66
+54,China,Canada,Tourist,Master,6,13667,0,1,8,Approved,47
+45,Nigeria,Canada,Work,High School,7,40591,0,0,5,Approved,88
+32,Brazil,UK,Tourist,Master,3,45115,0,1,10,Approved,27
+23,China,USA,Work,Master,5,26459,0,1,9,Approved,76
+37,Germany,UK,Tourist,Bachelor,10,9959,0,0,8,Approved,47
+31,China,USA,Work,Master,11,32581,1,1,3,Approved,78
+19,Brazil,Germany,Business,Bachelor,9,49384,0,0,3,Approved,30
+26,Philippines,Germany,Work,Bachelor,2,9210,2,1,11,Rejected,86
+54,UK,UK,Work,Master,6,15517,0,0,12,Approved,76
+37,Brazil,Germany,Tourist,Bachelor,10,15620,0,0,10,Approved,24
+43,Nigeria,Australia,Tourist,Bachelor,2,39744,0,1,8,Approved,36
+46,UK,Canada,Work,Bachelor,10,25804,0,1,9,Approved,79
+18,Germany,Canada,Student,Bachelor,6,33568,0,0,2,Approved,62
+52,India,USA,Work,Master,11,20991,0,1,3,Approved,69
+23,Brazil,Germany,Dependent,Bachelor,10,11912,0,1,8,Approved,66
+54,Philippines,USA,Tourist,PhD,11,35527,0,0,2,Approved,26
+22,Nigeria,Canada,Tourist,PhD,10,33863,0,1,8,Approved,43
+50,Germany,Canada,Student,High School,7,47827,0,1,5,Approved,67
+31,UK,Germany,Work,Bachelor,2,36458,2,0,6,Rejected,111
+29,Germany,Australia,Work,Master,1,23407,0,1,10,Approved,68
+37,Brazil,Australia,Tourist,Bachelor,11,15344,1,1,12,Approved,38
+41,China,Germany,Student,High School,5,39205,0,1,4,Approved,63
+51,Philippines,Germany,Business,Bachelor,3,5355,0,1,3,Approved,32
+42,Brazil,USA,Work,Master,7,33893,0,0,8,Approved,91
+46,India,Germany,Student,Master,12,3749,0,0,9,Approved,56
+48,Brazil,Australia,Student,High School,14,22435,2,1,8,Rejected,92
+40,UK,Germany,Student,High School,13,48733,0,1,9,Approved,58
+37,UK,USA,Work,PhD,1,48615,1,0,1,Approved,86
+40,Brazil,USA,Student,Master,3,41526,1,0,5,Rejected,78
+33,UK,USA,Student,Master,1,21088,0,1,12,Approved,54
+25,China,USA,Tourist,Master,13,47405,0,0,7,Approved,43
+38,Germany,UK,Student,Bachelor,1,41842,0,0,8,Rejected,71
+18,Brazil,Germany,Student,Master,1,49146,0,1,11,Approved,63
+25,Philippines,Canada,Work,Bachelor,0,27403,0,1,2,Approved,68
+46,China,Germany,Work,Bachelor,3,41042,0,1,12,Approved,70
+49,Germany,UK,Tourist,Master,1,49775,0,1,11,Approved,30
+22,Philippines,USA,Work,Bachelor,8,42177,0,0,4,Approved,65
+39,Philippines,UK,Tourist,PhD,8,42056,0,1,7,Approved,35
+51,Philippines,Australia,Work,Bachelor,10,25713,1,0,5,Rejected,98
+18,Germany,Australia,Student,PhD,10,3885,0,1,1,Approved,64
+43,China,Germany,Student,PhD,6,36632,0,1,2,Approved,57
+27,Philippines,Germany,Work,Bachelor,5,42685,0,1,5,Approved,94
+47,Philippines,Canada,Work,Master,11,14686,1,1,6,Approved,102
+35,Nigeria,Canada,Tourist,Bachelor,2,6054,0,0,1,Rejected,20
+34,Brazil,Australia,Work,PhD,13,11977,2,1,12,Approved,97
+43,Germany,USA,Work,Bachelor,11,28032,2,0,3,Rejected,99
+25,Germany,UK,Student,Master,13,11536,1,0,6,Approved,85
+29,UK,Canada,Student,Bachelor,14,18070,0,0,6,Approved,66
+44,Germany,Canada,Work,Bachelor,6,19937,0,1,7,Approved,92
+25,China,USA,Work,Bachelor,0,24500,1,1,10,Rejected,78
+42,Germany,USA,Work,Bachelor,8,43451,1,0,12,Approved,75
+21,Nigeria,Germany,Student,Master,3,13011,1,0,3,Rejected,61
+50,Brazil,UK,Tourist,Master,5,11896,0,1,1,Approved,24
+18,Brazil,USA,Business,Master,5,32799,0,0,7,Approved,47
+36,Germany,Canada,Student,Bachelor,10,17582,0,1,12,Approved,55
+48,Philippines,Canada,Work,Bachelor,2,42958,1,1,11,Rejected,89
+33,India,Australia,Dependent,High School,3,44912,0,1,3,Approved,50
+31,India,USA,Student,Master,12,3814,0,1,5,Approved,68
+22,Philippines,Germany,Work,PhD,10,12740,0,1,4,Approved,66
+43,Philippines,UK,Student,Bachelor,9,27719,0,1,12,Approved,52
+45,Philippines,Germany,Work,High School,2,38545,0,0,1,Rejected,77
+19,China,Canada,Student,Bachelor,12,23150,0,0,12,Approved,55
+23,India,Germany,Dependent,Master,5,7958,0,0,7,Approved,65
+26,Philippines,Canada,Tourist,Master,0,6825,0,1,4,Approved,24
+50,China,Canada,Tourist,Master,7,17800,0,1,1,Approved,25
+42,UK,Canada,Tourist,Bachelor,7,12999,1,0,11,Rejected,40
+30,China,Canada,Work,Master,8,23854,0,1,6,Approved,85
+26,India,Canada,Work,Master,5,48732,0,1,4,Approved,77
+30,Germany,Australia,Business,Bachelor,0,30315,1,1,4,Rejected,35
+48,UK,Germany,Dependent,Bachelor,2,42540,0,0,2,Approved,50
+28,India,Australia,Work,High School,14,12481,1,1,1,Approved,79
+21,China,Australia,Business,Bachelor,0,20246,2,1,3,Rejected,52
+51,Nigeria,USA,Work,Master,14,25601,0,0,10,Approved,73
+21,Brazil,USA,Work,Bachelor,12,13677,0,1,5,Approved,93
+36,India,USA,Work,Master,14,32552,0,0,12,Approved,70
+23,Philippines,UK,Student,Master,4,25322,1,1,9,Approved,72
+51,China,USA,Student,Bachelor,2,5355,0,1,7,Rejected,76
+35,Philippines,Germany,Student,Master,13,12157,0,1,4,Approved,61
+30,Philippines,Australia,Work,Bachelor,1,38163,1,0,8,Rejected,99
+40,Philippines,Germany,Work,Bachelor,2,28914,1,1,12,Rejected,78
+36,Philippines,USA,Work,High School,8,36292,0,0,4,Approved,67
+28,Philippines,UK,Dependent,Bachelor,10,3561,0,1,6,Approved,69
+18,UK,UK,Work,High School,7,11167,0,1,12,Approved,76
+41,India,Australia,Work,High School,12,19184,0,1,1,Approved,65
+24,India,Germany,Student,Bachelor,2,27497,1,1,6,Rejected,81
+42,Brazil,Canada,Student,Bachelor,10,26800,0,0,10,Approved,54
+38,China,Germany,Tourist,PhD,1,40432,0,1,5,Approved,38
+32,Nigeria,USA,Work,Bachelor,4,4205,1,0,2,Rejected,83
+18,UK,Canada,Tourist,Master,11,15039,0,0,1,Approved,26
+29,China,UK,Student,Bachelor,11,48161,1,1,6,Approved,84
+24,UK,Australia,Work,Master,12,38006,0,1,11,Approved,77
+32,India,Australia,Student,Bachelor,11,20544,1,0,2,Rejected,67
+38,Philippines,UK,Student,PhD,0,15987,2,1,9,Rejected,73
+36,Brazil,USA,Student,Bachelor,3,8239,0,0,9,Rejected,59
+46,Brazil,UK,Student,Master,7,47785,1,0,1,Approved,71
+42,Germany,USA,Student,Bachelor,0,26358,2,0,5,Rejected,94
+50,Nigeria,Canada,Student,High School,4,20138,2,1,8,Rejected,92
+49,Brazil,UK,Dependent,Master,11,25984,0,1,4,Approved,48
+52,Philippines,USA,Student,High School,3,31428,0,1,3,Approved,64
+43,India,Canada,Student,Bachelor,5,12096,0,0,5,Rejected,65
+28,Nigeria,UK,Student,Bachelor,6,27536,0,1,5,Approved,75
+52,China,Australia,Work,Master,8,49059,0,1,8,Approved,94
+25,Philippines,UK,Student,PhD,0,5621,0,1,6,Approved,72
+31,Philippines,Germany,Business,Bachelor,10,38958,0,1,2,Approved,25
+27,Brazil,UK,Dependent,Master,9,6948,0,1,11,Approved,57
+19,Nigeria,Germany,Student,Bachelor,3,4287,1,1,1,Rejected,71
+26,India,Canada,Work,Bachelor,5,26902,1,1,3,Rejected,77
+20,Germany,UK,Student,PhD,9,24164,0,1,2,Approved,56
+38,UK,Canada,Work,Master,6,18668,0,1,4,Approved,67
+43,UK,Canada,Work,Master,6,4772,1,1,3,Approved,87
+25,India,USA,Student,Bachelor,7,35238,0,0,9,Approved,57
+19,India,Canada,Student,Bachelor,13,41968,0,1,5,Approved,69
+23,UK,Canada,Tourist,Bachelor,9,18762,1,1,4,Approved,32
+45,Germany,UK,Work,Bachelor,7,38906,0,0,10,Approved,69
+46,Nigeria,UK,Student,Bachelor,7,10213,1,0,9,Rejected,64
+43,UK,Australia,Tourist,Master,7,17941,1,1,4,Approved,37
+42,India,USA,Work,Master,11,33345,0,1,6,Approved,91
+29,Brazil,Canada,Business,Bachelor,14,38184,1,0,10,Approved,43
+22,China,USA,Student,High School,7,18964,0,0,1,Rejected,55
+51,Germany,Germany,Tourist,Master,5,29855,1,1,2,Approved,39
+54,Philippines,Canada,Tourist,Bachelor,8,20968,1,0,4,Rejected,32
+32,Germany,USA,Student,Master,2,4046,0,0,9,Rejected,51
+53,Brazil,Australia,Tourist,High School,5,17909,0,1,6,Approved,45
+32,Brazil,Australia,Work,Bachelor,4,16578,0,1,6,Approved,82
+40,Philippines,Canada,Business,PhD,14,26368,0,0,11,Approved,33
+23,India,Germany,Student,High School,14,31599,2,0,9,Rejected,76
+38,UK,Australia,Work,Bachelor,7,8719,0,1,12,Approved,79
+40,Nigeria,Australia,Work,Bachelor,3,18960,0,0,4,Rejected,75
+33,Germany,Germany,Dependent,PhD,3,26606,0,0,3,Approved,55
+32,Philippines,USA,Student,Master,12,18624,0,0,7,Approved,73
+42,Germany,Australia,Dependent,Bachelor,14,42179,1,0,12,Approved,67
+53,Brazil,UK,Business,High School,9,43842,0,0,7,Approved,54
+28,UK,Australia,Student,Master,10,13352,1,1,9,Approved,65
+32,Germany,USA,Tourist,Bachelor,9,33885,0,0,6,Approved,42
+21,Nigeria,USA,Dependent,Master,12,18003,0,0,2,Approved,54
+38,Brazil,Canada,Student,High School,4,12223,0,0,6,Rejected,75
+30,Nigeria,UK,Work,High School,10,34433,0,1,8,Approved,88
+39,UK,USA,Work,Master,12,15718,0,1,6,Approved,82
+36,Germany,Germany,Student,Bachelor,12,4315,0,1,9,Approved,56
+51,China,UK,Student,Master,14,24553,1,1,4,Approved,68
+31,Germany,UK,Student,High School,5,27682,2,0,3,Rejected,71
+21,UK,Germany,Student,Bachelor,14,22464,0,1,11,Approved,61
+44,Germany,Australia,Work,PhD,10,44704,0,0,5,Approved,86
+46,Philippines,Germany,Student,Bachelor,3,34419,0,0,3,Approved,54
+45,Germany,Germany,Business,Master,1,16767,1,0,11,Rejected,42
+52,India,Australia,Tourist,Bachelor,11,9466,0,0,12,Approved,23
+25,Germany,Australia,Student,Master,11,34028,0,1,2,Approved,50
+33,Germany,Australia,Tourist,Master,13,40858,0,1,2,Approved,30
+53,Nigeria,Australia,Tourist,Bachelor,1,7240,0,1,4,Rejected,32
+47,China,Australia,Dependent,Master,11,34459,0,0,3,Approved,59
+35,Nigeria,Germany,Student,Master,2,28396,0,1,9,Approved,59
+19,Nigeria,Canada,Student,Bachelor,1,19795,0,0,7,Rejected,72
+30,Brazil,Canada,Business,Master,0,27689,0,1,6,Approved,54
+21,India,USA,Business,Master,13,17910,1,0,10,Approved,40
+43,Nigeria,Canada,Tourist,Bachelor,7,5446,0,0,12,Rejected,32
+42,Philippines,Canada,Tourist,Bachelor,11,6346,0,1,8,Approved,42
+47,UK,Germany,Student,Bachelor,4,48179,1,1,9,Approved,62
+28,Philippines,Australia,Work,Bachelor,9,43517,0,1,3,Approved,72
+24,UK,Australia,Student,Master,0,7142,0,0,12,Rejected,57
+48,Germany,Germany,Student,Bachelor,12,19070,1,0,10,Approved,71
+27,Brazil,Canada,Tourist,PhD,8,49955,0,0,7,Approved,35
+30,India,Germany,Student,Bachelor,7,10087,0,1,9,Approved,53
+48,Philippines,USA,Work,Bachelor,3,26752,1,1,1,Rejected,81
+24,India,Australia,Business,Master,7,18635,0,0,10,Approved,37
+53,Philippines,UK,Student,Bachelor,12,25218,0,0,9,Approved,63
+37,Germany,USA,Dependent,Bachelor,11,34873,0,1,7,Approved,70
+21,UK,USA,Dependent,High School,12,45965,0,0,10,Approved,45
+24,China,Germany,Work,Bachelor,9,48039,2,0,4,Rejected,87
+18,Brazil,Canada,Student,Bachelor,6,17724,2,1,11,Rejected,72
+30,Philippines,Australia,Student,PhD,10,34351,0,0,12,Approved,55
+39,Philippines,UK,Work,Bachelor,14,34433,0,1,6,Approved,84
+38,Germany,USA,Student,Master,10,12261,0,1,11,Approved,61
+39,Brazil,UK,Student,Master,6,16479,0,0,11,Approved,60
+45,UK,Canada,Dependent,Bachelor,0,18804,0,0,6,Rejected,74
+26,UK,Canada,Student,Bachelor,5,30245,0,0,6,Approved,71
+43,Philippines,UK,Tourist,Master,12,48101,0,1,2,Approved,22
+26,China,Australia,Student,Master,3,15827,0,1,5,Approved,75
+32,China,Canada,Work,Bachelor,13,45368,1,0,7,Approved,90
+27,India,UK,Business,Bachelor,9,47700,1,1,6,Approved,60
+41,Brazil,USA,Student,Bachelor,9,15040,0,1,3,Approved,64
+25,Brazil,UK,Student,High School,9,22477,0,1,11,Approved,52
+41,UK,UK,Tourist,Master,10,19127,1,1,12,Approved,37
+33,India,Germany,Tourist,Master,11,24182,1,1,5,Approved,49
+43,Germany,Canada,Tourist,Bachelor,1,29049,0,1,8,Approved,49
+44,Brazil,Australia,Student,Master,9,27527,0,1,11,Approved,52
+54,India,Australia,Student,Master,6,15473,2,0,5,Rejected,98
+21,India,Germany,Dependent,Bachelor,8,19709,0,1,12,Approved,52
+41,Philippines,Australia,Business,High School,12,36974,0,1,10,Approved,30
+36,UK,UK,Work,Master,4,45464,0,1,3,Approved,79
+53,India,Germany,Tourist,Master,7,16714,0,1,9,Approved,22
+27,China,USA,Work,Master,4,37208,0,1,11,Approved,78
+42,China,Canada,Work,High School,13,34945,0,1,3,Approved,69
+35,Nigeria,Canada,Student,Bachelor,6,24568,0,0,2,Approved,50
+36,UK,Canada,Work,High School,6,12147,0,1,6,Approved,85
+53,Philippines,UK,Work,Master,8,19267,0,1,8,Approved,94
+27,Germany,USA,Student,Master,2,44514,2,1,6,Rejected,98
+50,Nigeria,Germany,Work,High School,13,34452,0,1,1,Approved,76
+22,China,Germany,Tourist,Master,0,8136,0,0,8,Rejected,47
+52,Philippines,Canada,Tourist,Master,1,35579,0,0,1,Approved,33
+51,Nigeria,USA,Work,Master,11,34516,0,1,9,Approved,73
+50,UK,USA,Business,PhD,5,14446,2,0,8,Rejected,71
+38,Philippines,USA,Student,High School,13,48099,0,1,6,Approved,71
+34,UK,Australia,Work,PhD,9,27524,0,0,2,Approved,79
+39,India,Australia,Tourist,High School,9,16188,0,0,9,Approved,30
+54,Brazil,Canada,Work,Bachelor,11,41587,0,1,8,Approved,92
+32,India,USA,Student,Master,12,43837,0,1,4,Approved,57
+52,UK,USA,Student,PhD,13,48537,0,0,2,Approved,55
+45,Philippines,Germany,Business,Bachelor,8,8560,1,0,6,Rejected,60
+24,China,Germany,Work,Master,2,48621,0,1,1,Approved,69
+49,Germany,Canada,Business,Master,9,46227,0,1,7,Approved,54
+28,China,USA,Work,Master,1,39397,0,1,1,Approved,76
+27,Philippines,Canada,Tourist,High School,10,14657,0,0,6,Approved,40
+26,India,Germany,Tourist,Master,0,41082,0,1,5,Approved,41
+31,Germany,Germany,Tourist,Bachelor,1,21840,0,0,12,Rejected,28
+30,Philippines,Australia,Work,Bachelor,2,44430,1,0,10,Rejected,82
+42,UK,Canada,Work,Bachelor,6,43397,0,1,3,Approved,69
+19,China,Canada,Tourist,Bachelor,1,14324,0,0,6,Rejected,49
+52,UK,USA,Work,PhD,12,28247,0,0,4,Approved,71
+24,Germany,USA,Work,Bachelor,4,20558,0,0,12,Rejected,72
+38,Germany,Australia,Student,PhD,1,22943,0,1,6,Approved,65
+35,China,UK,Business,Bachelor,6,42460,0,1,4,Approved,32
+20,UK,UK,Student,Master,9,44986,0,1,1,Approved,60
+28,Nigeria,UK,Work,Master,7,47514,0,1,5,Approved,86
+41,UK,Canada,Work,Master,7,18372,0,0,8,Approved,90
+36,Germany,Canada,Work,Master,12,15631,0,1,6,Approved,91
+21,UK,Germany,Tourist,Master,14,4472,0,0,10,Approved,31
+43,Philippines,Canada,Student,Master,7,29955,0,1,9,Approved,51
+49,India,Canada,Work,Master,9,33802,0,1,4,Approved,66
+53,Nigeria,Canada,Tourist,High School,14,7872,0,0,10,Approved,31
+54,Brazil,Australia,Tourist,Master,8,30547,0,0,9,Approved,25
+50,Philippines,Canada,Student,Bachelor,0,46341,0,1,8,Approved,67
+53,India,USA,Business,Bachelor,11,16691,0,0,3,Approved,25
+20,Brazil,USA,Tourist,Master,0,47250,1,0,6,Rejected,59
+26,China,Germany,Business,Bachelor,13,7753,2,0,4,Rejected,52
+25,Brazil,Australia,Work,Master,14,4833,0,1,1,Approved,71
+50,Philippines,USA,Work,Bachelor,13,41696,0,1,9,Approved,68
+23,UK,Australia,Business,High School,13,11645,0,1,4,Approved,38
+21,Philippines,Australia,Business,Bachelor,9,42584,0,1,11,Approved,25
+30,Brazil,Germany,Work,High School,1,33441,0,1,5,Rejected,81
+19,Germany,Australia,Student,Master,10,43024,1,0,3,Approved,68
+22,India,Canada,Work,Bachelor,14,46317,0,0,4,Approved,68
+44,India,Australia,Work,Bachelor,5,18062,2,1,9,Rejected,87
+49,Brazil,Germany,Student,High School,13,12635,0,1,7,Approved,72
+38,India,Germany,Student,Bachelor,0,23064,0,1,8,Approved,68
+25,Germany,Germany,Business,Master,4,12940,1,1,3,Rejected,41
+25,Philippines,USA,Student,Bachelor,14,38169,1,1,3,Approved,74
+20,India,Canada,Tourist,Master,4,16111,1,1,7,Approved,57
+20,Brazil,USA,Student,PhD,14,47131,0,0,8,Approved,78
+39,Nigeria,UK,Student,Master,14,48200,0,0,5,Approved,78
+23,Nigeria,Canada,Student,Master,3,32739,0,1,1,Approved,63
+19,China,Australia,Student,High School,10,45746,0,0,3,Approved,54
+40,India,Germany,Tourist,Bachelor,4,20793,0,1,5,Approved,39
+19,Philippines,UK,Business,Master,11,21146,2,0,3,Rejected,55
+34,Brazil,Canada,Student,Master,0,36677,0,1,1,Approved,55
+52,India,USA,Work,Master,10,3760,1,1,7,Approved,101
+51,UK,Germany,Work,Master,10,26022,0,1,1,Approved,77
+40,Germany,USA,Business,Bachelor,5,8612,0,0,10,Rejected,28
+47,India,Canada,Tourist,High School,6,39008,1,1,6,Rejected,46
+25,India,Canada,Work,Master,7,30265,0,0,6,Approved,85
+39,Nigeria,UK,Tourist,Master,14,3530,0,1,7,Approved,47
+53,Germany,Australia,Tourist,Bachelor,1,12551,0,1,12,Rejected,24
+22,Brazil,USA,Student,Master,14,31394,0,0,11,Approved,52
+30,India,UK,Work,Bachelor,14,45987,2,1,1,Approved,88
+46,Nigeria,Germany,Business,Bachelor,6,5560,0,1,11,Approved,27
+48,China,Australia,Tourist,Master,5,21561,0,1,3,Approved,22
+33,Germany,UK,Work,Master,8,8103,0,1,12,Approved,68
+47,Nigeria,USA,Work,Bachelor,14,27090,0,1,9,Approved,66
+33,Nigeria,Canada,Student,High School,7,20921,0,0,2,Rejected,53
+29,Philippines,Germany,Work,Bachelor,13,45233,0,1,5,Approved,89
+34,Nigeria,USA,Tourist,Master,10,5781,1,1,3,Approved,40
+33,Philippines,Australia,Work,Bachelor,13,20330,1,0,12,Approved,76
+29,India,Australia,Tourist,Master,14,8257,0,1,12,Approved,33
+25,India,Canada,Business,PhD,3,37956,0,1,5,Approved,49
+37,China,Canada,Student,Master,13,41831,0,1,7,Approved,72
+20,UK,Germany,Work,Bachelor,12,18615,1,0,1,Approved,84
+33,UK,Germany,Work,Master,8,3881,0,0,3,Approved,69
+47,UK,Canada,Tourist,Bachelor,0,4847,0,0,11,Rejected,32
+40,Philippines,Canada,Student,Bachelor,10,42367,0,1,6,Approved,71
+45,Germany,Australia,Work,High School,5,25110,0,1,7,Approved,90
+22,Germany,Canada,Business,Bachelor,7,40336,0,0,10,Approved,28
+37,China,UK,Work,PhD,10,19314,0,0,3,Approved,74
+18,Germany,USA,Business,Bachelor,10,33118,2,1,4,Rejected,50
+47,UK,Canada,Dependent,Bachelor,3,42931,0,0,6,Approved,72
+38,UK,Germany,Student,PhD,1,46924,0,0,5,Approved,76
+37,Nigeria,UK,Student,High School,10,25966,0,1,11,Approved,63
+23,Germany,Germany,Dependent,Master,1,47023,0,1,9,Approved,54
+39,India,UK,Dependent,Bachelor,9,14320,0,1,12,Approved,48
+35,India,Canada,Student,High School,0,5216,0,1,1,Rejected,64
+25,Nigeria,USA,Student,PhD,4,28564,1,0,5,Approved,80
+49,Nigeria,Germany,Student,High School,12,41469,0,1,11,Approved,50
+50,Nigeria,UK,Dependent,Master,5,27401,0,0,1,Approved,50
+33,India,Australia,Student,Bachelor,3,14780,0,0,8,Rejected,70
+29,UK,Canada,Work,High School,3,13694,0,0,7,Rejected,81
+51,Nigeria,USA,Tourist,High School,4,7809,0,0,5,Rejected,46
+31,China,Canada,Student,High School,13,19562,0,0,6,Approved,74
+53,Philippines,Australia,Work,High School,14,35441,0,1,4,Approved,74
+50,Nigeria,USA,Student,Master,4,43539,1,1,9,Approved,68
+40,Philippines,Australia,Business,Bachelor,13,4929,0,0,3,Approved,39
+19,Brazil,Canada,Student,Bachelor,13,32617,0,1,2,Approved,55
+38,Nigeria,UK,Tourist,Bachelor,13,17244,0,1,7,Approved,46
+19,India,Canada,Tourist,PhD,13,35879,0,0,2,Approved,34
+44,Germany,Canada,Student,PhD,8,47179,0,0,6,Approved,75
+26,Nigeria,Canada,Student,Master,7,14116,1,0,11,Rejected,72
+18,Germany,Germany,Work,Master,8,25418,0,0,8,Approved,86
+28,Brazil,Australia,Student,Bachelor,12,18707,0,1,3,Approved,51
+20,China,Australia,Tourist,Bachelor,13,20765,0,0,3,Approved,21
+40,Germany,Australia,Tourist,Master,2,38895,0,0,3,Approved,21
+43,Philippines,Germany,Work,Master,13,16100,0,0,1,Approved,74
+21,UK,UK,Work,Bachelor,2,26867,1,1,9,Rejected,87
+35,Nigeria,Canada,Work,Bachelor,0,46971,0,0,5,Rejected,90
+23,Brazil,UK,Tourist,PhD,13,4208,0,1,9,Approved,28
+52,Brazil,Germany,Work,Master,9,47085,0,0,5,Approved,82
+39,Germany,Australia,Student,Bachelor,12,3036,0,1,7,Approved,77
+32,China,Canada,Student,Master,5,21212,0,1,1,Approved,53
+39,India,USA,Work,Bachelor,3,14252,0,1,9,Approved,65
+54,Nigeria,USA,Work,High School,10,22725,0,1,1,Approved,65
+29,Brazil,UK,Work,Bachelor,14,10006,1,1,4,Approved,78
+35,China,Australia,Student,Bachelor,14,27059,0,1,7,Approved,78
+52,UK,USA,Tourist,High School,13,8347,0,1,11,Approved,21
+47,Brazil,UK,Student,Master,7,35171,1,0,12,Approved,67
+41,China,Germany,Student,Bachelor,1,31517,0,1,9,Approved,62
+47,India,UK,Work,Master,10,27274,1,1,1,Approved,78
+31,India,UK,Student,High School,1,36577,0,0,12,Rejected,52
+23,Brazil,UK,Work,Bachelor,6,30648,0,1,11,Approved,67
+20,Philippines,Canada,Work,Master,12,7118,0,1,6,Approved,85
+33,Brazil,UK,Work,Master,14,20910,0,1,11,Approved,76
+24,Germany,UK,Work,PhD,4,16083,0,1,10,Approved,77
+31,Nigeria,Canada,Student,PhD,12,16187,1,1,11,Approved,65
+26,China,Canada,Student,Bachelor,0,3424,0,0,5,Rejected,70
+32,Brazil,Germany,Business,Bachelor,6,29641,0,0,3,Approved,30
+38,Nigeria,Australia,Work,Master,6,37750,0,1,10,Approved,72
+52,Germany,USA,Work,PhD,9,18918,0,1,2,Approved,72
+19,Nigeria,USA,Student,Master,5,26154,0,1,1,Approved,58
+44,Brazil,UK,Work,Master,3,14992,0,0,2,Approved,65
+19,India,Germany,Work,Master,11,37001,0,0,12,Approved,74
+52,China,UK,Work,Bachelor,12,45757,0,1,4,Approved,72
+35,China,USA,Tourist,Master,7,17546,2,0,6,Rejected,59
+31,India,Canada,Student,Master,11,44524,0,1,12,Approved,52
+37,Philippines,Australia,Student,Master,10,6019,2,0,5,Rejected,95
+35,Brazil,Germany,Tourist,High School,1,4304,0,0,4,Rejected,29
+27,China,Canada,Business,Bachelor,1,49912,0,0,8,Approved,42
+42,Brazil,Australia,Student,High School,1,19832,1,0,12,Rejected,65
+19,Germany,Germany,Work,Bachelor,2,25791,0,1,7,Approved,87
+42,Brazil,Germany,Student,PhD,5,13022,1,0,4,Rejected,69
+50,Nigeria,USA,Student,High School,0,13350,0,0,10,Rejected,51
+53,India,Canada,Student,Bachelor,10,14818,1,1,5,Approved,86
+48,Philippines,Germany,Student,Bachelor,1,36617,0,1,12,Approved,58
+31,Brazil,Germany,Tourist,Master,9,6962,0,1,10,Approved,24
+18,Philippines,Australia,Work,Bachelor,14,7854,0,0,5,Approved,84
+33,Philippines,USA,Student,Bachelor,1,37307,1,0,3,Rejected,60
+20,Germany,UK,Student,Bachelor,13,5944,0,1,9,Approved,55
+52,UK,USA,Tourist,Bachelor,11,25327,0,1,11,Approved,32
+23,India,UK,Student,Bachelor,0,6244,0,0,5,Rejected,75
+42,Philippines,Canada,Work,Bachelor,2,25720,0,0,12,Rejected,75
+30,China,Canada,Student,PhD,9,28090,0,1,10,Approved,54
+51,Nigeria,Germany,Work,Bachelor,6,49023,0,1,2,Approved,71
+25,China,Canada,Student,High School,14,37359,0,1,4,Approved,56
+38,Germany,Germany,Student,Master,12,10855,0,0,12,Approved,53
+51,Germany,USA,Student,Bachelor,0,4601,1,0,4,Rejected,64
+21,China,Canada,Student,Master,6,34952,0,0,5,Approved,74
+42,India,USA,Work,Bachelor,4,48577,0,0,8,Approved,93
+32,China,USA,Tourist,Master,8,8690,0,1,5,Approved,42
+21,Brazil,Canada,Student,Master,1,15521,0,0,1,Rejected,51
+29,China,USA,Student,PhD,0,37610,0,1,2,Approved,50
+49,Nigeria,Canada,Work,Bachelor,8,13483,1,1,3,Approved,88
+49,Nigeria,Canada,Work,Bachelor,7,11058,0,0,3,Approved,70
+45,UK,Canada,Dependent,Bachelor,9,16704,0,1,10,Approved,55
+30,Nigeria,UK,Work,PhD,5,8565,0,1,6,Approved,93
+48,China,USA,Work,PhD,14,46856,1,1,9,Approved,78
+31,Nigeria,Australia,Work,High School,4,40256,0,0,10,Rejected,77
+37,India,Canada,Business,High School,7,33615,0,0,1,Approved,34
+35,Philippines,USA,Tourist,Bachelor,7,44674,0,0,6,Approved,37
+46,Nigeria,Germany,Student,High School,13,4927,0,0,9,Approved,56
+23,Brazil,Canada,Student,Bachelor,4,18512,0,1,4,Approved,57
+49,India,Canada,Student,High School,11,11301,0,1,10,Approved,60
+46,UK,Australia,Work,Master,6,24313,0,0,3,Approved,76
+19,Brazil,UK,Tourist,PhD,12,11457,0,1,6,Approved,38
+40,China,UK,Work,PhD,12,8492,1,1,6,Approved,101
+36,Philippines,Canada,Student,Bachelor,0,6223,0,1,2,Rejected,61
+48,China,USA,Tourist,Master,3,25511,0,0,5,Approved,49
+22,Philippines,Germany,Tourist,Master,1,24455,0,0,1,Approved,29
+36,Philippines,Germany,Student,High School,9,36722,0,1,9,Approved,61
+51,China,USA,Tourist,Master,2,26434,0,0,9,Approved,30
+27,Brazil,Canada,Work,Bachelor,11,33341,0,1,3,Approved,75
+42,Brazil,Germany,Business,Bachelor,0,45309,0,1,5,Approved,54
+19,Philippines,UK,Tourist,Bachelor,10,18007,0,1,3,Approved,25
+28,Brazil,USA,Work,High School,10,37342,0,1,7,Approved,92
+48,Philippines,Australia,Tourist,Master,1,29799,0,0,1,Approved,30
+32,Philippines,Canada,Business,Bachelor,12,18674,1,1,5,Approved,60
+26,India,USA,Work,Bachelor,0,18426,0,0,6,Rejected,94
+40,Germany,Germany,Student,High School,7,10095,0,1,11,Approved,51
+36,India,Canada,Tourist,Master,3,47791,0,0,12,Approved,27
+26,China,UK,Student,Bachelor,2,27104,1,1,7,Rejected,80
+52,Germany,Canada,Work,Master,0,6255,0,0,3,Rejected,75
+38,Nigeria,Canada,Business,Master,1,36826,0,1,7,Approved,48
+26,China,UK,Tourist,Bachelor,2,37725,0,1,4,Approved,30
+45,UK,UK,Work,Bachelor,2,26032,0,1,10,Approved,77
+24,India,Canada,Student,Master,5,7944,0,0,11,Approved,62
+33,Brazil,UK,Work,High School,9,40826,0,1,6,Approved,85
+33,India,USA,Student,High School,7,33497,0,0,5,Approved,70
+50,Brazil,UK,Student,Master,5,30723,0,1,4,Approved,61
+21,Germany,UK,Tourist,Bachelor,1,38287,0,1,6,Approved,36
+21,UK,Canada,Student,Bachelor,1,14845,0,1,12,Approved,54
+34,Germany,USA,Work,Bachelor,13,27297,0,0,3,Approved,73
+54,UK,Australia,Work,Bachelor,6,5570,0,1,3,Approved,65
+46,India,Australia,Dependent,Master,0,30503,1,1,5,Rejected,73
+53,Brazil,Germany,Work,Master,0,10450,0,1,11,Approved,74
+54,Germany,UK,Student,Master,6,23271,0,1,5,Approved,74
+52,UK,UK,Student,Master,8,43471,0,1,9,Approved,63
+24,Philippines,USA,Work,Bachelor,4,18898,0,1,4,Approved,67
+44,China,Australia,Work,Bachelor,10,17389,0,0,5,Approved,80
+45,China,Germany,Work,Bachelor,0,28463,1,0,12,Rejected,75
+39,Germany,USA,Work,Bachelor,4,3744,0,0,9,Rejected,79
+31,Brazil,UK,Student,PhD,10,25804,0,1,4,Approved,50
+24,Philippines,Australia,Work,Master,0,39282,1,1,3,Rejected,75
+54,Germany,Germany,Work,Bachelor,9,13871,0,1,7,Approved,94
+39,India,Canada,Student,High School,14,16536,1,1,7,Approved,87
+22,UK,Australia,Student,High School,11,26097,0,0,8,Approved,66
+19,India,Germany,Student,Bachelor,8,3175,0,0,4,Approved,60
+44,China,USA,Student,High School,3,6217,0,0,4,Rejected,54
+38,UK,Canada,Work,Bachelor,8,18106,0,1,9,Approved,66
+32,Germany,Germany,Student,Master,1,33359,1,0,10,Rejected,63
+38,India,Germany,Student,Master,6,49464,0,0,7,Approved,73
+27,Nigeria,UK,Student,Bachelor,14,25357,0,1,3,Approved,52
+40,Brazil,Australia,Dependent,Bachelor,11,45354,1,0,9,Approved,56
+22,Philippines,UK,Business,Bachelor,12,41570,0,0,5,Approved,43
+18,Philippines,Canada,Student,Master,1,10034,1,0,4,Rejected,68
+30,Brazil,Germany,Student,Master,11,19263,1,1,1,Approved,63
+38,Nigeria,UK,Student,PhD,3,45180,0,0,9,Approved,64
+43,China,Australia,Work,Bachelor,5,11776,0,1,6,Approved,91
+38,UK,Canada,Student,Master,13,46822,0,0,11,Approved,54
+35,Brazil,USA,Tourist,High School,1,12812,0,1,2,Rejected,23
+54,Nigeria,UK,Work,Master,1,22739,1,1,7,Rejected,102
+49,Germany,Canada,Business,Bachelor,1,29925,0,1,3,Approved,32
+53,Philippines,USA,Student,Bachelor,2,22575,0,1,6,Approved,78
+34,Nigeria,UK,Tourist,Master,4,25231,0,1,8,Approved,47
+52,China,Canada,Tourist,Bachelor,8,14399,0,1,3,Approved,34
+28,China,Canada,Student,High School,5,26100,0,1,12,Approved,64
+38,India,UK,Work,High School,14,13768,0,1,12,Approved,68
+43,Brazil,Canada,Student,High School,14,36299,0,1,5,Approved,66
+21,India,Germany,Student,High School,11,14357,1,1,6,Approved,86
+51,Philippines,UK,Student,High School,13,4437,0,1,1,Approved,53
+35,Nigeria,Canada,Work,Bachelor,8,27946,1,0,10,Rejected,76
+52,UK,USA,Work,Bachelor,9,23888,0,1,7,Approved,88
+46,UK,USA,Business,PhD,14,8502,0,1,4,Approved,35
+46,China,Germany,Student,Bachelor,13,43376,1,1,10,Approved,73
+38,UK,UK,Dependent,High School,12,8566,0,1,11,Approved,52
+30,UK,Canada,Student,Bachelor,4,44576,1,0,7,Rejected,83
+34,Philippines,Canada,Tourist,Master,10,7014,0,0,7,Approved,38
+26,UK,USA,Student,Master,5,16613,0,1,11,Approved,50
+18,Nigeria,Germany,Student,Bachelor,9,43167,1,0,5,Approved,77
+19,UK,USA,Business,Master,11,36699,0,0,8,Approved,46
+46,Germany,USA,Student,Master,7,38233,0,1,8,Approved,65
+50,UK,Germany,Tourist,Master,2,24814,0,0,5,Approved,45
+27,UK,UK,Work,Master,1,26386,1,0,5,Rejected,97
+38,India,Canada,Work,Master,2,49776,1,0,7,Rejected,98
+45,Nigeria,UK,Work,Master,13,44585,0,1,6,Approved,87
+28,China,Australia,Tourist,Master,8,41756,2,0,4,Rejected,44
+51,India,Australia,Student,Bachelor,14,10509,0,0,2,Approved,61
+25,Brazil,Australia,Tourist,Master,5,25316,1,1,8,Approved,55
+39,Nigeria,Germany,Business,Master,9,48617,0,0,3,Approved,38
+25,Germany,USA,Student,High School,11,14071,0,1,2,Approved,61
+32,Nigeria,UK,Student,PhD,3,30742,1,0,12,Rejected,72
+34,Brazil,Canada,Tourist,Bachelor,9,49849,0,1,10,Approved,34
+40,Brazil,Australia,Work,Bachelor,2,16228,2,1,7,Rejected,108
+41,Brazil,UK,Work,Master,12,14614,0,1,10,Approved,68
+36,Philippines,Australia,Student,Bachelor,1,13301,0,0,6,Rejected,73
+22,China,Australia,Work,Bachelor,14,38549,1,0,8,Approved,90
+49,UK,Canada,Student,High School,13,45851,2,1,6,Approved,96
+18,Nigeria,Germany,Work,Bachelor,3,14374,0,0,7,Rejected,90
+40,Philippines,USA,Tourist,Bachelor,8,37407,0,1,2,Approved,22
+54,UK,Germany,Student,Bachelor,3,49606,1,0,10,Rejected,63
+25,UK,UK,Work,Bachelor,12,44741,1,1,2,Approved,85
+30,Germany,Germany,Dependent,PhD,11,16982,0,1,6,Approved,69
+25,Brazil,UK,Tourist,PhD,4,34258,0,1,9,Approved,20
+40,China,UK,Tourist,High School,14,48652,1,0,3,Approved,41
+18,Germany,USA,Work,Master,7,13248,0,0,11,Approved,70
+41,India,Canada,Tourist,High School,1,13515,2,1,10,Rejected,52
+52,Philippines,USA,Student,High School,11,38042,0,1,8,Approved,79
+41,Philippines,Germany,Student,High School,10,29809,0,0,5,Approved,68
+34,China,UK,Student,PhD,13,13830,0,1,6,Approved,68
+22,UK,Australia,Work,PhD,2,38248,0,0,6,Approved,80
+37,Philippines,Australia,Tourist,Bachelor,5,9799,0,1,11,Approved,24
+38,China,UK,Student,Bachelor,11,11547,2,0,12,Rejected,78
+48,Philippines,USA,Tourist,Bachelor,6,34562,0,1,10,Approved,25
+53,Philippines,Canada,Tourist,Bachelor,3,17328,1,1,11,Rejected,44
+28,Brazil,USA,Work,Master,13,15679,0,1,3,Approved,72
+32,India,UK,Work,Bachelor,14,24058,1,1,11,Approved,85
+36,Brazil,UK,Work,Master,0,35237,0,0,11,Approved,68
+24,India,Canada,Student,Bachelor,6,49696,0,1,5,Approved,73
+45,Philippines,Germany,Student,PhD,11,22906,0,1,12,Approved,56
+22,Germany,Germany,Dependent,Master,8,46427,0,1,1,Approved,58
+22,UK,Canada,Student,Bachelor,0,41872,2,1,2,Rejected,83
+47,Philippines,Germany,Student,Master,13,19547,0,1,10,Approved,56
+49,India,Australia,Business,Master,0,26306,0,0,3,Rejected,32
+25,India,Germany,Student,Bachelor,0,31210,0,1,4,Approved,51
+27,India,Germany,Tourist,Bachelor,9,48693,0,0,9,Approved,31
+49,Philippines,Germany,Student,PhD,6,31239,0,1,1,Approved,55
+45,China,Australia,Work,Bachelor,10,30830,0,1,3,Approved,71
+34,Germany,Germany,Student,High School,8,6381,0,0,3,Rejected,52
+48,China,Australia,Student,Bachelor,2,37832,2,1,6,Rejected,92
+25,UK,Canada,Work,Master,7,42357,0,0,5,Approved,80
+42,Philippines,USA,Tourist,Master,8,31841,0,0,3,Approved,20
+26,India,Canada,Work,PhD,2,10447,1,1,4,Approved,84
+19,Germany,USA,Business,Bachelor,11,23368,0,1,11,Approved,27
+32,Germany,Canada,Student,High School,11,23271,1,0,7,Rejected,80
+20,Nigeria,USA,Work,Master,2,3339,0,1,3,Approved,71
+53,UK,USA,Work,Master,14,22974,0,1,9,Approved,66
+21,Germany,UK,Business,High School,0,29509,2,0,8,Rejected,73
+31,Philippines,USA,Student,Bachelor,1,40898,0,1,2,Approved,55
+42,India,USA,Work,High School,6,29221,0,0,5,Rejected,91
+27,India,UK,Business,Master,2,30263,0,1,4,Approved,29
+38,Germany,Germany,Student,Master,6,10733,0,0,12,Approved,64
+53,China,Germany,Business,Master,4,48878,1,0,5,Approved,55
+29,UK,UK,Student,PhD,9,8049,0,0,3,Approved,50
+44,India,Australia,Tourist,High School,7,46086,1,0,10,Rejected,43
+19,Germany,USA,Business,PhD,4,48401,0,1,11,Approved,34
+30,India,USA,Tourist,Master,2,24088,2,0,1,Rejected,46
+49,Germany,UK,Work,Bachelor,8,18608,0,0,8,Approved,87
+48,UK,UK,Student,PhD,14,3638,0,1,9,Approved,63
+33,Germany,Australia,Business,Bachelor,6,10709,0,1,8,Approved,46
+49,Nigeria,Germany,Work,Master,4,8143,0,0,4,Approved,73
+49,Germany,Canada,Student,Master,6,4224,1,1,12,Approved,60
+51,Germany,Germany,Tourist,Master,10,47870,0,0,2,Approved,29
+28,Philippines,USA,Work,Master,9,40013,0,1,4,Approved,73
+27,UK,UK,Student,High School,8,12741,1,0,9,Rejected,70
+32,Philippines,Australia,Student,Bachelor,4,25991,1,1,10,Rejected,70
+34,Germany,Germany,Student,Bachelor,6,43175,0,1,9,Approved,62
+35,UK,Australia,Work,Master,10,29081,1,0,5,Approved,104
+26,Nigeria,Germany,Work,Master,8,18642,0,1,5,Approved,82
+42,UK,USA,Work,PhD,0,12567,0,1,10,Approved,66
+31,India,Canada,Tourist,High School,3,44627,0,1,3,Approved,25
+42,Philippines,Australia,Business,Master,0,41536,2,1,6,Rejected,70
+39,UK,Australia,Work,PhD,7,20399,0,1,7,Approved,84
+47,Nigeria,Canada,Student,Master,2,36103,0,1,12,Approved,64
+37,Brazil,Australia,Tourist,High School,1,48721,1,1,10,Rejected,33
+38,Germany,Australia,Work,High School,13,18330,0,1,12,Approved,68
+49,UK,Germany,Work,High School,3,19464,1,0,9,Rejected,82
+38,Germany,Germany,Work,Master,10,5134,1,1,7,Approved,99
+52,China,Canada,Work,Master,2,32662,2,1,3,Rejected,97
+49,India,USA,Business,PhD,10,3184,0,1,12,Approved,27
+47,Philippines,Australia,Student,Bachelor,4,33387,0,1,7,Approved,77
+29,India,USA,Tourist,Bachelor,14,43824,1,0,1,Approved,30
+35,China,Canada,Student,Master,12,10263,0,1,2,Approved,54
+38,China,Canada,Business,Master,7,16191,0,1,4,Approved,32
+30,Philippines,Germany,Student,PhD,9,6514,0,1,7,Approved,67
+38,UK,Australia,Student,Master,7,35734,0,1,9,Approved,51
+25,China,UK,Student,Bachelor,10,9077,1,1,5,Approved,75
+24,Brazil,Canada,Work,Master,6,38120,0,0,8,Approved,92
+40,Germany,Australia,Student,Master,7,12500,0,1,7,Approved,68
+49,Germany,USA,Work,Bachelor,12,17992,0,1,5,Approved,90
+28,Nigeria,Germany,Work,Bachelor,12,13133,0,0,3,Approved,66
+39,China,USA,Student,Bachelor,4,9405,0,0,3,Rejected,63
+39,China,Canada,Student,High School,9,33269,0,1,6,Approved,72
+42,Brazil,Canada,Tourist,Master,9,19874,0,1,10,Approved,30
+39,India,USA,Tourist,High School,10,34457,0,1,11,Approved,32
+45,India,Canada,Tourist,Bachelor,11,20085,1,1,4,Approved,44
+46,Germany,Australia,Tourist,Bachelor,10,38702,0,0,3,Approved,29
+30,Germany,Canada,Student,Master,12,17347,0,1,4,Approved,61
+35,UK,Germany,Student,Bachelor,5,16502,2,0,3,Rejected,78
+19,Philippines,Australia,Student,Master,7,49479,0,1,12,Approved,62
+46,Brazil,UK,Tourist,High School,14,16848,1,0,10,Rejected,39
+38,Philippines,Canada,Dependent,High School,12,25421,0,0,11,Approved,45
+32,Philippines,Canada,Work,Bachelor,0,17426,0,1,11,Rejected,79
+44,Nigeria,Germany,Student,Bachelor,5,7695,1,0,12,Rejected,61
+48,Philippines,Germany,Student,Bachelor,5,18860,0,1,6,Approved,70
+32,Nigeria,USA,Student,High School,14,49865,1,0,7,Approved,87
+40,Philippines,USA,Work,Master,10,28710,1,0,4,Approved,84
+41,Brazil,USA,Student,Master,12,28411,0,0,3,Approved,61
+30,Nigeria,Germany,Business,High School,4,11843,0,1,3,Rejected,31
+39,India,USA,Work,High School,3,34152,1,0,11,Rejected,76
+54,Nigeria,USA,Business,PhD,0,18573,0,0,3,Approved,32
+50,Nigeria,UK,Tourist,Master,10,41334,1,1,9,Approved,42
+20,Brazil,USA,Tourist,Bachelor,9,33737,0,0,11,Approved,29
+36,Brazil,Canada,Work,Master,10,41767,0,1,11,Approved,73
+40,Nigeria,Germany,Work,Master,7,31256,0,1,12,Approved,72
+46,China,Australia,Work,Master,5,39634,0,0,3,Approved,73
+47,Brazil,UK,Work,Bachelor,2,44705,0,1,3,Approved,79
+42,UK,Germany,Work,Bachelor,11,5002,0,1,8,Approved,85
+54,UK,Germany,Dependent,High School,2,19623,0,1,4,Rejected,55
+25,India,Canada,Tourist,PhD,11,44815,0,1,7,Approved,41
+33,Philippines,USA,Tourist,Master,5,25251,0,1,3,Approved,25
+25,Nigeria,Canada,Business,Bachelor,11,15707,1,0,8,Rejected,56
+18,China,USA,Student,PhD,14,27117,0,1,3,Approved,52
+22,India,USA,Student,PhD,6,25743,0,1,5,Approved,68
+20,Nigeria,Germany,Work,PhD,7,13790,0,1,1,Approved,73
+18,Brazil,USA,Work,Master,4,35620,0,1,12,Approved,67
+21,UK,UK,Tourist,PhD,9,18596,0,1,5,Approved,36
+52,Germany,UK,Work,Bachelor,5,33339,0,0,6,Approved,91
+49,China,UK,Work,Master,11,37121,0,1,7,Approved,92
+51,Germany,Germany,Work,Master,0,45995,0,0,2,Approved,75
+42,UK,Canada,Student,Bachelor,5,44446,0,1,2,Approved,56
+27,Philippines,Australia,Work,High School,8,48678,2,1,9,Rejected,90
+38,Philippines,USA,Tourist,PhD,9,23698,0,0,10,Approved,22
+44,Germany,Australia,Student,Bachelor,3,42632,0,1,1,Approved,55
+44,Brazil,Canada,Work,Master,13,17716,0,1,2,Approved,79
+19,Nigeria,Canada,Work,High School,13,33806,0,1,2,Approved,71
+30,Brazil,Germany,Student,High School,9,20868,0,0,10,Approved,55
+26,Germany,UK,Student,Bachelor,12,34130,0,1,7,Approved,65
+53,Brazil,UK,Dependent,Bachelor,0,9125,1,1,6,Rejected,81
+39,UK,Canada,Work,Master,13,44972,0,1,9,Approved,78
+43,China,Germany,Student,Master,10,38115,0,1,11,Approved,50
+29,Brazil,Germany,Student,High School,8,39476,0,1,7,Approved,73
+34,UK,USA,Tourist,Bachelor,3,32046,0,1,3,Approved,25
+31,China,UK,Work,Bachelor,1,25760,0,0,3,Rejected,76
+31,Philippines,Canada,Work,Bachelor,0,13114,0,0,1,Rejected,66
+51,Nigeria,Australia,Student,Master,2,3637,0,1,8,Approved,79
+37,Germany,UK,Business,Bachelor,6,41634,0,1,1,Approved,35
+28,Philippines,USA,Work,High School,10,26177,0,1,11,Approved,65
+33,Nigeria,Germany,Student,Bachelor,9,38776,0,0,2,Approved,60
+48,Philippines,Canada,Work,High School,1,26600,0,0,11,Rejected,76
+23,India,UK,Work,High School,14,19251,0,1,12,Approved,66
+36,Philippines,Australia,Business,Bachelor,8,29809,0,1,7,Approved,47
+54,UK,USA,Business,Master,11,26756,0,0,1,Approved,29
+21,China,USA,Student,PhD,12,41368,0,1,12,Approved,56
+21,Philippines,UK,Business,Master,10,14649,0,0,4,Approved,31
+37,Brazil,Australia,Tourist,Bachelor,1,14366,0,0,9,Rejected,21
+27,Nigeria,USA,Business,Bachelor,4,14880,0,0,8,Rejected,43
+41,Philippines,Canada,Student,Bachelor,7,20783,0,1,11,Approved,51
+52,China,USA,Work,Master,12,25226,1,1,8,Approved,96
+43,UK,Australia,Student,PhD,12,44209,0,0,12,Approved,54
+54,India,Germany,Tourist,High School,11,8320,0,1,3,Approved,20
+38,Nigeria,Germany,Student,High School,9,11727,0,0,5,Rejected,66
+38,Germany,UK,Work,Master,7,14724,0,1,4,Approved,70
+27,China,Australia,Student,Master,2,42211,0,1,11,Approved,63
+21,Germany,USA,Student,Master,1,22933,0,0,12,Rejected,53
+37,China,USA,Work,Master,8,16394,0,0,8,Approved,86
+34,China,Germany,Business,PhD,2,42720,1,1,11,Approved,49
+24,UK,Germany,Work,Bachelor,7,44417,1,1,7,Approved,91
+21,UK,Canada,Business,PhD,1,22122,0,0,7,Approved,52
+46,UK,Germany,Student,PhD,2,39137,0,1,10,Approved,61
+31,Philippines,Canada,Work,Master,0,34437,0,1,10,Approved,66
+20,Brazil,USA,Work,Bachelor,13,23519,1,1,7,Approved,101
+41,China,Canada,Student,Bachelor,10,10983,0,1,1,Approved,55
+54,Nigeria,Canada,Work,Bachelor,5,47656,0,1,7,Approved,87
+33,Germany,UK,Tourist,Bachelor,12,8635,0,1,4,Approved,32
+21,UK,Germany,Work,Master,6,39837,0,1,12,Approved,65
+41,Philippines,Canada,Tourist,High School,3,42019,0,1,3,Approved,24
+51,UK,USA,Work,Bachelor,0,47347,0,0,12,Rejected,65
+47,Germany,Australia,Student,Master,2,22622,0,1,5,Approved,79
+35,Germany,Canada,Student,High School,8,41505,0,0,2,Approved,60
+36,China,Germany,Work,Bachelor,4,12439,0,0,8,Rejected,85
+48,UK,UK,Student,Bachelor,5,30909,0,1,12,Approved,56
+36,Germany,USA,Student,Master,3,38341,0,1,12,Approved,55
+36,Brazil,UK,Work,Bachelor,0,35893,0,0,9,Rejected,78
+39,Brazil,Australia,Work,Master,13,45189,0,1,5,Approved,92
+41,UK,Canada,Student,Bachelor,4,14403,1,0,3,Rejected,68
+29,Philippines,Canada,Tourist,PhD,4,37074,0,0,10,Approved,22
+47,Germany,Germany,Work,Bachelor,4,37869,0,0,7,Approved,87
+48,China,Canada,Student,Bachelor,14,35903,0,1,1,Approved,52
+53,China,USA,Tourist,High School,5,29953,1,1,10,Rejected,40
+36,Philippines,Australia,Work,High School,10,10311,1,1,3,Rejected,89
+53,China,UK,Work,Bachelor,1,35025,0,1,9,Approved,76
+47,India,Australia,Work,High School,0,23615,0,1,2,Rejected,77
+50,UK,Canada,Student,Bachelor,14,36580,0,1,11,Approved,62
+35,China,UK,Tourist,Master,1,29320,0,0,9,Approved,26
+45,Brazil,Germany,Work,Bachelor,12,45898,0,1,11,Approved,78
+28,Germany,Australia,Business,Bachelor,9,26952,0,1,1,Approved,37
+50,Nigeria,UK,Tourist,Master,5,20254,0,0,4,Approved,24
+34,Philippines,UK,Work,PhD,4,18227,0,0,12,Approved,76
+23,Nigeria,UK,Student,High School,14,16760,0,1,10,Approved,62
+21,China,USA,Student,Bachelor,4,11826,0,0,6,Rejected,65
+37,Nigeria,Australia,Student,PhD,11,16939,1,1,7,Approved,89
+44,Nigeria,UK,Work,High School,11,36436,0,0,3,Approved,75
+32,India,Australia,Student,PhD,14,20677,0,1,9,Approved,61
+23,Brazil,UK,Work,High School,5,11460,0,0,4,Rejected,68
+31,Philippines,Germany,Student,Master,13,11673,0,1,5,Approved,78
+28,Brazil,Germany,Dependent,Bachelor,9,30866,0,1,8,Approved,72
+26,India,Germany,Student,PhD,6,39158,0,1,12,Approved,60
+43,India,Canada,Business,Bachelor,8,12453,0,0,3,Approved,39
+33,Nigeria,UK,Business,Master,6,18904,1,1,8,Approved,58
+22,UK,Canada,Work,High School,1,18396,1,1,11,Rejected,89
+27,Germany,Australia,Tourist,Bachelor,5,31370,1,1,1,Approved,37
+20,Germany,Canada,Work,Master,8,24933,0,0,8,Approved,82
+30,Nigeria,Australia,Work,Bachelor,6,33349,0,1,11,Approved,79
+47,Germany,Australia,Student,PhD,1,7334,0,1,11,Approved,51
+23,India,Australia,Student,Bachelor,2,34460,1,0,12,Rejected,70
+34,Brazil,Canada,Work,Master,7,30268,0,0,10,Approved,73
+36,Germany,UK,Work,Bachelor,10,25068,1,0,8,Rejected,90
+52,Philippines,Canada,Work,PhD,8,31247,0,0,6,Approved,88
+43,Nigeria,UK,Student,PhD,3,26134,1,1,5,Approved,86
+22,UK,UK,Work,Bachelor,8,19285,0,1,9,Approved,71
+46,Nigeria,Australia,Student,Master,1,38003,0,0,6,Approved,76
+54,China,Canada,Student,Master,12,24367,1,1,1,Approved,61
+37,Nigeria,UK,Student,Bachelor,10,27136,0,1,12,Approved,60
+38,India,Germany,Student,Master,4,40787,2,0,6,Rejected,89
+27,Brazil,UK,Student,High School,10,27425,1,1,1,Approved,73
+22,Brazil,Germany,Tourist,Master,1,32465,2,0,6,Rejected,56
+53,Philippines,Canada,Student,Bachelor,10,21961,0,1,3,Approved,64
+23,Germany,Canada,Tourist,High School,0,36443,0,0,6,Rejected,39
+43,India,Canada,Student,Bachelor,12,21823,0,1,6,Approved,71
+21,China,UK,Business,Master,13,12873,1,0,1,Approved,39
+52,India,USA,Work,Master,4,8587,0,1,9,Approved,66
+18,Nigeria,UK,Student,PhD,1,41713,0,1,8,Approved,75
+41,India,UK,Work,Bachelor,13,28852,0,0,2,Approved,78
+53,India,Australia,Work,High School,12,40535,1,1,2,Approved,79
+23,Philippines,Australia,Work,Master,6,10004,1,0,5,Rejected,101
+48,China,UK,Student,Master,7,43496,0,1,10,Approved,61
+37,Nigeria,Germany,Dependent,Bachelor,1,30823,0,0,2,Rejected,54
+41,UK,Australia,Work,Bachelor,6,42377,0,1,11,Approved,78
+42,Philippines,UK,Student,Bachelor,3,10131,0,0,1,Rejected,55
+53,UK,USA,Tourist,Bachelor,0,20696,0,0,2,Rejected,34
+38,Philippines,Germany,Work,Master,10,28649,0,0,5,Approved,84
+47,Brazil,Canada,Tourist,Bachelor,14,7099,0,0,11,Approved,21
+41,Philippines,UK,Work,Master,2,34571,1,1,10,Approved,80
+47,Germany,UK,Tourist,Bachelor,10,33580,0,0,7,Approved,40
+39,India,Germany,Student,Bachelor,11,31664,0,1,5,Approved,76
+45,Brazil,Australia,Tourist,Master,0,18582,1,1,1,Rejected,31
+24,China,Australia,Tourist,Master,4,29469,0,0,7,Approved,47
+52,UK,Australia,Student,Bachelor,14,25402,1,1,6,Approved,87
+45,Philippines,Canada,Student,Master,12,27236,0,1,7,Approved,68
+31,India,Germany,Student,Bachelor,7,28110,1,1,2,Approved,66
+27,China,Germany,Dependent,Master,0,26430,0,1,5,Approved,60
+33,Germany,Australia,Student,Bachelor,13,47407,0,0,8,Approved,65
+33,China,Australia,Work,Master,8,40948,0,0,12,Approved,78
+48,India,USA,Student,High School,2,20763,2,1,7,Rejected,95
+42,Germany,USA,Work,Bachelor,4,20029,2,1,6,Rejected,111
+30,China,UK,Work,PhD,8,41180,0,1,6,Approved,90
+23,Germany,UK,Dependent,Master,4,7652,0,0,12,Approved,50
+26,Philippines,Germany,Work,Bachelor,8,9834,0,1,1,Approved,71
+53,Philippines,Germany,Tourist,Bachelor,9,40219,0,1,1,Approved,31
+37,India,Canada,Work,Bachelor,7,25487,1,0,7,Rejected,94
+35,India,Canada,Student,Master,6,10084,0,1,3,Approved,64
+38,Germany,USA,Student,Master,10,48630,1,1,6,Approved,86
+21,Nigeria,UK,Work,Master,0,17692,0,1,12,Approved,74
+50,Brazil,USA,Dependent,Bachelor,3,5655,0,1,5,Approved,67
+44,China,USA,Business,Master,8,43201,1,1,3,Approved,45
+24,China,UK,Student,Bachelor,9,37082,0,0,6,Approved,68
+23,Nigeria,Canada,Student,High School,7,8272,0,1,3,Approved,52
+32,Nigeria,UK,Student,Master,3,3218,1,0,8,Rejected,81
+35,Nigeria,Australia,Business,PhD,11,33892,0,1,7,Approved,53
+49,UK,Australia,Business,Master,0,40471,0,1,9,Approved,28
+28,UK,Australia,Tourist,Master,9,24515,1,1,5,Approved,45
+37,Germany,Germany,Work,Master,3,37307,0,0,12,Approved,75
+41,UK,Canada,Work,PhD,14,16145,0,1,1,Approved,72
+32,Philippines,Canada,Work,Bachelor,2,20986,0,0,11,Rejected,69
+24,Philippines,Germany,Student,Bachelor,5,22088,0,0,10,Approved,62
+38,India,USA,Work,PhD,10,8064,2,1,11,Approved,92
+43,Germany,Australia,Student,Master,4,49556,0,1,8,Approved,72
+31,China,Australia,Student,Bachelor,4,25196,0,1,2,Approved,61
+54,Brazil,USA,Business,Bachelor,1,14603,1,1,6,Rejected,54
+38,India,UK,Tourist,Bachelor,11,5488,0,0,1,Approved,27
+35,China,UK,Work,High School,2,28192,1,0,6,Rejected,96
+22,China,Canada,Work,PhD,10,31897,1,1,4,Approved,87
+20,Germany,Germany,Work,Bachelor,5,21802,0,1,5,Approved,82
+40,Nigeria,Canada,Tourist,Master,1,19411,0,1,10,Approved,34
+43,Nigeria,UK,Tourist,Bachelor,14,32666,0,1,7,Approved,38
+54,India,USA,Tourist,Bachelor,3,43975,1,0,6,Rejected,55
+41,Nigeria,Canada,Tourist,High School,1,15770,0,1,1,Rejected,31
+36,China,Australia,Student,Master,8,10977,0,1,9,Approved,62
+42,Nigeria,Australia,Student,Master,2,40429,0,0,6,Approved,71
+38,UK,USA,Work,Master,9,35031,0,1,6,Approved,83
+29,Nigeria,UK,Student,High School,9,7549,0,1,9,Approved,55
+50,China,Australia,Tourist,Bachelor,5,23337,2,1,12,Rejected,51
+21,Germany,Australia,Student,High School,14,30365,0,0,10,Approved,51
+24,India,Germany,Student,Bachelor,0,23645,0,1,5,Approved,76
+39,Brazil,Canada,Work,Master,12,27507,1,0,11,Approved,76
+50,Nigeria,UK,Dependent,Master,10,7973,0,0,6,Approved,62
+34,Philippines,Canada,Student,Master,13,11436,1,1,6,Approved,84
+41,Philippines,UK,Work,Bachelor,14,13086,0,0,7,Approved,86
+51,China,Australia,Work,Bachelor,14,20740,1,0,9,Approved,77
+45,Brazil,Germany,Student,Bachelor,9,28518,0,1,5,Approved,76
+39,Brazil,Canada,Work,High School,2,22851,0,1,5,Rejected,82
+34,UK,Australia,Tourist,Master,7,42732,0,1,4,Approved,32
+51,Brazil,UK,Work,Master,4,17842,0,0,10,Approved,78
+23,Philippines,Canada,Business,Bachelor,7,32954,0,1,4,Approved,28
+23,Germany,Canada,Student,Bachelor,14,4745,1,1,12,Approved,74
+51,China,Australia,Student,Master,1,15697,0,1,8,Approved,74
+18,China,Canada,Business,Master,6,29933,0,1,2,Approved,30
+27,Nigeria,Germany,Work,Master,8,6879,0,0,10,Approved,65
+38,Nigeria,Germany,Work,Bachelor,6,23161,0,1,8,Approved,85
+22,Nigeria,Australia,Tourist,Bachelor,2,21499,0,1,2,Approved,27
+19,Philippines,UK,Student,PhD,6,25641,1,0,1,Approved,71
+39,Philippines,Australia,Tourist,Master,14,38035,1,1,10,Approved,44
+19,Philippines,Germany,Student,Bachelor,7,21651,2,0,9,Rejected,84
+27,Philippines,USA,Student,Master,13,12688,1,1,11,Approved,67
+51,Philippines,USA,Student,Master,0,13988,0,0,8,Rejected,70
+33,Philippines,Canada,Tourist,Bachelor,12,26470,1,0,6,Approved,50
+39,Germany,Canada,Student,Bachelor,12,40249,0,1,4,Approved,62
+29,Philippines,USA,Tourist,Bachelor,2,26849,1,1,2,Rejected,32
+41,Brazil,Germany,Business,High School,4,36697,0,0,8,Rejected,53
+27,Brazil,Canada,Work,Master,11,10773,1,1,3,Approved,76
+52,UK,Australia,Work,Bachelor,5,39092,0,1,10,Approved,71
+49,Germany,Australia,Work,Master,2,32076,0,1,4,Approved,72
+24,Nigeria,Germany,Student,PhD,14,7587,0,0,5,Approved,74
+38,India,Canada,Work,High School,3,36124,0,1,4,Approved,77
+37,Philippines,Australia,Work,Bachelor,4,18787,0,0,11,Rejected,78
+43,UK,Canada,Dependent,Master,14,23448,1,1,8,Approved,75
+21,India,Canada,Business,Master,2,8499,1,1,9,Rejected,39
+39,Brazil,Australia,Business,Master,3,6841,0,1,1,Approved,28
+32,UK,USA,Business,Bachelor,4,47890,0,0,2,Approved,25
+38,UK,Australia,Work,Bachelor,1,28402,0,1,12,Approved,73
+32,China,Germany,Tourist,Master,9,49177,1,0,4,Approved,40
+39,Brazil,UK,Business,PhD,8,26055,0,1,1,Approved,34
+45,Brazil,Australia,Work,Bachelor,9,42827,0,0,11,Approved,68
+31,Germany,Canada,Dependent,PhD,7,3665,0,1,6,Approved,61
+44,UK,Canada,Work,Bachelor,11,35271,0,0,12,Approved,68
+45,Philippines,Australia,Work,PhD,5,26237,0,0,5,Approved,92
+43,Brazil,UK,Tourist,Master,9,45988,0,1,7,Approved,45
+19,UK,Australia,Dependent,Bachelor,10,31267,0,1,12,Approved,49
+42,Germany,UK,Student,Master,2,13774,0,1,6,Approved,66
+20,Philippines,UK,Tourist,Bachelor,10,3553,0,0,3,Approved,26
+25,Germany,Germany,Work,Bachelor,1,16860,0,0,5,Rejected,82
+50,China,Canada,Student,High School,6,27903,0,1,3,Approved,63
+52,Philippines,Canada,Tourist,High School,7,10045,0,1,9,Approved,34
+23,UK,UK,Work,Bachelor,9,12380,0,0,2,Approved,72
+40,Brazil,Canada,Tourist,Master,0,35917,1,1,6,Rejected,48
+42,Brazil,USA,Student,Master,13,35261,0,1,9,Approved,61
+36,UK,UK,Work,High School,14,16343,0,1,10,Approved,75
+22,UK,Canada,Work,Master,5,5853,0,0,7,Approved,84
+28,UK,USA,Work,Master,6,13128,0,1,5,Approved,82
+29,Nigeria,Germany,Student,PhD,14,48348,0,0,2,Approved,62
+27,Philippines,Canada,Dependent,Master,12,5736,0,1,2,Approved,55
+25,Brazil,USA,Work,Bachelor,8,36724,0,0,4,Approved,69
+41,Philippines,Australia,Tourist,Bachelor,11,14440,1,1,10,Approved,38
+45,Germany,Australia,Work,Master,2,8180,1,1,12,Rejected,85
+53,Brazil,USA,Work,High School,1,33284,0,1,2,Rejected,77
+54,Nigeria,UK,Work,High School,4,44375,0,1,12,Approved,78
+38,UK,UK,Work,High School,12,14646,0,1,8,Approved,81
+25,China,Canada,Work,Bachelor,14,22029,0,1,10,Approved,71
+26,UK,Australia,Work,Bachelor,9,23158,1,0,7,Rejected,104
+32,UK,UK,Work,Bachelor,0,17342,0,0,7,Rejected,94
+35,Nigeria,UK,Student,High School,12,40781,2,1,3,Rejected,79
+37,Philippines,Australia,Work,Master,5,3084,0,1,7,Approved,87
+23,Brazil,Germany,Student,Master,8,4935,0,1,8,Approved,67
+29,UK,UK,Student,Bachelor,9,33466,0,0,5,Approved,75
+19,Brazil,USA,Business,High School,14,45376,0,1,1,Approved,28
+24,India,Canada,Work,High School,8,12262,0,0,1,Rejected,77
+33,Germany,UK,Tourist,Bachelor,6,14604,0,1,12,Approved,30
+20,Philippines,UK,Work,Bachelor,13,45481,0,0,11,Approved,74
+20,Brazil,Germany,Business,Bachelor,10,26133,0,1,4,Approved,26
+44,China,USA,Work,Master,6,31667,0,1,2,Approved,79
+50,Germany,Canada,Tourist,Bachelor,14,38241,0,1,7,Approved,44
+45,China,UK,Work,Bachelor,7,36503,0,0,3,Approved,77
+18,UK,Canada,Dependent,Bachelor,9,5838,0,0,12,Approved,53
+25,Germany,Australia,Tourist,Master,13,38330,0,1,4,Approved,22
+54,Brazil,UK,Business,Master,1,16440,0,1,9,Approved,39
+49,Germany,UK,Student,Master,13,39674,0,0,2,Approved,58
+54,UK,Australia,Student,Master,5,37040,0,1,12,Approved,62
+21,Nigeria,Germany,Student,Bachelor,4,40604,0,1,8,Approved,71
+47,Philippines,UK,Student,Bachelor,4,37630,0,1,1,Approved,55
+23,China,Canada,Business,Master,12,39994,0,0,3,Approved,35
+36,UK,USA,Student,High School,2,29339,1,0,4,Rejected,71
+49,Nigeria,Canada,Student,PhD,2,33384,0,1,6,Approved,75
+26,Germany,Germany,Student,Master,5,48378,0,1,1,Approved,52
+29,Germany,USA,Student,Master,11,44782,0,1,8,Approved,75
+28,UK,Canada,Student,High School,9,35643,0,1,2,Approved,56
+33,Brazil,Canada,Tourist,Master,12,19926,1,0,5,Approved,59
+18,Germany,Australia,Work,Bachelor,9,41977,0,0,6,Approved,90
+38,Brazil,Germany,Student,High School,6,26652,1,0,8,Rejected,88
+47,Brazil,Australia,Work,Bachelor,13,13270,0,1,3,Approved,67
+30,Philippines,USA,Work,Master,0,20268,0,1,12,Approved,77
+51,Brazil,Australia,Student,Bachelor,13,39417,0,0,9,Approved,60
+21,India,Germany,Tourist,Bachelor,2,49894,0,0,12,Approved,25
+45,Philippines,UK,Tourist,High School,11,23317,0,1,5,Approved,42
+48,Nigeria,UK,Tourist,Master,0,39434,0,1,8,Approved,39
+44,Nigeria,USA,Tourist,Master,9,49125,1,1,4,Approved,40
+22,Germany,UK,Student,Master,2,18448,0,0,12,Approved,60
+42,Germany,Australia,Dependent,Bachelor,4,12913,0,1,9,Approved,57
+20,Brazil,USA,Tourist,Bachelor,8,11566,0,0,8,Approved,37
+50,Philippines,Germany,Business,Master,2,35444,1,0,5,Rejected,55
+21,Philippines,USA,Student,Bachelor,9,18605,0,0,3,Approved,64
+42,India,USA,Business,PhD,13,3557,0,0,1,Approved,32
+37,Brazil,Canada,Tourist,Master,9,45240,0,1,5,Approved,44
+51,India,Canada,Tourist,Bachelor,8,47383,2,1,5,Rejected,57
+43,Brazil,USA,Student,Bachelor,0,9040,0,0,4,Rejected,61
+22,China,UK,Tourist,Master,5,49652,0,1,10,Approved,32
+52,China,Canada,Dependent,Bachelor,8,36896,0,0,10,Approved,58
+45,UK,Germany,Tourist,Bachelor,11,24804,0,1,8,Approved,45
+46,Brazil,Australia,Work,Master,4,12292,0,0,3,Approved,75
+26,Philippines,Canada,Business,Bachelor,10,29110,0,1,12,Approved,29
+23,Germany,USA,Work,Master,13,8349,0,0,10,Approved,73
+36,Nigeria,UK,Work,High School,9,33374,0,1,9,Approved,78
+28,UK,Australia,Work,Master,1,22009,0,1,3,Approved,78
+19,Germany,Canada,Business,High School,4,48087,1,1,4,Rejected,44
+26,China,UK,Student,High School,0,45591,0,0,6,Rejected,79
+38,Brazil,UK,Work,Master,8,3057,0,1,9,Approved,79
+41,UK,UK,Tourist,Master,9,11503,0,1,10,Approved,29
+51,Brazil,USA,Tourist,Bachelor,12,31293,0,1,2,Approved,22
+39,China,Germany,Work,Bachelor,9,45961,0,1,2,Approved,77
+20,UK,UK,Business,Master,8,22121,0,1,2,Approved,36
+29,China,Australia,Business,Bachelor,5,8493,0,1,5,Approved,50
+45,India,Canada,Student,PhD,10,39645,0,1,6,Approved,66
+47,China,Australia,Work,PhD,8,5282,1,0,3,Approved,85
+43,Philippines,USA,Student,Master,13,26170,0,1,3,Approved,62
+38,Philippines,USA,Student,Bachelor,2,47143,0,1,2,Approved,63
+45,Brazil,Australia,Work,Bachelor,14,4431,1,0,11,Rejected,82
+43,Nigeria,Germany,Business,Master,3,48294,0,0,6,Approved,53
+50,China,USA,Tourist,High School,12,37543,0,1,1,Approved,33
+38,Germany,USA,Student,Bachelor,5,23591,0,1,9,Approved,63
+52,Philippines,Australia,Student,High School,3,14351,0,0,11,Rejected,56
+51,Nigeria,USA,Work,High School,0,35483,0,1,10,Rejected,76
+35,India,Germany,Work,Bachelor,6,34195,0,0,4,Approved,73
+28,UK,Germany,Student,Bachelor,4,40153,1,1,2,Approved,74
+40,UK,Germany,Business,Master,13,25735,0,1,12,Approved,28
+39,Philippines,Canada,Business,Bachelor,14,18203,0,0,6,Approved,42
+34,Nigeria,Germany,Work,Bachelor,7,6974,0,1,5,Approved,89
+22,Philippines,Germany,Business,High School,8,41673,0,0,3,Approved,29
+28,UK,Canada,Work,Master,4,40233,0,1,3,Approved,75
+47,China,UK,Tourist,Bachelor,7,22686,1,1,5,Approved,45
+32,Nigeria,USA,Work,Master,12,42713,1,0,4,Approved,79
+44,Brazil,Germany,Student,PhD,0,46826,0,1,5,Approved,77
+52,China,USA,Business,High School,0,15636,0,1,2,Rejected,37
+50,China,Australia,Work,Bachelor,6,38070,1,1,11,Approved,77
+37,China,USA,Tourist,Bachelor,14,32123,0,0,1,Approved,20
+33,Brazil,Canada,Work,PhD,5,34812,0,1,5,Approved,82
+51,India,USA,Student,Master,4,31760,0,1,11,Approved,54
+19,Germany,USA,Student,Master,13,7966,1,0,1,Approved,64
+52,Philippines,USA,Work,Bachelor,14,49215,0,0,3,Approved,79
+45,UK,UK,Tourist,PhD,4,21426,1,0,8,Rejected,54
+23,Philippines,UK,Student,High School,13,17162,0,1,11,Approved,61
+26,Nigeria,Australia,Tourist,High School,8,19058,0,1,8,Approved,42
+37,India,Canada,Tourist,Master,0,44482,0,1,9,Approved,30
+18,Nigeria,USA,Tourist,PhD,7,46667,0,0,1,Approved,20
+25,Philippines,USA,Work,High School,1,5998,0,1,4,Rejected,71
+40,UK,USA,Business,High School,6,3909,0,0,6,Rejected,44
+20,Brazil,USA,Work,High School,5,48497,0,0,7,Approved,82
+21,Philippines,UK,Work,High School,9,37648,0,1,5,Approved,83
+42,China,Australia,Student,Bachelor,1,15497,0,0,7,Rejected,67
+32,Philippines,Germany,Student,PhD,11,21944,0,1,11,Approved,57
+38,China,Canada,Student,Master,12,10527,0,1,10,Approved,53
+52,Brazil,USA,Work,Master,2,41464,0,1,8,Approved,82
+31,Philippines,Australia,Student,Master,3,6072,1,1,10,Rejected,61
+53,India,Germany,Student,Bachelor,6,15018,0,1,6,Approved,67
+29,India,Australia,Tourist,Master,7,32652,0,0,11,Approved,26
+34,Nigeria,UK,Student,Master,12,7476,0,1,4,Approved,55
+26,Brazil,Germany,Student,Bachelor,10,46835,0,1,1,Approved,59
+52,India,Australia,Student,Master,1,33232,0,1,11,Approved,61
+30,Philippines,UK,Tourist,Bachelor,7,30482,1,0,5,Rejected,57
+32,Brazil,Australia,Student,Master,10,40257,0,0,10,Approved,54
+35,UK,Australia,Work,PhD,8,23875,1,1,10,Approved,82
+50,China,Germany,Work,Bachelor,6,19219,0,0,10,Approved,75
+23,Philippines,UK,Tourist,Master,0,33448,0,0,4,Approved,20
+44,China,USA,Work,High School,5,17367,0,0,5,Rejected,82
+40,China,Canada,Tourist,Master,7,28120,0,1,4,Approved,21
+44,Brazil,Germany,Student,Bachelor,4,9855,0,1,9,Approved,51
+51,Brazil,UK,Student,High School,11,6097,1,1,3,Rejected,71
+31,Nigeria,Australia,Student,Bachelor,14,47585,1,0,3,Approved,70
+53,China,UK,Student,Master,1,22889,1,0,10,Rejected,71
+25,Nigeria,Canada,Student,High School,14,4084,1,1,7,Approved,75
+52,China,Canada,Student,PhD,4,36320,1,1,2,Approved,64
+36,Nigeria,USA,Work,High School,7,24944,1,0,9,Rejected,79
+47,Nigeria,USA,Tourist,PhD,1,36921,0,0,8,Approved,37
+31,UK,Canada,Work,Master,0,24857,0,0,12,Rejected,76
+37,Nigeria,Germany,Tourist,Bachelor,14,21070,0,0,6,Approved,46
+42,Brazil,Germany,Student,Bachelor,3,27475,0,1,9,Approved,58
+41,Nigeria,Australia,Student,Master,3,25219,1,0,11,Rejected,71
+31,China,USA,Work,Master,8,44457,0,0,3,Approved,70
+43,Nigeria,Australia,Student,Master,2,34489,0,0,4,Approved,63
+40,India,USA,Student,Bachelor,3,26178,0,0,7,Rejected,74
+39,Germany,Canada,Work,Bachelor,2,16483,0,1,1,Approved,78
+36,China,Germany,Business,PhD,1,47927,0,0,1,Approved,30
+20,India,Germany,Tourist,Bachelor,3,36573,0,0,1,Approved,29
+36,China,Canada,Student,Bachelor,13,36688,0,1,12,Approved,55
+26,Brazil,Australia,Tourist,Bachelor,7,48930,0,1,8,Approved,48
+45,Germany,Australia,Tourist,Master,0,34529,0,1,6,Approved,36
+37,Germany,UK,Work,Master,7,37211,0,0,3,Approved,75
+24,Brazil,USA,Tourist,Bachelor,7,42816,0,1,10,Approved,34
+31,Germany,Australia,Work,High School,14,49475,0,1,7,Approved,89
+26,Brazil,Canada,Student,High School,2,36978,0,0,6,Rejected,74
+36,India,Australia,Work,Bachelor,13,32677,1,0,5,Approved,97
+31,UK,Germany,Work,Bachelor,9,19004,0,1,3,Approved,70
+53,China,USA,Work,PhD,9,13272,1,1,4,Approved,87
+34,Brazil,UK,Work,Bachelor,11,9212,0,1,11,Approved,79
+47,China,USA,Business,Bachelor,11,24071,1,1,11,Approved,48
+26,India,Germany,Business,Master,5,46108,0,1,1,Approved,27
+50,UK,Germany,Business,Bachelor,12,12700,0,0,9,Approved,34
+42,India,Germany,Tourist,Master,12,32980,0,1,5,Approved,43
+31,Germany,Germany,Business,High School,3,20297,0,1,2,Rejected,26
+28,China,Canada,Student,Bachelor,12,44349,1,1,12,Approved,66
+52,Philippines,UK,Student,PhD,0,31625,0,0,11,Approved,52
+31,UK,Germany,Work,Master,13,31831,2,0,9,Rejected,99
+47,Germany,Germany,Tourist,Bachelor,0,32367,1,1,12,Rejected,41
+21,UK,Australia,Work,Master,4,48813,0,0,7,Approved,94
+21,Germany,UK,Tourist,PhD,11,38338,0,0,8,Approved,40
+45,India,USA,Student,Bachelor,7,23121,0,0,3,Approved,54
+25,Brazil,UK,Student,Bachelor,0,38547,0,0,7,Rejected,77
+19,China,UK,Tourist,PhD,1,27914,0,1,11,Approved,25
+39,Nigeria,UK,Student,Bachelor,6,47396,1,1,1,Approved,67
+33,Nigeria,Germany,Work,Master,7,20178,0,0,6,Approved,93
+46,India,Germany,Student,Master,11,4722,0,1,10,Approved,52
+47,China,Canada,Student,Master,13,16885,0,1,6,Approved,66
+29,China,USA,Tourist,Bachelor,2,3102,0,1,11,Rejected,27
+52,India,Australia,Work,Bachelor,10,30435,0,1,10,Approved,65
+28,China,UK,Work,Master,11,16262,0,1,12,Approved,66
+38,Brazil,USA,Student,Bachelor,12,10453,0,0,6,Approved,74
+38,India,USA,Tourist,Bachelor,7,45407,0,1,3,Approved,20
+22,Brazil,Canada,Work,Bachelor,0,48174,0,1,6,Approved,84
+37,China,Australia,Work,High School,8,15224,0,1,3,Approved,72
+54,India,UK,Tourist,PhD,11,9172,2,0,10,Rejected,41
+20,China,Australia,Student,Bachelor,1,14252,0,1,9,Approved,53
+50,India,Canada,Business,PhD,13,20918,0,1,7,Approved,43
+26,China,Germany,Work,High School,12,10197,0,1,4,Approved,75
+26,Brazil,USA,Work,Master,1,34591,0,1,3,Approved,75
+21,Philippines,UK,Student,Bachelor,3,16677,1,0,6,Rejected,81
+52,Brazil,Germany,Business,Master,11,14039,1,0,9,Approved,35
+34,China,Canada,Tourist,Master,9,30785,0,1,3,Approved,28
+51,India,Australia,Student,High School,2,7570,1,0,8,Rejected,77
+41,Nigeria,USA,Student,PhD,3,9706,1,1,6,Approved,80
+49,Brazil,UK,Tourist,Bachelor,5,14655,0,1,4,Approved,29
+18,Brazil,Germany,Tourist,Master,6,36202,1,1,5,Approved,58
+25,Germany,Germany,Tourist,PhD,4,12449,0,1,3,Approved,24
+40,Nigeria,USA,Work,Master,1,27630,0,1,2,Approved,68
+29,China,Australia,Tourist,PhD,2,12122,1,0,9,Rejected,38
+29,Philippines,Canada,Work,Bachelor,9,49371,0,1,3,Approved,75
+32,India,Australia,Student,High School,10,13991,1,1,6,Rejected,86
+36,Germany,Australia,Work,Bachelor,2,27887,0,1,5,Approved,93
+43,China,Australia,Dependent,Bachelor,13,16859,1,1,10,Approved,63
+46,UK,USA,Student,Master,4,26640,0,1,11,Approved,50
+39,Philippines,USA,Work,Bachelor,11,28532,0,1,8,Approved,86
+38,Brazil,Canada,Tourist,Master,10,42229,0,1,5,Approved,44
+37,UK,Australia,Work,Bachelor,11,41764,1,1,11,Approved,83
+46,Brazil,USA,Tourist,Bachelor,4,40620,0,0,8,Approved,39
+21,Brazil,Canada,Tourist,Master,3,5512,0,0,11,Rejected,20
+24,UK,Canada,Student,Bachelor,7,18446,0,1,5,Approved,72
+45,Philippines,Australia,Dependent,Master,5,24912,0,1,11,Approved,49
+45,UK,UK,Tourist,Bachelor,5,37031,2,1,10,Rejected,45
+21,China,Australia,Business,Master,0,38515,0,0,6,Approved,46
+39,Germany,UK,Tourist,High School,5,18416,0,1,5,Approved,44
+29,Germany,Canada,Business,Bachelor,2,10280,0,1,2,Approved,31
+20,UK,USA,Student,Master,12,13974,0,1,10,Approved,62
+39,China,Germany,Student,Master,5,46746,0,1,10,Approved,63
+19,Germany,Canada,Business,Bachelor,9,46775,0,0,6,Approved,51
+41,China,USA,Student,Bachelor,12,39531,1,1,7,Approved,81
+51,China,Canada,Student,Bachelor,10,15227,0,1,3,Approved,64
+44,Brazil,Australia,Tourist,Bachelor,12,16031,0,1,3,Approved,20
+18,Germany,UK,Tourist,Master,5,46283,2,1,12,Rejected,46
+25,Germany,Canada,Student,Master,1,36000,0,0,7,Approved,75
+40,Brazil,USA,Business,High School,0,48312,0,1,11,Approved,27
+23,UK,Australia,Tourist,Bachelor,10,5028,0,0,10,Approved,24
+39,Brazil,Germany,Work,Master,14,33433,0,0,4,Approved,74
+42,Germany,Australia,Tourist,Bachelor,2,21313,0,1,2,Approved,24
+35,Germany,UK,Work,Master,4,12650,1,1,9,Rejected,82
+34,Philippines,Australia,Student,High School,14,29224,0,1,9,Approved,56
+29,UK,Germany,Student,Master,14,33364,0,1,6,Approved,71
+23,Brazil,USA,Work,Bachelor,3,21361,0,1,2,Approved,70
+43,India,Canada,Work,Master,6,5413,0,1,3,Approved,71
+44,India,UK,Tourist,Bachelor,3,43794,0,1,5,Approved,48
+25,UK,Germany,Tourist,Bachelor,7,34070,0,0,11,Approved,26
+36,Brazil,UK,Work,Master,6,41186,0,1,11,Approved,79
+18,Brazil,Australia,Tourist,High School,9,25409,0,0,5,Approved,39
+46,China,UK,Student,Bachelor,8,32854,1,0,9,Rejected,64
+52,Germany,Germany,Student,Bachelor,0,34206,1,1,10,Rejected,63
+31,Nigeria,Canada,Business,Bachelor,14,32655,2,1,3,Approved,58
+52,Philippines,Canada,Student,PhD,4,12952,0,1,2,Approved,53
+37,UK,UK,Student,Master,12,39365,1,0,10,Approved,64
+30,Nigeria,USA,Tourist,High School,3,20762,0,1,8,Rejected,44
+25,Nigeria,UK,Work,Master,5,3620,2,1,7,Rejected,108
+37,UK,Australia,Business,Bachelor,0,36697,1,0,12,Rejected,48
+50,Brazil,Canada,Student,PhD,5,18455,2,1,9,Rejected,80
+43,UK,Canada,Student,Bachelor,0,25210,2,1,3,Rejected,81
+38,Nigeria,Canada,Student,Master,13,3974,0,0,6,Approved,70
+26,Germany,USA,Work,Bachelor,13,15679,0,1,5,Approved,87
+41,Philippines,USA,Work,Bachelor,0,30429,0,0,5,Rejected,88
+54,Philippines,Germany,Work,Bachelor,7,21073,0,0,10,Approved,76
+34,Germany,UK,Business,Bachelor,1,7671,2,0,8,Rejected,73
+41,Germany,UK,Business,Master,9,33365,0,1,1,Approved,28
+38,Brazil,Australia,Student,Bachelor,12,49367,0,1,1,Approved,61
+30,India,Canada,Work,PhD,13,48578,0,1,3,Approved,77
+28,UK,USA,Work,Bachelor,5,11917,0,1,11,Approved,71
+36,Philippines,Australia,Business,Master,13,44121,0,0,2,Approved,29
+28,Germany,Australia,Dependent,PhD,5,10784,0,1,2,Approved,48
+30,UK,USA,Student,Master,5,49993,0,1,2,Approved,61
+18,Philippines,UK,Tourist,Master,7,36426,0,0,4,Approved,26
+36,Germany,Canada,Work,Master,3,38665,0,0,1,Approved,67
+29,Philippines,UK,Student,Bachelor,2,15291,0,0,10,Rejected,50
+25,Brazil,Australia,Student,Master,5,21926,2,1,9,Rejected,76
+25,India,Canada,Work,Bachelor,3,29154,0,1,5,Approved,88
+29,India,Germany,Work,Bachelor,1,28650,0,1,5,Approved,81
+50,Germany,Australia,Student,Bachelor,5,49340,0,0,9,Approved,56
+43,Philippines,UK,Tourist,Master,9,6205,0,1,5,Approved,44
+45,Brazil,UK,Student,Bachelor,4,39812,0,1,11,Approved,51
+22,China,UK,Work,Bachelor,10,33294,0,0,8,Approved,92
+25,UK,USA,Student,Bachelor,8,39201,0,1,11,Approved,62
+42,UK,Australia,Student,PhD,10,42479,0,1,1,Approved,52
+44,Nigeria,Canada,Work,High School,5,10384,1,1,1,Rejected,87
+40,Brazil,UK,Student,High School,13,20261,0,0,4,Approved,59
+47,Philippines,UK,Work,Bachelor,2,6059,0,0,8,Rejected,93
+40,Nigeria,USA,Student,PhD,10,34734,2,0,3,Approved,81
+37,Germany,Canada,Work,PhD,4,26391,0,1,1,Approved,74
+35,Philippines,Australia,Student,Master,14,18915,0,1,11,Approved,52
+35,Nigeria,Germany,Tourist,Master,9,43281,0,1,12,Approved,31
+19,India,USA,Tourist,Bachelor,7,49633,0,0,9,Approved,32
+21,UK,Australia,Student,PhD,8,37442,2,1,9,Approved,73
+47,Philippines,Germany,Work,High School,7,45568,0,0,9,Approved,70
+50,Nigeria,UK,Student,High School,14,28793,0,0,9,Approved,52
+53,India,UK,Work,High School,2,49746,1,0,2,Rejected,87
+35,Brazil,Canada,Student,Master,8,34989,0,0,11,Approved,58
+54,Nigeria,Germany,Work,Master,2,28305,0,1,11,Approved,66
+36,Germany,UK,Work,Bachelor,7,19767,1,0,11,Rejected,81
+45,Germany,UK,Business,PhD,9,41652,0,1,4,Approved,30
+37,Germany,Canada,Work,Bachelor,8,21196,0,1,2,Approved,78
+50,Philippines,Australia,Work,Bachelor,6,21708,0,1,7,Approved,94
+29,UK,UK,Work,Bachelor,3,16383,1,0,11,Rejected,76
+32,Nigeria,USA,Business,Master,9,8248,0,1,3,Approved,35
+19,Brazil,USA,Tourist,Master,14,39197,0,0,9,Approved,22
+46,Nigeria,Australia,Student,Bachelor,8,29440,0,1,7,Approved,70
+27,UK,Germany,Tourist,Master,2,24230,0,1,8,Approved,44
+19,India,Canada,Work,Bachelor,14,32654,0,1,9,Approved,68
+28,UK,USA,Tourist,Master,2,19611,2,1,8,Rejected,55
+30,Germany,USA,Tourist,PhD,1,25457,0,1,7,Approved,35
+27,Philippines,Australia,Student,High School,9,13256,0,0,9,Rejected,52
+31,India,Germany,Tourist,Master,14,43971,1,1,11,Approved,37
+35,Philippines,Germany,Student,Master,2,43533,0,0,1,Approved,60
+26,Germany,Australia,Student,Bachelor,0,37290,1,1,11,Rejected,63
+45,China,USA,Student,PhD,14,36459,0,0,4,Approved,60
+20,UK,Canada,Tourist,Bachelor,3,31281,0,0,4,Rejected,20
+37,UK,USA,Student,Bachelor,7,4739,2,1,5,Rejected,92
+23,Brazil,Germany,Student,Bachelor,4,4525,0,1,8,Approved,74
+44,Nigeria,USA,Tourist,Bachelor,1,19453,0,1,10,Approved,25
+19,India,Canada,Student,Master,2,9251,0,1,1,Approved,50
+46,Philippines,UK,Student,Master,0,46208,2,1,6,Rejected,96
+20,India,USA,Student,PhD,1,22507,1,1,9,Approved,69
+33,Brazil,Australia,Work,Bachelor,0,16860,0,1,10,Rejected,74
+47,Brazil,UK,Work,High School,1,24108,1,0,8,Rejected,95
+19,Philippines,Australia,Student,High School,2,30906,0,1,2,Approved,50
+34,Nigeria,Australia,Dependent,Bachelor,0,10649,0,1,7,Rejected,74
+29,Philippines,Australia,Tourist,PhD,10,37055,0,1,5,Approved,44
+52,Philippines,USA,Student,Master,8,16193,0,1,2,Approved,59
+18,Germany,Germany,Student,Bachelor,9,34022,0,0,11,Approved,52
+32,Nigeria,UK,Work,Master,4,34656,0,1,1,Approved,66
+43,UK,Canada,Work,Master,7,44535,0,1,2,Approved,68
+54,Germany,Germany,Student,High School,4,18913,1,1,11,Rejected,61
+38,China,USA,Student,Master,7,18629,1,1,10,Approved,70
+48,Nigeria,Australia,Business,Bachelor,6,33692,0,0,6,Approved,52
+42,Brazil,Canada,Student,High School,11,7954,1,0,11,Rejected,64
+40,Germany,UK,Work,Bachelor,3,36512,0,1,12,Approved,68
+41,Nigeria,Germany,Business,Bachelor,14,13719,1,0,8,Approved,55
+45,India,Germany,Tourist,Bachelor,6,30649,0,0,3,Approved,33
+38,Philippines,Canada,Student,Bachelor,5,15402,0,1,5,Approved,79
+35,China,USA,Tourist,Bachelor,2,40344,0,1,11,Approved,26
+53,UK,UK,Student,Master,8,12216,0,0,2,Approved,61
+52,Philippines,Canada,Tourist,PhD,11,34050,0,0,12,Approved,21
+26,India,Australia,Work,Master,9,33272,1,1,8,Approved,91
+47,India,UK,Tourist,Bachelor,14,8050,0,0,4,Approved,27
+51,China,Germany,Dependent,Bachelor,12,49716,1,0,11,Approved,67
+49,UK,Canada,Business,Bachelor,8,5438,0,0,10,Approved,37
+20,Brazil,Germany,Business,High School,13,46150,0,1,12,Approved,33
+20,Germany,Germany,Work,Master,4,49837,0,1,6,Approved,84
+45,UK,Germany,Work,Master,7,44587,0,0,3,Approved,71
+32,Nigeria,USA,Work,Master,6,19760,0,0,11,Approved,77
+40,India,Germany,Tourist,Master,8,15078,0,1,8,Approved,46
+28,Nigeria,Australia,Business,Bachelor,6,19473,1,1,8,Rejected,58
+49,Brazil,Australia,Student,Bachelor,3,46815,0,1,3,Approved,63
+53,Nigeria,UK,Business,Master,3,12257,0,0,12,Approved,25
+50,UK,Germany,Tourist,Bachelor,10,25450,0,0,9,Approved,27
+41,Nigeria,Germany,Dependent,Bachelor,7,28634,2,1,10,Rejected,74
+51,Brazil,Canada,Business,Bachelor,5,49573,0,1,5,Approved,49
+45,Brazil,USA,Student,Bachelor,8,31648,1,0,10,Rejected,68
+54,Brazil,UK,Student,High School,13,30176,0,1,9,Approved,58
+24,UK,Germany,Student,Master,9,13296,0,0,7,Approved,74
+21,Brazil,Canada,Student,Master,13,24959,0,1,10,Approved,56
+54,India,USA,Work,Bachelor,6,17570,0,1,3,Approved,76
+18,Philippines,UK,Tourist,High School,6,38423,0,1,6,Approved,46
+18,Brazil,UK,Business,Master,3,17727,0,1,10,Approved,36
+37,Nigeria,Germany,Work,Bachelor,2,20899,0,1,2,Approved,76
+36,Germany,UK,Student,Bachelor,7,38785,1,0,6,Rejected,84
+46,Nigeria,Canada,Student,High School,6,49910,0,0,12,Approved,64
+27,Germany,UK,Student,Bachelor,3,43111,0,0,5,Approved,67
+35,Nigeria,Australia,Work,Master,12,15339,0,0,3,Approved,77
+45,UK,Canada,Work,Master,3,37341,0,0,7,Approved,92
+52,Nigeria,USA,Student,Bachelor,0,8597,0,1,11,Rejected,54
+48,UK,USA,Student,Bachelor,10,30112,0,1,4,Approved,62
+44,UK,Germany,Student,High School,6,39694,0,0,11,Approved,51
+28,Brazil,Germany,Work,High School,0,13244,0,0,6,Rejected,90
+22,India,Australia,Work,PhD,9,6796,0,0,9,Approved,74
+25,Germany,USA,Work,Master,9,44591,0,0,12,Approved,67
+51,Brazil,USA,Work,Bachelor,3,13053,0,0,6,Rejected,89
+29,Brazil,USA,Dependent,Master,10,31528,1,1,4,Approved,61
+18,Philippines,USA,Student,Master,13,21648,0,1,10,Approved,50
+48,UK,UK,Work,Master,2,21431,1,1,2,Rejected,77
+21,UK,Canada,Tourist,High School,10,3535,0,1,9,Approved,24
+22,Germany,Canada,Work,Bachelor,2,43652,1,1,4,Rejected,85
+47,Nigeria,Australia,Business,Master,11,47493,0,0,4,Approved,38
+41,Nigeria,UK,Work,Bachelor,0,9881,0,0,2,Rejected,68
+20,Brazil,USA,Work,PhD,3,48785,0,1,5,Approved,82
+28,China,USA,Student,Master,13,22481,0,1,6,Approved,70
+21,China,Germany,Work,PhD,0,45235,0,1,10,Approved,76
+43,Nigeria,Germany,Student,Bachelor,13,38841,0,0,6,Approved,70
+44,China,Australia,Student,Master,12,4025,0,1,3,Approved,53
+44,Philippines,USA,Work,Bachelor,12,33869,0,0,12,Approved,73
+23,Nigeria,Australia,Work,PhD,7,37819,0,1,9,Approved,75
+32,UK,UK,Student,Bachelor,14,33192,1,1,7,Approved,80
+47,Brazil,Canada,Tourist,Bachelor,14,6621,0,0,3,Approved,34
+54,India,USA,Work,Master,0,33566,0,1,4,Approved,73
+54,Brazil,UK,Student,Bachelor,11,23947,0,1,7,Approved,77
+54,Nigeria,USA,Work,Bachelor,13,17405,1,1,11,Approved,85
+52,Philippines,Germany,Tourist,PhD,5,7403,0,0,8,Approved,44
+40,Nigeria,Australia,Work,Bachelor,6,39091,0,1,6,Approved,89
+23,Brazil,Germany,Work,Master,14,25525,0,0,4,Approved,66
+21,Philippines,Canada,Student,High School,9,8017,0,1,12,Approved,64
+35,Philippines,Germany,Work,Master,13,42203,0,1,2,Approved,70
+26,Philippines,USA,Business,Master,11,48938,0,0,10,Approved,38
+46,Germany,Germany,Tourist,Bachelor,1,22729,0,0,8,Rejected,38
+30,Nigeria,USA,Student,High School,3,31430,1,0,1,Rejected,61
+34,China,Canada,Work,Master,10,41584,0,0,9,Approved,69
+49,China,Germany,Business,High School,13,40372,0,0,8,Approved,53
+39,Nigeria,Australia,Student,High School,2,39192,0,0,3,Rejected,64
+21,Nigeria,Australia,Dependent,Master,12,17628,0,0,10,Approved,47
+22,Germany,Australia,Business,Bachelor,12,47629,2,1,4,Approved,50
+54,China,Germany,Student,Bachelor,8,15501,0,1,10,Approved,60
+30,Nigeria,Germany,Business,Master,13,33131,0,1,4,Approved,39
+51,Nigeria,Germany,Work,High School,6,26566,1,1,2,Rejected,88
+39,Germany,USA,Tourist,Bachelor,1,26824,0,0,12,Rejected,27
+40,Germany,Canada,Work,High School,10,5812,1,1,11,Rejected,78
+20,Brazil,Australia,Work,Master,11,35812,1,1,10,Approved,86
+51,Germany,USA,Work,Master,5,30326,1,0,5,Rejected,93
+49,India,Australia,Tourist,Master,8,12402,0,1,12,Approved,24
+38,China,USA,Student,Bachelor,11,29325,0,1,3,Approved,55
+38,Brazil,Germany,Work,High School,2,44553,0,1,12,Approved,75
+28,India,Australia,Student,High School,13,29000,0,1,11,Approved,56
+21,Nigeria,Germany,Student,Bachelor,14,27259,0,1,1,Approved,55
+18,Nigeria,Australia,Student,PhD,10,4926,0,0,2,Approved,56
+45,Brazil,UK,Work,Bachelor,5,3856,0,1,11,Approved,73
+41,Germany,USA,Student,Bachelor,13,8988,0,0,12,Approved,53
+52,Philippines,UK,Student,High School,2,11743,1,1,7,Rejected,84
+30,Philippines,USA,Student,Master,2,7138,0,1,1,Approved,64
+51,Nigeria,Canada,Student,Master,3,46848,0,1,12,Approved,50
+28,Philippines,Australia,Work,Master,8,19082,0,0,2,Approved,79
+53,UK,Canada,Dependent,Master,10,36374,1,0,10,Approved,63
+34,Brazil,Canada,Student,Bachelor,12,11863,0,1,7,Approved,71
+52,India,USA,Business,High School,7,40790,0,1,1,Approved,28
+35,Brazil,UK,Tourist,Bachelor,0,32807,0,0,7,Rejected,44
+39,China,Germany,Work,Master,12,25118,0,0,8,Approved,87
+41,Germany,USA,Work,Master,11,8149,1,0,11,Approved,86
+36,Germany,Germany,Tourist,Bachelor,10,41079,1,1,2,Approved,36
+54,Brazil,Canada,Student,Master,0,5484,0,1,4,Approved,61
+38,Nigeria,Germany,Work,Master,6,28191,0,0,7,Approved,81
+25,Nigeria,UK,Tourist,Master,2,46809,0,1,1,Approved,20
+45,UK,USA,Work,Master,13,23791,2,1,6,Approved,108
+22,UK,UK,Tourist,Master,10,6807,0,0,5,Approved,41
+34,Germany,UK,Student,Bachelor,6,29648,1,1,11,Approved,73
+54,UK,USA,Tourist,Master,8,34090,0,1,6,Approved,44
+53,India,UK,Work,PhD,2,28100,1,0,8,Rejected,90
+36,UK,Australia,Work,Bachelor,2,33949,1,1,11,Rejected,87
+44,India,Australia,Student,Master,1,38941,0,1,11,Approved,53
+51,UK,Australia,Work,Master,9,20857,2,0,1,Rejected,99
+28,Germany,Germany,Business,High School,0,49980,1,0,3,Rejected,39
+29,Germany,UK,Work,Master,8,30850,0,0,11,Approved,69
+38,India,USA,Tourist,High School,5,45967,1,1,9,Rejected,43
+28,Brazil,USA,Work,PhD,5,5412,0,0,12,Approved,78
+45,Germany,Germany,Student,Master,7,6182,1,1,8,Approved,88
+22,Brazil,USA,Student,High School,10,23948,0,1,4,Approved,54
+34,Nigeria,Australia,Student,High School,4,36782,0,1,11,Approved,60
+37,India,UK,Work,Master,8,20253,0,1,10,Approved,67
+29,Philippines,USA,Student,Bachelor,14,42681,1,0,9,Approved,64
+23,Germany,USA,Tourist,High School,10,38495,2,1,7,Rejected,58
+34,China,Canada,Tourist,Bachelor,4,5852,0,1,2,Approved,34
+36,Nigeria,Canada,Student,Bachelor,1,44845,0,1,1,Approved,54
+43,Brazil,Canada,Student,High School,5,21992,0,1,1,Approved,56
+49,Germany,UK,Student,Master,14,4273,0,1,3,Approved,54
+23,India,Australia,Work,PhD,8,10649,0,0,10,Approved,78
+53,Philippines,Australia,Student,Master,2,32002,0,1,2,Approved,64
+28,UK,Australia,Student,Master,9,37723,0,0,4,Approved,63
+50,Philippines,UK,Business,Bachelor,3,11778,0,1,8,Approved,53
+41,China,UK,Tourist,Bachelor,9,27776,0,1,5,Approved,42
+40,Brazil,Canada,Student,Bachelor,10,7549,0,0,5,Approved,72
+32,Nigeria,USA,Work,Master,7,18863,1,1,6,Approved,92
+44,Philippines,Germany,Work,PhD,5,14809,0,0,12,Approved,69
+28,India,Germany,Tourist,Master,12,11302,0,0,5,Approved,46
+34,China,USA,Work,Master,6,11100,0,1,5,Approved,83
+31,India,Canada,Student,Master,6,5911,0,1,7,Approved,78
+44,Germany,USA,Tourist,Bachelor,3,15091,0,1,6,Approved,48
+35,UK,USA,Work,Bachelor,14,12099,0,1,10,Approved,69
+45,Nigeria,Germany,Student,High School,11,8663,0,0,11,Approved,57
+21,India,Canada,Work,High School,5,32904,0,1,2,Approved,68
+24,Brazil,UK,Work,Master,11,31291,0,1,1,Approved,69
+52,Germany,Germany,Student,Bachelor,8,47649,0,0,1,Approved,56
+26,Germany,UK,Student,Master,2,44066,0,1,4,Approved,52
+25,Nigeria,Canada,Work,Master,7,39104,0,1,2,Approved,77
+34,Germany,USA,Student,Bachelor,6,42137,0,1,6,Approved,70
+34,Brazil,Australia,Tourist,Bachelor,3,5534,0,0,12,Rejected,28
+50,India,Australia,Student,Bachelor,9,5226,2,1,12,Rejected,80
+49,Nigeria,Canada,Student,Bachelor,12,12585,0,1,9,Approved,53
+25,Germany,Australia,Tourist,Master,2,30260,0,1,10,Approved,23
+36,Germany,UK,Tourist,Bachelor,13,30411,1,0,11,Approved,35
+20,Brazil,Australia,Tourist,Master,6,35934,0,1,10,Approved,25
+22,UK,Canada,Work,Master,9,13902,0,0,8,Approved,82
+30,UK,Canada,Student,Master,8,39392,0,0,4,Approved,63
+48,Philippines,UK,Tourist,Master,11,21731,0,1,12,Approved,20
+33,Germany,Australia,Tourist,Bachelor,9,20788,0,1,2,Approved,22
+49,India,Australia,Student,High School,2,34126,0,1,1,Approved,57
+39,Nigeria,USA,Business,Bachelor,14,45485,1,1,7,Approved,57
+46,Germany,Germany,Student,Bachelor,9,48369,0,1,10,Approved,55
+39,China,Canada,Dependent,PhD,8,48871,0,0,3,Approved,51
+20,Nigeria,USA,Business,Master,12,48798,0,1,6,Approved,41
+27,Philippines,Canada,Tourist,High School,7,5774,0,1,5,Approved,43
+38,UK,USA,Business,High School,11,12017,0,1,5,Approved,42
+33,Germany,Germany,Tourist,Bachelor,2,28700,1,1,12,Rejected,31
+29,Brazil,USA,Student,Master,14,28144,1,1,2,Approved,64
+19,China,Canada,Work,Master,7,32910,1,1,9,Approved,75
+41,Germany,Australia,Student,Master,11,45918,0,0,11,Approved,54
+52,Philippines,Canada,Work,PhD,3,39507,2,0,4,Rejected,94
+47,India,UK,Tourist,Bachelor,5,29685,0,0,10,Approved,23
+47,China,UK,Work,Bachelor,11,27402,0,1,1,Approved,76
+52,Philippines,UK,Student,Bachelor,9,40232,0,1,2,Approved,55
+36,Germany,UK,Work,Bachelor,1,33063,0,1,9,Approved,76
+25,India,Germany,Business,PhD,7,27125,0,0,7,Approved,44
+43,China,Australia,Student,Master,12,48149,0,1,10,Approved,58
+24,India,Australia,Work,Master,8,27020,1,1,2,Approved,79
+47,India,Canada,Student,Bachelor,6,34703,0,0,7,Approved,77
+24,China,USA,Tourist,High School,7,34769,0,1,4,Approved,27
+20,China,Canada,Student,High School,6,16746,0,0,10,Rejected,61
+18,India,Canada,Tourist,Bachelor,10,7094,0,0,2,Approved,32
+53,Philippines,Canada,Student,Master,9,5930,0,0,12,Approved,51
+42,UK,Canada,Student,Bachelor,3,36531,0,0,4,Approved,52
+54,China,Australia,Business,Master,0,33755,0,1,5,Approved,42
+18,Germany,USA,Student,Master,2,33105,1,0,4,Rejected,62
+32,Nigeria,Canada,Work,Bachelor,6,14552,2,1,3,Rejected,90
+54,Brazil,Australia,Student,Master,10,39218,1,0,6,Approved,81
+30,India,Canada,Work,Bachelor,10,22779,0,1,1,Approved,71
+25,India,UK,Work,Master,6,32000,0,1,8,Approved,91
+22,Brazil,Canada,Student,Master,10,23103,0,1,12,Approved,56
+26,UK,Canada,Student,PhD,12,17102,0,0,5,Approved,76
+18,Brazil,Germany,Work,Bachelor,2,4861,2,1,8,Rejected,102
+53,China,UK,Tourist,Bachelor,0,46574,1,1,10,Rejected,30
+52,Brazil,USA,Tourist,Bachelor,9,35682,0,0,4,Approved,25
+19,India,Canada,Work,Bachelor,8,16283,0,1,4,Approved,67
+40,Brazil,USA,Work,Master,11,28597,1,1,5,Approved,102
+26,Nigeria,UK,Student,PhD,5,15436,0,1,5,Approved,79
+51,Germany,Canada,Student,Bachelor,12,31424,0,0,11,Approved,52
+31,China,Germany,Student,Bachelor,12,11890,1,0,6,Rejected,89
+21,Brazil,Australia,Student,Bachelor,11,41297,0,0,5,Approved,67
+47,India,Germany,Student,Bachelor,6,11299,0,0,5,Rejected,79
+48,Philippines,Germany,Work,Bachelor,0,44348,0,1,8,Approved,88
+28,Germany,Australia,Work,Bachelor,0,44384,0,1,6,Approved,91
+52,China,Australia,Business,Master,3,14157,0,0,2,Approved,39
+25,India,Australia,Student,High School,6,32763,0,0,4,Rejected,53
+20,UK,Canada,Work,Bachelor,13,35687,1,0,4,Approved,79
+31,Nigeria,USA,Tourist,Master,10,13191,0,1,5,Approved,37
+30,UK,USA,Work,Bachelor,14,14767,0,1,6,Approved,89
+49,Nigeria,Australia,Student,Master,10,20911,0,0,11,Approved,62
+51,Brazil,Germany,Student,Master,7,31629,0,0,5,Approved,79
+36,China,UK,Student,Master,9,37794,0,1,11,Approved,61
+33,Brazil,Australia,Student,Bachelor,8,29944,0,1,6,Approved,65
+19,Nigeria,Germany,Tourist,Bachelor,0,46726,0,1,8,Approved,49
+34,Nigeria,Germany,Student,Master,3,37623,0,0,4,Approved,61
+51,Nigeria,Canada,Student,Master,3,20981,1,0,11,Rejected,63
+33,Germany,Canada,Tourist,Bachelor,2,8958,0,1,3,Approved,34
+19,India,USA,Tourist,High School,6,17705,0,1,9,Approved,20
+19,China,USA,Work,High School,0,33636,0,0,3,Rejected,75
+43,Brazil,UK,Tourist,High School,8,45876,0,0,11,Approved,30
+30,Brazil,UK,Work,Master,12,28152,0,1,8,Approved,86
+48,UK,UK,Student,High School,7,41529,0,0,10,Approved,56
+51,Nigeria,UK,Work,Bachelor,1,3688,0,1,12,Rejected,79
+20,Philippines,Germany,Work,Master,1,28365,2,0,5,Rejected,103
+25,Nigeria,Germany,Business,Bachelor,7,32663,0,1,9,Approved,39
+40,Nigeria,USA,Student,Master,10,42074,0,0,3,Approved,54
+31,Philippines,Canada,Work,Master,13,40840,0,1,10,Approved,74
+44,Brazil,Canada,Student,Bachelor,14,20739,0,0,10,Approved,56
+46,UK,Australia,Work,Master,0,13909,0,0,8,Rejected,92
+18,India,Germany,Student,Master,12,15713,0,1,7,Approved,70
+34,Philippines,UK,Student,Bachelor,6,15614,1,1,12,Rejected,72
+47,Germany,UK,Tourist,Bachelor,8,45089,1,0,7,Approved,48
+30,China,Australia,Work,Bachelor,11,35561,0,1,11,Approved,68
+38,Philippines,Canada,Work,PhD,14,23734,1,0,10,Approved,76
+36,India,UK,Student,Master,2,33709,0,1,9,Approved,59
+36,Brazil,Canada,Student,Bachelor,6,25885,0,0,12,Approved,51
+42,Germany,Australia,Work,Master,5,9086,1,0,8,Rejected,101
+39,Germany,Canada,Tourist,Bachelor,14,15731,1,1,3,Approved,33
+48,Germany,Canada,Dependent,Master,6,23592,0,1,6,Approved,64
+34,Nigeria,Canada,Work,Master,6,16341,0,1,11,Approved,68
+40,China,UK,Work,Bachelor,9,42435,0,1,6,Approved,93
+49,Brazil,USA,Tourist,Master,0,15976,0,1,5,Approved,37
+27,Brazil,Germany,Work,Master,13,20374,1,0,3,Approved,85
+27,Germany,Canada,Work,Master,2,15333,0,0,9,Rejected,66
+53,Brazil,Canada,Student,Bachelor,9,8290,0,1,7,Approved,68
+25,China,Canada,Tourist,Master,0,48812,0,0,4,Approved,33
+37,China,USA,Work,PhD,4,49305,0,1,6,Approved,90
+49,UK,Australia,Tourist,High School,2,26586,1,1,5,Rejected,49
+31,Philippines,UK,Tourist,Bachelor,0,19340,1,0,1,Rejected,30
+45,Philippines,USA,Student,Bachelor,1,38655,0,1,2,Approved,64
+41,UK,Canada,Tourist,Master,9,17560,0,0,1,Approved,32
+32,India,USA,Tourist,Master,4,26997,0,0,9,Approved,20
+39,Philippines,USA,Student,High School,10,4340,0,0,9,Rejected,55
+47,China,USA,Student,Master,2,47697,0,0,5,Approved,69
+21,China,Australia,Student,Bachelor,5,29013,0,0,8,Approved,75
