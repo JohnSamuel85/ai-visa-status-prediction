@@ -1,0 +1,93 @@
+# ================================
+# Milestone 1: Data Preprocessing
+# AI Enabled Visa Status Prediction
+# ================================
+
+import pandas as pd
+import numpy as np
+
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+
+# -------------------------------
+# 1. Load Dataset
+# -------------------------------
+
+df = pd.read_csv("ai_visa_prediction_synthetic_dataset.csv")
+
+print("Dataset loaded successfully")
+print("Shape:", df.shape)
+
+# 2. Initial Data Inspection
+
+print("\nDataset Info:")
+df.info()
+
+print("\nFirst 5 rows:")
+print(df.head())
+
+# -------------------------------
+# 3. Missing Value Check
+# -------------------------------
+
+missing_values = df.isnull().sum()
+
+print("\nMissing Values per Column:")
+print(missing_values)
+
+assert missing_values.sum() == 0, "Dataset contains missing values!"
+
+# -------------------------------
+# 4. Identify Feature Types
+# -------------------------------
+
+categorical_columns = df.select_dtypes(include=["object"]).columns.tolist()
+numerical_columns = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
+
+print("\nCategorical Columns:")
+print(categorical_columns)
+
+print("\nNumerical Columns:")
+print(numerical_columns)
+
+# -------------------------------
+# 5. Categorical Encoding
+# -------------------------------
+
+df_encoded = df.copy()
+label_encoders = {}
+
+for col in categorical_columns:
+    le = LabelEncoder()
+    df_encoded[col] = le.fit_transform(df_encoded[col])
+    label_encoders[col] = le
+
+print("\nCategorical encoding completed")
+
+# -------------------------------
+# 6. Feature and Target Separation
+# -------------------------------
+
+X = df_encoded.drop(columns=["visa_status", "processing_days"])
+y_classification = df_encoded["visa_status"]
+y_regression = df_encoded["processing_days"]
+
+print("\nFeature matrix shape:", X.shape)
+print("Classification target shape:", y_classification.shape)
+print("Regression target shape:", y_regression.shape)
+
+# -------------------------------
+# 7. Feature Scaling
+# -------------------------------
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+print("\nFeature scaling completed")
+print("Scaled feature shape:", X_scaled.shape)
+
+# -------------------------------
+# 8. Final Output Confirmation
+# -------------------------------
+
+print("\nMilestone 1 Completed Successfully")
+print("Dataset is clean, structured, encoded, and model-ready")
