@@ -1,0 +1,256 @@
+# ============================================
+# Milestone 3 (Complete): Predictive Modeling
+# Visa Processing Days Prediction (Regression)
+# ============================================
+
+import pandas as pd
+import numpy as np
+
+from sklearn.model_selection import train_test_split, RandomizedSearchCV
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor, HistGradientBoostingRegressor
+
+# -------------------------------
+# Helper Functions
+# -------------------------------
+
+def regression_metrics(y_true, y_pred, tolerance=3):
+    mae = mean_absolute_error(y_true, y_pred)
+    rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+    r2 = r2_score(y_true, y_pred)
+    within_tol = np.mean(np.abs(y_true - y_pred) <= tolerance) * 100
+
+    return {
+        "MAE": mae,
+        "RMSE": rmse,
+        "R2": r2,
+        f"Within_±{tolerance}_days(%)": within_tol
+    }
+
+def print_metrics(title, metrics_dict):
+    print("\n==============================")
+    print(title)
+    print("==============================")
+    for k, v in metrics_dict.items():
+        if isinstance(v, float):
+            print(f"{k:22s}: {v:.4f}")
+        else:
+            print(f"{k:22s}: {v}")
+
+def segmentwise_metrics(df_original, y_true, y_pred, segment_col="visa_type"):
+    temp = df_original.copy()
+    temp = temp.reset_index(drop=True)
+    temp["y_true"] = y_true.values
+    temp["y_pred"] = y_pred
+
+    results = {}
+    for cat in temp[segment_col].unique():
+        sub = temp[temp[segment_col] == cat]
+        results[cat] = regression_metrics(sub["y_true"], sub["y_pred"])
+    return results
+
+# -------------------------------
+# 1. Load Dataset
+# -------------------------------
+
+df = pd.read_csv("ai_visa_prediction_synthetic_dataset.csv")
+print("Dataset loaded successfully")
+print("Shape:", df.shape)
+
+# -------------------------------
+# 2. Train/Test Split FIRST (Leakage Safe)
+# -------------------------------
+
+train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
+
+# -------------------------------
+# 3. Leakage-Safe Feature Engineering
+# -------------------------------
+
+def add_features(base_df, reference_df):
+    base_df = base_df.copy()
+
+    # Seasonal index
+    base_df["seasonal_index"] = base_df["application_month"].apply(
+        lambda x: 1 if x in [5, 6, 7, 8] else 0
+    )
+
+    # Averages computed from reference_df only (train set reference)
+    country_avg = reference_df.groupby("destination_country")["processing_days"].mean()
+    visa_avg = reference_df.groupby("visa_type")["processing_days"].mean()
+
+    base_df["country_avg_processing_days"] = base_df["destination_country"].map(country_avg)
+    base_df["visa_type_avg_processing_days"] = base_df["visa_type"].map(visa_avg)
+
+    # Fill unseen categories (if any) with global mean
+    global_mean = reference_df["processing_days"].mean()
+    base_df["country_avg_processing_days"] = base_df["country_avg_processing_days"].fillna(global_mean)
+    base_df["visa_type_avg_processing_days"] = base_df["visa_type_avg_processing_days"].fillna(global_mean)
+
+    return base_df
+
+train_df_fe = add_features(train_df, train_df)
+test_df_fe = add_features(test_df, train_df)
+
+print("\nLeakage-safe feature engineering completed.")
+print("Train shape:", train_df_fe.shape)
+print("Test shape :", test_df_fe.shape)
+
+# -------------------------------
+# 4. Encode Categorical Columns
+# -------------------------------
+
+categorical_columns = train_df_fe.select_dtypes(include=["object"]).columns.tolist()
+
+train_encoded = train_df_fe.copy()
+test_encoded = test_df_fe.copy()
+
+label_encoders = {}
+for col in categorical_columns:
+    le = LabelEncoder()
+
+    # Fit only on train
+    train_encoded[col] = le.fit_transform(train_encoded[col])
+
+    # Handle unseen categories in test safely
+    known_classes = set(le.classes_)
+    test_encoded[col] = test_encoded[col].apply(lambda x: x if x in known_classes else le.classes_[0])
+    test_encoded[col] = le.transform(test_encoded[col])
+
+    label_encoders[col] = le
+
+print("\nCategorical encoding completed.")
+
+# -------------------------------
+# 5. Feature/Target Split
+# -------------------------------
+
+X_train = train_encoded.drop(columns=["processing_days"])
+y_train = train_encoded["processing_days"]
+
+X_test = test_encoded.drop(columns=["processing_days"])
+y_test = test_encoded["processing_days"]
+
+# -------------------------------
+# 6. Model 1: Linear Regression (Baseline)
+# -------------------------------
+
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+lin_reg = LinearRegression()
+lin_reg.fit(X_train_scaled, y_train)
+pred_lr = lin_reg.predict(X_test_scaled)
+
+metrics_lr = regression_metrics(y_test, pred_lr, tolerance=3)
+print_metrics("Baseline Model: Linear Regression", metrics_lr)
+
+# -------------------------------
+# 7. Model 2: Random Forest (Baseline)
+# -------------------------------
+
+rf_base = RandomForestRegressor(
+    n_estimators=200,
+    random_state=42
+)
+
+rf_base.fit(X_train.to_numpy(), y_train)
+pred_rf_base = rf_base.predict(X_test.to_numpy())
+
+metrics_rf_base = regression_metrics(y_test, pred_rf_base, tolerance=3)
+print_metrics("Baseline Model: Random Forest", metrics_rf_base)
+
+# -------------------------------
+# 8. Fine-Tuning Random Forest (Milestone 3 Requirement)
+# -------------------------------
+
+print("\n==============================")
+print("Fine-Tuning: Random Forest (RandomizedSearchCV)")
+print("==============================")
+
+param_dist = {
+    "n_estimators": [200, 300, 400, 500],
+    "max_depth": [None, 6, 10, 15, 20],
+    "min_samples_split": [2, 5, 10],
+    "min_samples_leaf": [1, 2, 4],
+    "max_features": ["sqrt", "log2", None]
+}
+
+rf = RandomForestRegressor(random_state=42)
+
+search = RandomizedSearchCV(
+    estimator=rf,
+    param_distributions=param_dist,
+    n_iter=20,
+    scoring="neg_mean_absolute_error",
+    cv=3,
+    random_state=42,
+    n_jobs=-1
+)
+
+search.fit(X_train.to_numpy(), y_train)
+
+best_rf = search.best_estimator_
+print("Best RF Params:", search.best_params_)
+
+pred_rf_tuned = best_rf.predict(X_test.to_numpy())
+metrics_rf_tuned = regression_metrics(y_test, pred_rf_tuned, tolerance=3)
+print_metrics("Fine-Tuned Model: Random Forest", metrics_rf_tuned)
+
+# -------------------------------
+# 9. Model 3: HistGradientBoosting (Extra Benchmark)
+# -------------------------------
+
+hgb = HistGradientBoostingRegressor(
+    random_state=42,
+    max_depth=6,
+    learning_rate=0.08
+)
+hgb.fit(X_train, y_train)
+pred_hgb = hgb.predict(X_test)
+
+metrics_hgb = regression_metrics(y_test, pred_hgb, tolerance=3)
+print_metrics("Benchmark Model: HistGradientBoosting", metrics_hgb)
+
+# -------------------------------
+# 10. Select Best Model (R² then MAE)
+# -------------------------------
+
+models = {
+    "LinearRegression": (metrics_lr, pred_lr),
+    "RandomForest_Baseline": (metrics_rf_base, pred_rf_base),
+    "RandomForest_Tuned": (metrics_rf_tuned, pred_rf_tuned),
+    "HistGradientBoosting": (metrics_hgb, pred_hgb)
+}
+
+best = sorted(models.items(), key=lambda x: (-x[1][0]["R2"], x[1][0]["MAE"]))[0]
+best_name = best[0]
+best_metrics = best[1][0]
+best_pred = best[1][1]
+
+print("\n==============================")
+print("Best Model Selected")
+print("==============================")
+print("Best Model:", best_name)
+print_metrics("Best Model Metrics", best_metrics)
+
+# -------------------------------
+# 11. Segment-wise Evaluation (By Visa Type)
+# -------------------------------
+
+print("\n==============================")
+print("Segment-wise Metrics by Visa Type")
+print("==============================")
+
+seg_results = segmentwise_metrics(test_df_fe, y_test, best_pred, segment_col="visa_type")
+
+for visa, m in seg_results.items():
+    print(f"\n--- {visa} ---")
+    for k, v in m.items():
+        print(f"{k:22s}: {v:.4f}")
+
+print("\n✅ Milestone 3 Completed Successfully")
