@@ -45,6 +45,26 @@ The project is being developed milestone-by-milestone. This repository currently
 
 ---
 
+### ✅ Milestone 3: Predictive Modeling (Regression)
+**Objective:** Develop and test regression models to predict visa processing time.
+
+**Work Done:**
+- Performed train-test split to evaluate models on unseen data
+- Applied **leakage-safe feature engineering** using training-set reference only
+- Encoded categorical variables for model compatibility
+- Trained baseline regression models:
+  - **Linear Regression**
+  - **Random Forest Regressor**
+- Evaluated models using:
+  - **MAE (Mean Absolute Error)**
+  - **RMSE (Root Mean Squared Error)**
+  - **R² Score**
+- Fine-tuned Random Forest using **RandomizedSearchCV** to improve performance
+- Selected the best-performing model based on evaluation metrics
+- Performed **segment-wise evaluation by visa type** to verify consistent performance across categories
+
+**Outcome:** A best-performing regression model is selected and ready for further integration and deployment in upcoming milestones.
+
 ## Dataset
 - File: `ai_visa_prediction_synthetic_dataset.csv`
 - Records: 3000
@@ -61,6 +81,7 @@ The project is being developed milestone-by-milestone. This repository currently
 - `ai_visa_prediction_synthetic_dataset.csv` — Dataset
 - `ai_visa_prediction_1.py` (or preprocessing script) — Milestone 1 preprocessing code
 - `milestone_2_eda_feature_engineering.py` — Milestone 2 EDA + feature engineering code
+- `milestone_3_regression_modeling.py` — Milestone 3 regression modeling + evaluation + tuning code
 - `README.md` — Project documentation
 
 ---
@@ -69,3 +90,4 @@ The project is being developed milestone-by-milestone. This repository currently
 - **Language:** Python
 - **Data Handling:** Pandas, NumPy
 - **EDA & Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn
