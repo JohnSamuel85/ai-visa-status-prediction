@@ -65,7 +65,12 @@ cd VISAAS
    ```bash
    cd "Milestone_4_Vi-SaaS_System/backend"
    ```
-2. Run the startup script:
+2. **Setup Environment Variables**:
+   - Locate the `.env.example` file.
+   - Create a copy named **`.env`**.
+   - Open the **`.env`** file and replace `'your_gemini_api_key_here'` with your actual Google Gemini API key (Mandatory for AI insights).
+   - *Note: You can get a free API key from the [Google AI Studio](https://aistudio.google.com/).*
+3. Run the startup script:
    ```bash
    start_backend.bat
    ```
