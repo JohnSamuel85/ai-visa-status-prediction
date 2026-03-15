@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visa Prediction Results — Vi-SaaS</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛂</text></svg>"/>
+  <style>
+    @media print {
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+      body {
+        background-color: var(--bg-primary) !important;
+        color: var(--text-primary) !important;
+      }
+      .navbar, .nav-actions, .btn-secondary, .btn-primary, .toast-container, .action-buttons {
+        display: none !important;
+      }
+      .results-page {
+        padding-top: 40px !important;
+      }
+      .card {
+        background: var(--bg-card) !important;
+        border: 1px solid var(--border) !important;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+<!-- Navbar -->
+<nav class="navbar scrolled">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" onclick="goHome(event, '../')" class="nav-logo">
+        <div class="nav-logo-icon">🛂</div>
+        <span>Vi-<span class="gradient-text">SaaS</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="predict.html" class="btn btn-secondary btn-sm">New Prediction</a>
+        <a href="dashboard.html" class="btn btn-primary btn-sm">Dashboard</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="results-page">
+  <div class="results-container">
+    <!-- Header -->
+    <div class="results-header fade-in">
+      <span class="badge badge-purple" style="margin-bottom:16px;">✨ AI Analysis Complete</span>
+      <h1 style="font-family:var(--font-display);font-size:2rem;font-weight:700;margin-bottom:8px;">
+        Your Visa <span class="gradient-text">Prediction Results</span>
+      </h1>
+      <p class="text-secondary body-sm" id="resultSubtitle">Loading your personalized analysis…</p>
+    </div>
+
+    <!-- Main Results Row -->
+    <div class="results-grid fade-in fade-in-delay-1">
+      <!-- Approval Ring -->
+      <div class="card" style="text-align:center;padding:32px;">
+        <p class="caption text-muted" style="margin-bottom:20px;">APPROVAL PROBABILITY</p>
+        <div class="probability-ring">
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="88" class="ring-bg" transform="rotate(-90 100 100)"/>
+            <circle cx="100" cy="100" r="88" class="ring-fill" id="ringFill"
+              stroke="url(#ringGrad)" transform="rotate(-90 100 100)"
+              stroke-dasharray="553" stroke-dashoffset="553"/>
+            <defs>
+              <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#8b5cf6"/>
+                <stop offset="100%" style="stop-color:#06b6d4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="ring-text">
+            <span class="ring-pct gradient-text" id="ringPct">0%</span>
+            <span class="ring-label">Approval Chance</span>
+          </div>
+        </div>
+        <span class="badge" id="statusBadge" style="margin-top:12px;font-size:0.875rem;padding:8px 16px;">Analyzing…</span>
+        <div style="margin-top:16px;padding:12px;background:rgba(255,255,255,0.03);border-radius:10px;border:1px solid var(--border);">
+          <p class="body-sm text-secondary">Model Confidence</p>
+          <p style="font-family:var(--font-display);font-weight:700;" id="modelConf">—</p>
+        </div>
+      </div>
+
+      <!-- Processing Days -->
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div class="card" style="padding:28px;">
+          <p class="caption text-muted" style="margin-bottom:12px;">ESTIMATED PROCESSING TIME</p>
+          <div style="font-family:var(--font-display);font-size:3rem;font-weight:700;" class="gradient-text" id="daysNum">—</div>
+          <p class="text-secondary body-sm" id="daysRange">business days</p>
+          <div style="margin-top:16px;height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden;">
+            <div id="daysBar" style="height:100%;width:0%;border-radius:3px;background:var(--gradient-primary);transition:width 1.5s ease;"></div>
+          </div>
+          <p class="body-sm text-muted" style="margin-top:8px;" id="daysBarLabel">Processing estimate</p>
+        </div>
+
+      <!-- Applicant Info -->
+      <div class="card" style="padding:28px;">
+        <p class="caption text-muted" style="margin-bottom:16px;">APPLICATION DETAILS</p>
+        <div style="display:flex;flex-direction:column;gap:10px;" id="appDetails"></div>
+      </div>
+    </div>
+    </div><!-- end .results-grid (Main Results Row) -->
+
+    <!-- Risk Factors, Positive Factors & Gemini AI Insights -->
+    <div class="factors-gemini-wrapper fade-in fade-in-delay-2">
+
+      <!-- Risk Factors & Positives (Dynamic layout) -->
+      <div id="factorsGridWrapper" class="factors-grid">
+        <div class="card" style="padding:28px;">
+          <p class="caption text-muted" style="margin-bottom:16px;">⚠️ RISK FACTORS</p>
+          <div id="riskFactors">
+            <div class="shimmer" style="height:48px;border-radius:8px;margin-bottom:10px;"></div>
+            <div class="shimmer" style="height:48px;border-radius:8px;margin-bottom:10px;"></div>
+            <div class="shimmer" style="height:48px;border-radius:8px;"></div>
+          </div>
+        </div>
+        <div class="card" style="padding:28px;">
+          <p class="caption text-muted" style="margin-bottom:16px;">✅ POSITIVE FACTORS</p>
+          <div id="positiveFacts">
+            <div class="shimmer" style="height:40px;border-radius:8px;margin-bottom:10px;"></div>
+            <div class="shimmer" style="height:40px;border-radius:8px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== GEMINI AI INSIGHTS ===== -->
+      <div class="card gemini-panel fade-in fade-in-delay-3">
+        <div class="gemini-badge">
+          <!-- Official Gemini star logo (inline SVG) -->
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+            <defs>
+              <linearGradient id="geminiGrad1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#4285f4"/>
+                <stop offset="50%" stop-color="#9b72cb"/>
+                <stop offset="100%" stop-color="#ea4335"/>
+              </linearGradient>
+            </defs>
+            <!-- 4-pointed Gemini star -->
+            <path d="M14 2 C14 2 15.5 9.5 20 14 C15.5 18.5 14 26 14 26 C14 26 12.5 18.5 8 14 C12.5 9.5 14 2 14 2Z" fill="url(#geminiGrad1)"/>
+            <path d="M2 14 C2 14 9.5 15.5 14 20 C18.5 15.5 26 14 26 14 C26 14 18.5 12.5 14 8 C9.5 12.5 2 14 2 14Z" fill="url(#geminiGrad1)" opacity="0.85"/>
+          </svg>
+          <div>
+            <p style="font-weight:700;font-size:1rem;">Gemini 2.5 Flash AI Insights</p>
+            <p class="body-sm text-secondary" id="geminiPoweredBy">Powered by Google Gemini</p>
+          </div>
+        </div>
+
+        <div id="geminiSummary" style="padding:16px;background:rgba(66,133,244,0.07);border:1px solid rgba(66,133,244,0.2);border-radius:12px;margin-bottom:24px;font-size:0.9375rem;line-height:1.7;">
+          <div class="shimmer" style="height:60px;border-radius:8px;"></div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+          <!-- AI Tips -->
+          <div>
+            <p class="caption text-muted" style="margin-bottom:14px;">💡 EXPERT TIPS</p>
+            <div id="geminiTips">
+              <div class="shimmer" style="height:52px;border-radius:8px;margin-bottom:10px;"></div>
+              <div class="shimmer" style="height:52px;border-radius:8px;margin-bottom:10px;"></div>
+              <div class="shimmer" style="height:52px;border-radius:8px;"></div>
+            </div>
+          </div>
+          <!-- Document Checklist -->
+          <div>
+            <p class="caption text-muted" style="margin-bottom:14px;">📋 DOCUMENT CHECKLIST</p>
+            <div id="geminiDocs">
+              <div class="shimmer" style="height:36px;border-radius:8px;margin-bottom:8px;"></div>
+              <div class="shimmer" style="height:36px;border-radius:8px;margin-bottom:8px;"></div>
+              <div class="shimmer" style="height:36px;border-radius:8px;margin-bottom:8px;"></div>
+              <div class="shimmer" style="height:36px;border-radius:8px;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline advice -->
+        <div style="margin-top:20px;padding:16px;background:rgba(16,185,129,0.07);border:1px solid rgba(16,185,129,0.2);border-radius:12px;display:flex;gap:12px;align-items:flex-start;">
+          <span style="font-size:20px;">📅</span>
+          <div>
+            <p style="font-weight:600;margin-bottom:4px;">Timeline Advice</p>
+            <p class="body-sm text-secondary" id="geminiTimeline">Loading…</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end .factors-gemini-wrapper -->
+
+
+    <!-- Action Buttons -->
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:32px;" class="fade-in">
+      <button onclick="printResults()" class="btn btn-secondary btn-lg">🖨️ Print Report</button>
+      <a href="predict.html" class="btn btn-primary btn-lg">🔮 New Prediction</a>
+      <a href="dashboard.html" class="btn btn-secondary btn-lg">📊 Dashboard</a>
+    </div>
+  </div>
+  
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+<script src="../js/app.js"></script>
+<script>
+const colorMap = { green:'#10b981', yellow:'#f59e0b', orange:'#f97316', red:'#ef4444' };
+const badgeMap = {
+  green: 'background:rgba(16,185,129,0.15);color:#34d399;border:1px solid rgba(16,185,129,0.3)',
+  yellow:'background:rgba(245,158,11,0.15);color:#fbbf24;border:1px solid rgba(245,158,11,0.3)',
+  orange:'background:rgba(249,115,22,0.15);color:#fb923c;border:1px solid rgba(249,115,22,0.3)',
+  red:   'background:rgba(239,68,68,0.15);color:#f87171;border:1px solid rgba(239,68,68,0.3)',
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const predictionId = urlParams.get('id');
+  
+  let data = null;
+  if (predictionId) {
+    const history = JSON.parse(localStorage.getItem('visaas_history') || '[]');
+    data = history.find(h => String(h.id) === String(predictionId));
+  }
+  
+  if (!data) {
+    data = JSON.parse(localStorage.getItem('visaas_lastresult') || 'null');
+  }
+
+  if (!data) { window.location.href = 'predict.html'; return; }
+
+  const pct = data.approval_probability;
+  const color = data.status_color || data.statusColor || 'green';
+
+  // Subtitle
+  document.getElementById('resultSubtitle').textContent =
+    `${data.visa_type || data.visaType} visa: ${data.nationality} → ${data.destination_country || data.destination}`;
+
+  // Ring animation
+  const circumference = 553;
+  setTimeout(() => {
+    const offset = circumference - (pct / 100) * circumference;
+    document.getElementById('ringFill').style.strokeDashoffset = offset;
+    animateNum('ringPct', 0, pct, 1500, v => Math.round(v) + '%');
+  }, 300);
+
+  // Status badge
+  const badge = document.getElementById('statusBadge');
+  badge.textContent = data.status || 'Analyzing…';
+  badge.style.cssText = badgeMap[color] || badgeMap.yellow;
+
+
+  // Model confidence
+  document.getElementById('modelConf').textContent = (data.model_confidence || 75) + '%';
+
+  // Days
+  document.getElementById('daysNum').textContent = data.predicted_days + ' days';
+  document.getElementById('daysRange').textContent = `Range: ${data.processing_range?.min || data.predicted_days - 2} – ${data.processing_range?.max || data.predicted_days + 4} days`;
+  const barPct = Math.min(100, (data.predicted_days / 90) * 100);
+  setTimeout(() => { document.getElementById('daysBar').style.width = barPct + '%'; }, 400);
+  document.getElementById('daysBarLabel').textContent = `Up to ${data.processing_range?.max || data.predicted_days + 4} days maximum`;
+
+  // Application details
+  const appDetailsList = [
+    {label:'Visa Type', val: data.visa_type || data.visaType},
+    {label:'Destination', val: data.destination_country || data.destination},
+    {label:'Nationality', val: data.nationality},
+    {label:'Purpose', val: data.travel_purpose},
+  ];
+  document.getElementById('appDetails').innerHTML = appDetailsList.map(d =>
+    `<div style="display:flex;justify-content:space-between;font-size:0.875rem;">
+      <span style="color:var(--text-muted);">${d.label}</span>
+      <span style="font-weight:600;">${d.val||'—'}</span>
+    </div>`).join('');
+
+  // Risk and Positive Factors dynamic layout
+  const risks = data.risk_factors || [];
+  const positives = data.positive_factors || [];
+  const iconMap = {danger:'⛔', warning:'⚠️', info:'ℹ️'};
+  const factorsWrapper = document.getElementById('factorsGridWrapper');
+
+  function buildFactorSection(title, items, isRisk) {
+    if (items.length === 0) {
+      const msg = isRisk ? 'No significant risk factors detected ✓' : 'Build stronger positive factors by improving the flagged areas.';
+      return `<div class="card" style="padding:24px; display:flex; flex-direction:column; justify-content:center;">
+        <p class="caption text-muted" style="margin-bottom:8px;">${title}</p>
+        <p class="body-sm text-secondary">${msg}</p>
+      </div>`;
+    }
+    
+    // 1 item: Compact highlighted badge/alert
+    if (items.length === 1) {
+      const item = items[0];
+      const borderColor = isRisk ? 'rgba(239,68,68,0.3)' : 'rgba(16,185,129,0.3)';
+      const bgColor = isRisk ? 'rgba(239,68,68,0.05)' : 'rgba(16,185,129,0.05)';
+      const icon = isRisk ? (iconMap[item.severity] || '⚠️') : '✅';
+      const heading = isRisk ? item.factor : item;
+      const sub = isRisk ? `<div class="body-sm text-secondary" style="margin-top:4px;">${item.impact} impact</div>` : '';
+      
+      return `<div class="card" style="padding:16px 20px; border-color:${borderColor}; background:${bgColor}; display:flex; gap:16px; align-items:center;">
+        <div style="font-size:24px; flex-shrink:0;">${icon}</div>
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase; letter-spacing:0.05em;">${title}</div>
+          <div style="font-weight:600; font-size:0.95rem; color:var(--text-primary); line-height:1.4;">${heading}</div>
+          ${sub}
+        </div>
+      </div>`;
+    }
+    
+    // 2 items: Compact list style, reduced padding
+    if (items.length === 2) {
+      let listHtml = items.map(item => {
+        if (isRisk) {
+          const icon = iconMap[item.severity] || '⚠️';
+          return `<div style="display:flex; align-items:flex-start; gap:12px; padding:10px 0; border-bottom:1px solid var(--border); ${item === items[1] ? 'border-bottom:none; padding-bottom:0;' : ''}">
+            <div class="risk-icon ${item.severity}">${icon}</div>
+            <div><div style="font-weight:600; font-size:0.9rem;">${item.factor}</div>
+            <div class="body-sm text-secondary">${item.impact} impact</div></div>
+          </div>`;
+        } else {
+          return `<div style="display:flex; align-items:center; gap:10px; padding:10px 0; border-bottom:1px solid var(--border); ${item === items[1] ? 'border-bottom:none; padding-bottom:0;' : ''}">
+            <span style="color:var(--accent-green);font-size:18px;">✅</span>
+            <span style="font-size:0.9375rem;">${item}</span>
+          </div>`;
+        }
+      }).join('');
+      
+      return `<div class="card" style="padding:20px;">
+        <p class="caption text-muted" style="margin-bottom:12px;">${title}</p>
+        <div style="display:flex; flex-direction:column;">
+          ${listHtml}
+        </div>
+      </div>`;
+    }
+    
+    // 3 or more items: Keep card layout, allow scroll if 4+
+    let listHtml = items.map((item, index) => {
+      const isLast = index === items.length - 1;
+      const borderStyle = isLast ? 'border-bottom:none; padding-bottom:0;' : '';
+      if (isRisk) {
+        const icon = iconMap[item.severity] || '⚠️';
+        return `<div class="risk-item" style="${borderStyle}">
+          <div class="risk-icon ${item.severity}">${icon}</div>
+          <div><div style="font-weight:600; font-size:0.9rem;">${item.factor}</div>
+          <div class="body-sm text-secondary">${item.impact} impact</div></div>
+        </div>`;
+      } else {
+        return `<div style="display:flex; align-items:center; gap:10px; padding:12px 0; border-bottom:1px solid var(--border); ${borderStyle}">
+          <span style="color:var(--accent-green);font-size:18px;">✅</span>
+          <span style="font-size:0.9375rem;">${item}</span>
+        </div>`;
+      }
+    }).join('');
+    
+    const scrollStyle = items.length >= 4 ? 'max-height: 280px; overflow-y: auto; padding-right: 8px;' : '';
+    
+    return `<div class="card" style="padding:28px; display:flex; flex-direction:column;">
+      <p class="caption text-muted" style="margin-bottom:16px;">${title}</p>
+      <div style="${scrollStyle}" class="custom-scroll">
+        ${listHtml}
+      </div>
+    </div>`;
+  }
+
+  if (factorsWrapper) {
+    factorsWrapper.innerHTML = buildFactorSection('⚠️ RISK FACTORS', risks, true) + 
+                               buildFactorSection('✅ POSITIVE FACTORS', positives, false);
+  }
+
+  // Gemini
+  const g = data.gemini;
+  if (g) {
+    document.getElementById('geminiSummary').innerHTML = `<p style="font-size:0.9375rem;line-height:1.7;">${g.summary || ''}</p>`;
+    
+    const tips = g.ai_tips || [];
+    document.getElementById('geminiTips').innerHTML = tips.map(t =>
+      `<div class="gemini-tip"><span>💡</span><span>${t}</span></div>`).join('');
+
+    const docs = g.document_checklist || [];
+    document.getElementById('geminiDocs').innerHTML = docs.map(d =>
+      `<div class="checklist-item"><span class="check">✓</span><span>${d}</span></div>`).join('');
+
+    document.getElementById('geminiTimeline').textContent = g.timeline_advice || '';
+    
+    if (g.powered_by === 'gemini-2.5-flash') {
+      document.getElementById('geminiPoweredBy').innerHTML = '<span style="color:var(--accent-green);">✓</span> Powered by Gemini 2.5 Flash';
+    } else {
+      document.getElementById('geminiPoweredBy').textContent = 'AI-generated guidance';
+    }
+  }
+});
+
+function animateNum(id, from, to, duration, formatter) {
+  const el = document.getElementById(id);
+  let start = null;
+  function step(ts) {
+    if (!start) start = ts;
+    const progress = Math.min((ts - start) / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    el.textContent = formatter(from + (to - from) * ease);
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+function printResults() {
+  window.print();
+}
+</script>
+</body>
+</html>

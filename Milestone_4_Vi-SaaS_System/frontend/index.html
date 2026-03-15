@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vi-SaaS — AI-Powered Visa Prediction Platform</title>
+  <meta name="description" content="Get instant visa approval predictions powered by AI and Machine Learning. Know your chances before you apply." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛂</text></svg>" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" onclick="goHome(event, '')" class="nav-logo">
+        <div class="nav-logo-icon">🛂</div>
+        <span>Vi-<span class="gradient-text">SaaS</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+      </div>
+      <div class="nav-actions" id="navActions">
+        <a href="pages/login.html" class="btn btn-secondary btn-sm">Sign In</a>
+        <a href="pages/signup.html" class="btn btn-primary btn-sm">Get Started Free</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="grid-lines"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="particles" id="particles"></div>
+
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <span class="badge badge-purple">✨ Powered by Gemini 2.5 Flash + ML Models</span>
+      </div>
+      <h1 class="display-1 hero-title fade-in fade-in-delay-1">
+        Predict Your Visa Outcome<br />
+        <span class="gradient-text">Before You Apply</span>
+      </h1>
+      <p class="hero-subtitle fade-in fade-in-delay-2">
+        Get AI-powered visa approval predictions in seconds. Our Random Forest & Linear Regression models — enhanced by Google Gemini — analyze 17+ factors to give you personalized insights and expert guidance.
+      </p>
+      <div class="hero-actions fade-in fade-in-delay-3">
+        <a href="pages/predict.html" class="btn btn-primary btn-lg">
+          <span>🚀</span> Predict My Visa — Free
+        </a>
+        <a href="#how-it-works" class="btn btn-secondary btn-lg">
+          <span>▶</span> See How It Works
+        </a>
+      </div>
+      <div class="hero-stats fade-in fade-in-delay-4">
+        <div class="hero-stat-item">
+          <div class="hero-stat-num" id="counter-accuracy">0%</div>
+          <div class="hero-stat-label">Model Accuracy</div>
+        </div>
+        <div style="width:1px;height:40px;background:var(--border);"></div>
+        <div class="hero-stat-item">
+          <div class="hero-stat-num" id="counter-countries">0+</div>
+          <div class="hero-stat-label">Countries Covered</div>
+        </div>
+        <div style="width:1px;height:40px;background:var(--border);"></div>
+        <div class="hero-stat-item">
+          <div class="hero-stat-num" id="counter-predictions">0K+</div>
+          <div class="hero-stat-label">Predictions Made</div>
+        </div>
+        <div style="width:1px;height:40px;background:var(--border);"></div>
+        <div class="hero-stat-item">
+          <div class="hero-stat-num" id="counter-visatypes">0</div>
+          <div class="hero-stat-label">Visa Types</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Demo card floating -->
+  <div style="position:absolute;bottom:32px;left:50%;transform:translateX(-50%);animation:bounce 2s ease-in-out infinite;z-index:1;">
+    <a href="#features" style="color:var(--text-muted);font-size:24px;">↓</a>
+  </div>
+</section>
+
+<!-- ===================== TRUSTED BY ===================== -->
+<section style="padding:32px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:rgba(255,255,255,0.01);">
+  <div class="container">
+    <p class="text-center text-muted body-sm" style="margin-bottom:20px;">TRUSTED BY TRAVELERS FROM</p>
+    <div style="display:flex;align-items:center;justify-content:center;gap:32px;flex-wrap:wrap;opacity:0.5;">
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇮🇳 INDIA</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇺🇿 UZBEKISTAN</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇧🇩 BANGLADESH</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇳🇬 NIGERIA</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇧🇷 BRAZIL</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇵🇭 PHILIPPINES</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇲🇽 MEXICO</span>
+      <span style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;">🇨🇳 CHINA</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURES ===================== -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-purple">⚡ Features</span>
+      <h2 class="display-2" style="margin-top:16px;">Everything You Need to<br /><span class="gradient-text">Nail Your Visa Application</span></h2>
+      <p>Advanced AI models combined with real-world visa data give you the most accurate predictions available.</p>
+    </div>
+    <div class="features-grid">
+      <div class="card feature-card fade-in">
+        <div class="feature-icon">🤖</div>
+        <h3>Random Forest AI</h3>
+        <p>Our ensemble ML model trained on 12,000+ visa records across 50+ nationalities delivers up to 87% accuracy on approval predictions.</p>
+      </div>
+      <div class="card feature-card fade-in fade-in-delay-1">
+        <div class="feature-icon">📅</div>
+        <h3>Processing Days Estimate</h3>
+        <p>Linear Regression model predicts exact processing time for your visa type and destination, with confidence intervals.</p>
+      </div>
+      <div class="card feature-card fade-in fade-in-delay-2">
+        <div class="feature-icon">✨</div>
+        <h3>Gemini 2.5 Flash Insights</h3>
+        <p>Google's latest AI model analyzes your profile and provides personalized document checklists, tips, and expert recommendations.</p>
+      </div>
+      <div class="card feature-card fade-in fade-in-delay-1">
+        <div class="feature-icon">🌍</div>
+        <h3>50+ Nationalities Covered</h3>
+        <p>Comprehensive risk scoring for nationalities from the US to Pakistan. 30+ destination countries including all Schengen nations.</p>
+      </div>
+      <div class="card feature-card fade-in fade-in-delay-2">
+        <div class="feature-icon">⚠️</div>
+        <h3>Risk Factor Analysis</h3>
+        <p>Instantly identifies weak points in your application — financial gaps, missing documents, rejection history — with clear severity ratings.</p>
+      </div>
+      <div class="card feature-card fade-in fade-in-delay-3">
+        <div class="feature-icon">📋</div>
+        <h3>Smart Document Checklist</h3>
+        <p>AI-generated, visa-type-specific document checklists that adapt to your nationality, destination, and travel purpose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="section" id="how-it-works" style="background:rgba(255,255,255,0.01);">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-cyan">🔮 Process</span>
+      <h2 class="display-2" style="margin-top:16px;">Predict in <span class="gradient-text">3 Simple Steps</span></h2>
+      <p>From input to AI-powered insights in under 60 seconds.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card fade-in">
+        <div class="step-number">1</div>
+        <h3>Enter Your Details</h3>
+        <p>Fill in our guided 4-step form covering nationality, visa type, financial status, travel history, and supporting documents.</p>
+      </div>
+      <div class="step-card fade-in fade-in-delay-1">
+        <div class="step-number" style="animation-delay:0.5s;">2</div>
+        <h3>AI Analyzes Your Profile</h3>
+        <p>Our Random Forest model predicts approval probability while Linear Regression estimates your processing time across 17+ factors.</p>
+      </div>
+      <div class="step-card fade-in fade-in-delay-2">
+        <div class="step-number" style="animation-delay:1s;">3</div>
+        <h3>Get Expert Guidance</h3>
+        <p>Gemini 2.5 Flash generates personalized insights, document checklists, and actionable tips to maximize your approval chances.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DEMO PREVIEW ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-green">👁️ Preview</span>
+      <h2 class="display-2" style="margin-top:16px;">See It In <span class="gradient-text">Action</span></h2>
+    </div>
+    <div class="card" style="padding:32px;max-width:800px;margin:0 auto;">
+      <!-- Mock result preview -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px;">
+        <div style="text-align:center;">
+          <p class="text-muted body-sm" style="margin-bottom:12px;">APPROVAL PROBABILITY</p>
+          <div style="position:relative;width:140px;height:140px;margin:0 auto;">
+            <svg width="140" height="140" viewBox="0 0 140 140">
+              <circle cx="70" cy="70" r="58" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="10" transform="rotate(-90 70 70)"/>
+              <circle cx="70" cy="70" r="58" fill="none" stroke="url(#grad1)" stroke-width="10" stroke-linecap="round" transform="rotate(-90 70 70)" stroke-dasharray="364" stroke-dashoffset="91" style="transition:stroke-dashoffset 1.5s ease;"/>
+              <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#8b5cf6"/><stop offset="100%" style="stop-color:#06b6d4"/></linearGradient></defs>
+            </svg>
+            <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;">
+              <span style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;background:var(--gradient-primary);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">75%</span>
+              <span style="font-size:0.7rem;color:var(--text-muted);">Approval</span>
+            </div>
+          </div>
+          <span class="badge badge-green" style="margin-top:12px;">High Approval Chance</span>
+        </div>
+        <div>
+          <p class="text-muted body-sm" style="margin-bottom:16px;">PROCESSING ESTIMATE</p>
+          <div style="background:rgba(139,92,246,0.1);border:1px solid rgba(139,92,246,0.3);border-radius:12px;padding:20px;margin-bottom:16px;">
+            <div style="font-family:var(--font-display);font-size:2.5rem;font-weight:700;" class="gradient-text">12 days</div>
+            <div style="color:var(--text-muted);font-size:0.8125rem;">Range: 10 – 16 days</div>
+          </div>
+          <p class="body-sm text-secondary">🇮🇳 India → 🇬🇧 United Kingdom | Tourist Visa</p>
+        </div>
+      </div>
+      <div class="divider-gradient" style="margin-bottom:20px;"></div>
+      <p class="body-sm text-muted" style="margin-bottom:12px;">⚠️ RISK FACTORS DETECTED</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <span class="badge badge-yellow">💰 Bank balance borderline</span>
+        <span class="badge badge-green">✓ Clean visa history</span>
+        <span class="badge badge-green">✓ Return ticket confirmed</span>
+        <span class="badge badge-cyan">ℹ Limited travel history</span>
+      </div>
+      <div style="margin-top:20px;text-align:center;">
+        <a href="pages/predict.html" class="btn btn-primary">Try With Your Details →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="section" id="testimonials" style="background:rgba(255,255,255,0.01);">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-purple">💬 Reviews</span>
+      <h2 class="display-2" style="margin-top:16px;">Loved by <span class="gradient-text">Travelers Worldwide</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+      <div class="card fade-in">
+        <div style="display:flex;gap:4px;margin-bottom:12px;">⭐⭐⭐⭐⭐</div>
+        <p class="body-sm text-secondary" style="margin-bottom:16px;line-height:1.7;">"Vi-SaaS predicted my UK visa approval at 78% — I got it in 11 days. The Gemini tips about my bank statement were spot on!"</p>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--gradient-primary);display:flex;align-items:center;justify-content:center;font-weight:700;">P</div>
+          <div><div style="font-weight:600;font-size:0.875rem;">Priya Sharma</div><div style="font-size:0.75rem;color:var(--text-muted);">Software Engineer, India 🇮🇳</div></div>
+        </div>
+      </div>
+      <div class="card fade-in fade-in-delay-1">
+        <div style="display:flex;gap:4px;margin-bottom:12px;">⭐⭐⭐⭐⭐</div>
+        <p class="body-sm text-secondary" style="margin-bottom:16px;line-height:1.7;">"My Schengen visa was predicted at 65%. The risk analysis showed I needed an invitation letter — I got one and was approved within 8 days!"</p>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#06b6d4,#8b5cf6);display:flex;align-items:center;justify-content:center;font-weight:700;">A</div>
+          <div><div style="font-weight:600;font-size:0.875rem;">Ahmed Hassan</div><div style="font-size:0.75rem;color:var(--text-muted);">Business Owner, Egypt 🇪🇬</div></div>
+        </div>
+      </div>
+      <div class="card fade-in fade-in-delay-2">
+        <div style="display:flex;gap:4px;margin-bottom:12px;">⭐⭐⭐⭐⭐</div>
+        <p class="body-sm text-secondary" style="margin-bottom:16px;line-height:1.7;">"Used Vi-SaaS for my US student visa. It told me my income proof was weak — I got a co-sponsor and my application sailed through. 10/10!"</p>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#ec4899,#8b5cf6);display:flex;align-items:center;justify-content:center;font-weight:700;">M</div>
+          <div><div style="font-weight:600;font-size:0.875rem;">Maria Santos</div><div style="font-size:0.75rem;color:var(--text-muted);">Student, Philippines 🇵🇭</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-cyan">💎 Pricing</span>
+      <h2 class="display-2" style="margin-top:16px;">Simple, <span class="gradient-text">Transparent Pricing</span></h2>
+      <p>Start free. Upgrade when you need more predictions.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="card pricing-card">
+        <p class="caption text-muted" style="margin-bottom:8px;">Starter</p>
+        <div class="price-amount gradient-text">Free</div>
+        <div class="price-period">forever</div>
+        <ul class="price-features">
+          <li>3 predictions per month</li>
+          <li>ML-based predictions</li>
+          <li>Basic risk analysis</li>
+          <li>Document checklist</li>
+        </ul>
+        <a href="pages/signup.html" class="btn btn-secondary w-full">Get Started</a>
+      </div>
+      <div class="card pricing-card featured">
+        <div class="featured-badge"><span class="badge badge-purple">⭐ Most Popular</span></div>
+        <p class="caption text-muted" style="margin-bottom:8px;">Pro</p>
+        <div class="price-amount gradient-text">$9</div>
+        <div class="price-period">per month</div>
+        <ul class="price-features">
+          <li>Unlimited predictions</li>
+          <li>Gemini AI deep analysis</li>
+          <li>Full risk factor breakdown</li>
+          <li>Processing time estimate</li>
+          <li>Priority email support</li>
+          <li>Save & export reports</li>
+        </ul>
+        <a href="pages/signup.html" class="btn btn-primary w-full">Start 7-Day Trial</a>
+      </div>
+      <div class="card pricing-card">
+        <p class="caption text-muted" style="margin-bottom:8px;">Enterprise</p>
+        <div class="price-amount gradient-text">$49</div>
+        <div class="price-period">per month</div>
+        <ul class="price-features">
+          <li>Everything in Pro</li>
+          <li>API access</li>
+          <li>Team dashboard</li>
+          <li>White-label reports</li>
+          <li>Dedicated support</li>
+          <li>Custom integrations</li>
+        </ul>
+        <a href="pages/signup.html" class="btn btn-secondary w-full">Contact Sales</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA BANNER ===================== -->
+<section class="section-sm">
+  <div class="container">
+    <div class="card" style="text-align:center;padding:64px 40px;background:linear-gradient(135deg,rgba(139,92,246,0.15),rgba(6,182,212,0.1));border-color:rgba(139,92,246,0.3);">
+      <div class="orb" style="width:300px;height:300px;background:rgba(139,92,246,0.12);top:50%;left:50%;transform:translate(-50%,-50%);position:absolute;"></div>
+      <h2 class="display-2" style="margin-bottom:16px;position:relative;">Ready to Know Your <span class="gradient-text">Visa Odds?</span></h2>
+      <p class="body-lg text-secondary" style="margin-bottom:32px;position:relative;">Join thousands of travelers who predict smarter. Free to start, no credit card required.</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;position:relative;">
+        <a href="pages/signup.html" class="btn btn-primary btn-lg">🚀 Start Predicting Free</a>
+        <a href="pages/predict.html" class="btn btn-secondary btn-lg">Try a Quick Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer style="border-top:1px solid var(--border);padding:48px 0 32px;">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px;">
+      <div>
+        <div class="nav-logo" style="margin-bottom:16px;">
+          <div class="nav-logo-icon">🛂</div>
+          <span>Vi-<span class="gradient-text">SaaS</span></span>
+        </div>
+        <p class="body-sm text-secondary" style="max-width:280px;line-height:1.7;">AI-powered visa prediction platform combining Machine Learning with Google Gemini for expert-level guidance.</p>
+      </div>
+      <div>
+        <p class="caption text-muted" style="margin-bottom:16px;">Product</p>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <a href="#features" class="body-sm text-secondary" style="transition:var(--transition);">Features</a>
+          <a href="#pricing" class="body-sm text-secondary">Pricing</a>
+          <a href="pages/predict.html" class="body-sm text-secondary">Try Demo</a>
+        </div>
+      </div>
+      <div>
+        <p class="caption text-muted" style="margin-bottom:16px;">Visa Types</p>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <span class="body-sm text-secondary">Tourist</span>
+          <span class="body-sm text-secondary">Student</span>
+          <span class="body-sm text-secondary">Work</span>
+          <span class="body-sm text-secondary">Business</span>
+        </div>
+      </div>
+      <div>
+        <p class="caption text-muted" style="margin-bottom:16px;">Company</p>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <a href="#" class="body-sm text-secondary">About</a>
+          <a href="#" class="body-sm text-secondary">Privacy</a>
+          <a href="#" class="body-sm text-secondary">Terms</a>
+          <a href="#" class="body-sm text-secondary">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="divider" style="margin-bottom:24px;"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p class="body-sm text-muted">© 2026 Vi-SaaS. All rights reserved. Predictions are estimates only, not legal advice.</p>
+      <div style="display:flex;gap:20px;">
+        <span class="badge badge-purple">🤖 ML Powered</span>
+        <span class="badge badge-cyan">✨ Gemini 2.5 Flash</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script>
+// ---- Navbar scroll effect ----
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 30);
+});
+
+// ---- Generate particles ----
+const particleContainer = document.getElementById('particles');
+for (let i = 0; i < 50; i++) {
+  const p = document.createElement('div');
+  p.className = 'particle';
+  const size = Math.random() * 3 + 1;
+  p.style.cssText = `
+    left: ${Math.random() * 100}%;
+    top: ${Math.random() * 100}%;
+    width: ${size}px;
+    height: ${size}px;
+    animation-duration: ${Math.random() * 15 + 10}s;
+    animation-delay: ${Math.random() * 10}s;
+    opacity: ${Math.random() * 0.6 + 0.2};
+    background: ${Math.random() > 0.5 ? 'rgba(139,92,246,0.8)' : 'rgba(6,182,212,0.8)'};
+  `;
+  particleContainer.appendChild(p);
+}
+
+// ---- Counter animation ----
+function animateCounter(el, target, suffix, duration = 2000) {
+  let start = 0;
+  const step = target / (duration / 16);
+  const timer = setInterval(() => {
+    start = Math.min(start + step, target);
+    el.textContent = Math.floor(start) + suffix;
+    if (start >= target) clearInterval(timer);
+  }, 16);
+}
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      animateCounter(document.getElementById('counter-accuracy'), 87, '%');
+      animateCounter(document.getElementById('counter-countries'), 50, '+');
+      animateCounter(document.getElementById('counter-predictions'), 24, 'K+');
+      animateCounter(document.getElementById('counter-visatypes'), 7, '');
+      observer.disconnect();
+    }
+  });
+});
+observer.observe(document.getElementById('hero'));
+
+// ---- Scroll reveal ----
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.animationPlayState = 'running';
+      e.target.style.opacity = '1';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in').forEach(el => {
+  el.style.animationPlayState = 'paused';
+  revealObserver.observe(el);
+});
+
+// ---- Smooth scroll for anchor links ----
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+
+// ---- Bounce animation ----
+const style = document.createElement('style');
+style.textContent = '@keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(-10px)} }';
+document.head.appendChild(style);
+</script>
+<script src="js/app.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  if (localStorage.getItem('visaas_token')) {
+    const navActions = document.getElementById('navActions');
+    if (navActions) {
+      navActions.innerHTML = '<a href="pages/dashboard.html" class="btn btn-primary btn-sm">Go to Dashboard</a>';
+    }
+    const heroActions = document.querySelector('.hero-actions');
+    if (heroActions) {
+      heroActions.innerHTML = '<a href="pages/dashboard.html" class="btn btn-primary btn-lg"><span>🚀</span> Go to Dashboard</a>';
+    }
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — Vi-SaaS</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛂</text></svg>" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="dashboard-layout">
+  <!-- ===== SIDEBAR ===== -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="nav-logo-icon" style="width:32px;height:32px;font-size:16px;">🛂</div>
+      <span style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;">Vi-<span class="gradient-text">SaaS</span></span>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="sidebar-link active" data-page="overview" onclick="setPage('overview')">
+        <span class="icon">📊</span> Overview
+      </div>
+      <div class="sidebar-link" data-page="predict" onclick="window.location.href='predict.html'">
+        <span class="icon">🔮</span> New Prediction
+      </div>
+      <div class="sidebar-link" data-page="history" onclick="setPage('history')">
+        <span class="icon">📋</span> History
+      </div>
+      <div class="sidebar-link" data-page="settings" onclick="setPage('settings')">
+        <span class="icon">⚙️</span> Settings
+      </div>
+    </nav>
+    <div style="padding:16px 20px;border-top:1px solid var(--border);">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+        <div id="avatarCircle" style="width:36px;height:36px;border-radius:50%;background:var(--gradient-primary);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.875rem;">U</div>
+        <div>
+          <div id="sidebarName" style="font-size:0.875rem;font-weight:600;">User</div>
+          <div id="sidebarEmail" style="font-size:0.75rem;color:var(--text-muted);">user@email.com</div>
+        </div>
+      </div>
+      <button onclick="logout()" class="btn btn-secondary btn-sm w-full">Sign Out</button>
+    </div>
+  </aside>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <!-- Page: Overview -->
+    <div id="page-overview">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:32px;">
+        <div>
+          <h1 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;margin-bottom:4px;">Good evening, <span id="welcomeName" class="gradient-text">User</span> 👋</h1>
+          <p class="text-secondary body-sm">Here's your visa prediction overview</p>
+        </div>
+        <a href="predict.html" class="btn btn-primary">+ New Prediction</a>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-grid">
+        <div class="card stat-card fade-in">
+          <div class="stat-label">Total Predictions</div>
+          <div class="stat-value gradient-text" id="statTotal">0</div>
+          <div class="stat-change up">↑ Start predicting!</div>
+        </div>
+        <div class="card stat-card fade-in fade-in-delay-1">
+          <div class="stat-label">Avg Approval Rate</div>
+          <div class="stat-value" style="color:var(--accent-green);" id="statApproval">—</div>
+          <div class="stat-change" style="color:var(--text-muted);">from your predictions</div>
+        </div>
+        <div class="card stat-card fade-in fade-in-delay-2">
+          <div class="stat-label">Avg Processing Days</div>
+          <div class="stat-value" style="color:var(--accent-cyan);" id="statDays">—</div>
+          <div class="stat-change" style="color:var(--text-muted);">estimated wait time</div>
+        </div>
+        <div class="card stat-card fade-in fade-in-delay-3">
+          <div class="stat-label">Countries Checked</div>
+          <div class="stat-value" style="color:var(--accent-purple);" id="statCountries">0</div>
+          <div class="stat-change" style="color:var(--text-muted);">destinations analyzed</div>
+        </div>
+      </div>
+
+      <!-- Recent Predictions -->
+      <div class="card" style="margin-bottom:24px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+          <h2 style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">Recent Predictions</h2>
+          <button onclick="setPage('history')" class="btn btn-secondary btn-sm">View All</button>
+        </div>
+        <div id="recentPredictions">
+          <!-- Populated by JS -->
+          <div style="text-align:center;padding:40px;color:var(--text-muted);">
+            <div style="font-size:3rem;margin-bottom:12px;">🔮</div>
+            <p class="body-sm">No predictions yet. <a href="predict.html" class="auth-link">Make your first prediction →</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics & Actions -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+        <a href="predict.html" class="card" style="text-decoration:none;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:16px;cursor:pointer;text-align:center;padding:40px;">
+          <div style="width:80px;height:80px;border-radius:20px;background:linear-gradient(135deg,rgba(139,92,246,0.2),rgba(99,102,241,0.1));border:1px solid rgba(139,92,246,0.3);display:flex;align-items:center;justify-content:center;font-size:36px;flex-shrink:0;box-shadow:0 8px 32px rgba(139,92,246,0.2);">🔮</div>
+          <div>
+            <div style="font-weight:600;font-size:1.25rem;margin-bottom:8px;">New Prediction</div>
+            <div class="body-sm text-secondary" style="line-height:1.5;">Start estimating your next visa approval chances with AI analysis.</div>
+          </div>
+        </a>
+        <div class="card" style="display:flex;flex-direction:column;min-height:280px;">
+          <div style="font-weight:600;margin-bottom:16px;font-size:1.125rem;">Visa Types Breakdown</div>
+          <div style="flex:1;position:relative;display:flex;align-items:center;justify-content:center;width:100%;">
+             <canvas id="visaPieChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page: History -->
+    <div id="page-history" style="display:none;">
+      <div style="margin-bottom:32px;">
+        <h1 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;margin-bottom:4px;">Prediction <span class="gradient-text">History</span></h1>
+        <p class="text-secondary body-sm">All your past visa predictions</p>
+      </div>
+      <div class="card" id="historyContainer">
+        <div style="text-align:center;padding:60px;color:var(--text-muted);">
+          <div style="font-size:3rem;margin-bottom:12px;">📋</div>
+          <p class="body-sm">No history yet. <a href="predict.html" class="auth-link">Make your first prediction →</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page: Settings -->
+    <div id="page-settings" style="display:none;">
+      <div style="margin-bottom:32px;">
+        <h1 style="font-family:var(--font-display);font-size:1.75rem;font-weight:700;margin-bottom:4px;">Account <span class="gradient-text">Settings</span></h1>
+      </div>
+      <div class="card" style="max-width:520px;padding:32px;margin-bottom:24px;">
+        <h2 style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border);">Profile</h2>
+        <div class="auth-form">
+          <div class="form-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" id="settingsName" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" id="settingsEmail" class="form-input" disabled style="opacity:0.5;" />
+          </div>
+          <button onclick="saveSettings()" class="btn btn-primary">Save Changes</button>
+        </div>
+      </div>
+      <div class="card" style="max-width:520px;padding:32px;">
+        <h2 style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border);">Subscription</h2>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+          <div>
+            <div style="font-weight:600;margin-bottom:4px;">Free Plan</div>
+            <div class="body-sm text-secondary">3 predictions per month</div>
+          </div>
+          <span class="badge badge-purple">Active</span>
+        </div>
+        <a href="../index.html#pricing" class="btn btn-primary btn-sm">Upgrade to Pro →</a>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+<script src="../js/app.js"></script>
+<script>
+// Init
+document.addEventListener('DOMContentLoaded', async () => {
+  const user = JSON.parse(localStorage.getItem('visaas_user') || '{}');
+  const token = localStorage.getItem('visaas_token');
+  if (!token) { window.location.href = 'login.html'; return; }
+  
+  const name = user.name || 'User';
+  document.getElementById('welcomeName').textContent = name.split(' ')[0];
+  document.getElementById('sidebarName').textContent = name;
+  document.getElementById('sidebarEmail').textContent = user.email || '';
+  document.getElementById('avatarCircle').textContent = name[0].toUpperCase();
+  document.getElementById('settingsName').value = name;
+  document.getElementById('settingsEmail').value = user.email || '';
+
+  // Load history from backend
+  try {
+    const historyRes = await fetch('http://127.0.0.1:5000/api/history', {
+      headers: { 'Authorization': `Bearer ${token}` }
+    });
+    if (historyRes.ok) {
+      const history = await historyRes.json();
+      localStorage.setItem('visaas_history', JSON.stringify(history));
+      updateDashboardUI(history);
+    } else {
+      // Fallback to local if backend fails
+      const history = JSON.parse(localStorage.getItem('visaas_history') || '[]');
+      updateDashboardUI(history);
+    }
+  } catch (err) {
+    console.error('Failed to fetch history:', err);
+    const history = JSON.parse(localStorage.getItem('visaas_history') || '[]');
+    updateDashboardUI(history);
+  }
+});
+
+function updateDashboardUI(history) {
+  document.getElementById('statTotal').textContent = history.length;
+  if (history.length > 0) {
+    const avgApproval = (history.reduce((s,h) => s + (h.approval_probability || 0), 0) / history.length).toFixed(0);
+    const avgDays = Math.round(history.reduce((s,h) => s + (h.predicted_days || 0), 0) / history.length);
+    const countries = new Set(history.map(h => h.destination)).size;
+    document.getElementById('statApproval').textContent = avgApproval + '%';
+    document.getElementById('statDays').textContent = avgDays + ' days';
+    document.getElementById('statCountries').textContent = countries;
+    renderHistory(history);
+    renderPieChart(history);
+  } else {
+    const ctx = document.getElementById('visaPieChart');
+    if(ctx) {
+       ctx.parentElement.innerHTML = '<div style="color:var(--text-muted);text-align:center;margin-top:40px;">No predictions data yet.</div>';
+    }
+    document.getElementById('statApproval').textContent = '—';
+    document.getElementById('statDays').textContent = '—';
+    document.getElementById('statCountries').textContent = '0';
+    document.getElementById('recentPredictions').innerHTML = `
+      <div style="text-align:center;padding:40px;color:var(--text-muted);">
+        <div style="font-size:3rem;margin-bottom:12px;">🔮</div>
+        <p class="body-sm">No predictions yet. <a href="predict.html" class="auth-link">Make your first prediction →</a></p>
+      </div>`;
+  }
+}
+
+let myPieChart = null;
+function renderPieChart(history) {
+  const ctx = document.getElementById('visaPieChart');
+  if (!ctx) return;
+  
+  const typeCounts = {};
+  history.forEach(h => {
+    typeCounts[h.visaType] = (typeCounts[h.visaType] || 0) + 1;
+  });
+  
+  const labels = Object.keys(typeCounts);
+  const data = Object.values(typeCounts);
+  const bgColors = [
+    'rgba(139, 92, 246, 0.8)',
+    'rgba(16, 185, 129, 0.8)',
+    'rgba(6, 182, 212, 0.8)',
+    'rgba(245, 158, 11, 0.8)',
+    'rgba(236, 72, 153, 0.8)'
+  ];
+  
+  if(myPieChart) { myPieChart.destroy(); }
+  myPieChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: bgColors.slice(0, labels.length),
+        borderColor: '#1e293b',
+        borderWidth: 2,
+        hoverOffset: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#94a3b8', padding: 15, font: {family: '"Inter", sans-serif'} } }
+      },
+      cutout: '70%'
+    }
+  });
+}
+
+function renderHistory(history) {
+  const recent = history.slice(-5).reverse();
+  const colors = {green:'#10b981', yellow:'#f59e0b', orange:'#f97316', red:'#ef4444'};
+  const html = recent.map(h => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border);">
+      <div style="display:flex;gap:12px;align-items:center;">
+        <div style="width:40px;height:40px;border-radius:10px;background:rgba(139,92,246,0.1);border:1px solid rgba(139,92,246,0.2);display:flex;align-items:center;justify-content:center;font-size:18px;">🛂</div>
+        <div>
+          <div style="font-weight:600;font-size:0.9375rem;">${h.visaType} → ${h.destination}</div>
+          <div class="body-sm text-secondary">${h.nationality} · ${new Date(h.date).toLocaleDateString()}</div>
+        </div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-weight:700;color:${colors[h.statusColor] || '#94a3b8'};">${h.approval_probability}%</div>
+        <div class="body-sm text-secondary">${h.predicted_days} days</div>
+      </div>
+    </div>`).join('');
+  document.getElementById('recentPredictions').innerHTML = html || '<div style="text-align:center;padding:40px;color:var(--text-muted);"><p class="body-sm">No predictions yet.</p></div>';
+  
+  const histContainer = document.getElementById('historyContainer');
+  const allHtml = history.slice().reverse().map(h => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border);">
+      <div style="display:flex;gap:12px;align-items:center;">
+        <div style="width:40px;height:40px;border-radius:10px;background:rgba(139,92,246,0.1);border:1px solid rgba(139,92,246,0.2);display:flex;align-items:center;justify-content:center;font-size:18px;">🛂</div>
+        <div>
+          <div style="font-weight:600;font-size:0.9375rem;">${h.visaType} Visa · ${h.destination}</div>
+          <div class="body-sm text-secondary">${h.nationality} · ${h.gender} · Age ${h.age} · ${new Date(h.date).toLocaleString()}</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="text-align:right;">
+          <div style="font-weight:700;color:${colors[h.statusColor] || '#94a3b8'};">${h.approval_probability}%</div>
+          <div class="body-sm text-secondary">${h.predicted_days} days est.</div>
+        </div>
+        <a href="results.html?id=${h.id}" class="btn btn-secondary btn-sm">View →</a>
+      </div>
+    </div>`).join('');
+  histContainer.innerHTML = allHtml || '<div style="text-align:center;padding:60px;color:var(--text-muted);"><p>No history yet.</p></div>';
+}
+
+function setPage(page) {
+  ['overview', 'history', 'settings'].forEach(p => {
+    const el = document.getElementById('page-' + p);
+    if (el) el.style.display = p === page ? 'block' : 'none';
+  });
+  document.querySelectorAll('.sidebar-link').forEach(el => {
+    el.classList.toggle('active', el.getAttribute('data-page') === page);
+  });
+}
+
+function saveSettings() {
+  const name = document.getElementById('settingsName').value;
+  const user = JSON.parse(localStorage.getItem('visaas_user') || '{}');
+  user.name = name;
+  localStorage.setItem('visaas_user', JSON.stringify(user));
+  document.getElementById('welcomeName').textContent = name.split(' ')[0];
+  document.getElementById('sidebarName').textContent = name;
+  document.getElementById('avatarCircle').textContent = name[0].toUpperCase();
+  showToast('Settings saved ✓', 'success');
+}
+
+function logout() {
+  localStorage.removeItem('visaas_token');
+  localStorage.removeItem('visaas_user');
+  window.location.href = '../index.html';
+}
+</script>
+</body>
+</html>

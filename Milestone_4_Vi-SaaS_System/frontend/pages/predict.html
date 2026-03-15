@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predict Visa — Vi-SaaS</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛂</text></svg>" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar scrolled">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" onclick="goHome(event, '../')" class="nav-logo">
+        <div class="nav-logo-icon">🛂</div>
+        <span>Vi-<span class="gradient-text">SaaS</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="dashboard.html" class="btn btn-secondary btn-sm">← Dashboard</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="predict-page">
+  <div class="predict-container">
+    <div style="text-align:center;margin-bottom:40px;">
+      <h1 style="font-family:var(--font-display);font-size:2rem;font-weight:700;margin-bottom:8px;">
+        AI Visa <span class="gradient-text">Prediction</span>
+      </h1>
+      <p class="text-secondary body-sm">Complete the form below for your personalized AI-powered visa analysis</p>
+    </div>
+
+    <!-- Step Indicator -->
+    <div class="steps-indicator" style="margin-bottom:40px;">
+      <div class="step-dot active" id="dot-1">1</div>
+      <div class="step-connector" id="conn-1"></div>
+      <div class="step-dot inactive" id="dot-2">2</div>
+      <div class="step-connector" id="conn-2"></div>
+      <div class="step-dot inactive" id="dot-3">3</div>
+      <div class="step-connector" id="conn-3"></div>
+      <div class="step-dot inactive" id="dot-4">4</div>
+    </div>
+    <div style="display:flex;justify-content:center;gap:60px;margin-bottom:40px;font-size:0.75rem;color:var(--text-muted);">
+      <span>Personal Info</span>
+      <span>Visa Details</span>
+      <span>Financial</span>
+      <span>Travel History</span>
+    </div>
+
+    <div class="card form-panel">
+      <!-- STEP 1: Personal Info -->
+      <div class="form-step active" id="step-1">
+        <div class="step-title">👤 Step 1: Personal Information</div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Nationality *</label>
+            <select id="f_nationality" class="form-select" required>
+              <option value="">Select your nationality</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Age *</label>
+            <input type="number" id="f_age" class="form-input" placeholder="e.g. 28" min="18" max="80" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Gender *</label>
+            <select id="f_gender" class="form-select" required>
+              <option value="">Select gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Education Level *</label>
+            <select id="f_education" class="form-select" required>
+              <option value="">Select education</option>
+              <option>No Formal Education</option>
+              <option>High School</option>
+              <option>Associate Degree</option>
+              <option>Bachelor's Degree</option>
+              <option>Master's Degree</option>
+              <option>PhD</option>
+              <option>Professional Degree</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Employment Status *</label>
+            <select id="f_employment" class="form-select" required>
+              <option value="">Select employment</option>
+              <option>Unemployed</option>
+              <option>Self-Employed</option>
+              <option>Private Sector</option>
+              <option>Government</option>
+              <option>Student</option>
+              <option>Retired</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Language Proficiency (Destination)</label>
+            <select id="f_language" class="form-select">
+              <option value="">Select proficiency</option>
+              <option>None</option>
+              <option>Basic</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+              <option>Native</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-nav">
+          <div></div>
+          <button class="btn btn-primary" onclick="goToStep(2)">Next: Visa Details →</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Visa Details -->
+      <div class="form-step" id="step-2">
+        <div class="step-title">🛂 Step 2: Visa Details</div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Visa Type *</label>
+            <select id="f_visatype" class="form-select" required>
+              <option value="">Select visa type</option>
+              <option>Tourist</option>
+              <option>Student</option>
+              <option>Work</option>
+              <option>Business</option>
+              <option>Transit</option>
+              <option>Family/Spouse</option>
+              <option>Immigrant/PR</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Destination Country *</label>
+            <select id="f_destination" class="form-select" required>
+              <option value="">Select destination</option>
+            </select>
+          </div>
+          <div class="form-group" style="grid-column:span 2;">
+            <label class="form-label">Travel Purpose *</label>
+            <select id="f_purpose" class="form-select" required>
+              <option value="">Select purpose</option>
+              <option>Tourism</option>
+              <option>Business Meeting</option>
+              <option>Education</option>
+              <option>Family Visit</option>
+              <option>Medical</option>
+              <option>Conference</option>
+              <option>Work Assignment</option>
+              <option>Permanent Residence</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-nav">
+          <button class="btn btn-secondary" onclick="goToStep(1)">← Back</button>
+          <button class="btn btn-primary" onclick="goToStep(3)">Next: Financial Info →</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Financial -->
+      <div class="form-step" id="step-3">
+        <div class="step-title">💰 Step 3: Financial Information</div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Annual Income (USD) *</label>
+            <input type="number" id="f_income" class="form-input" placeholder="e.g. 35000" min="0" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Bank Balance (USD) *</label>
+            <input type="number" id="f_balance" class="form-input" placeholder="e.g. 8000" min="0" required />
+          </div>
+        </div>
+        <p class="body-sm text-secondary" style="margin-bottom:20px;">Supporting Documents</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:14px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:10px;transition:var(--transition);" onmouseover="this.style.borderColor='rgba(139,92,246,0.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+            <input type="checkbox" id="f_accommodation" style="accent-color:var(--accent-purple);width:18px;height:18px;" />
+            <div>
+              <div style="font-weight:600;font-size:0.9375rem;">🏠 Accommodation Proof</div>
+              <div class="body-sm text-secondary">Hotel booking or rental agreement</div>
+            </div>
+          </label>
+          <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:14px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:10px;transition:var(--transition);" onmouseover="this.style.borderColor='rgba(139,92,246,0.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+            <input type="checkbox" id="f_returnticket" style="accent-color:var(--accent-purple);width:18px;height:18px;" />
+            <div>
+              <div style="font-weight:600;font-size:0.9375rem;">✈️ Return Ticket</div>
+              <div class="body-sm text-secondary">Confirmed return flight booking</div>
+            </div>
+          </label>
+          <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:14px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:10px;transition:var(--transition);" onmouseover="this.style.borderColor='rgba(139,92,246,0.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+            <input type="checkbox" id="f_invitation" style="accent-color:var(--accent-purple);width:18px;height:18px;" />
+            <div>
+              <div style="font-weight:600;font-size:0.9375rem;">📨 Invitation Letter</div>
+              <div class="body-sm text-secondary">From a host or employer</div>
+            </div>
+          </label>
+          <label style="display:flex;align-items:center;gap:10px;cursor:pointer;padding:14px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:10px;transition:var(--transition);" onmouseover="this.style.borderColor='rgba(139,92,246,0.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.08)'">
+            <input type="checkbox" id="f_insurance" style="accent-color:var(--accent-purple);width:18px;height:18px;" />
+            <div>
+              <div style="font-weight:600;font-size:0.9375rem;">🏥 Health Insurance</div>
+              <div class="body-sm text-secondary">Travel or health insurance</div>
+            </div>
+          </label>
+        </div>
+        <div class="form-nav">
+          <button class="btn btn-secondary" onclick="goToStep(2)">← Back</button>
+          <button class="btn btn-primary" onclick="goToStep(4)">Next: Travel History →</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: Travel History -->
+      <div class="form-step" id="step-4">
+        <div class="step-title">🌏 Step 4: Travel History</div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Number of Countries Visited *</label>
+            <input type="number" id="f_travelhistory" class="form-input" placeholder="e.g. 3" min="0" value="0" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Previous Visa Rejections *</label>
+            <input type="number" id="f_rejections" class="form-input" placeholder="e.g. 0" min="0" max="10" value="0" required />
+          </div>
+        </div>
+        
+        <!-- Summary Card -->
+        <div style="margin-top:24px;padding:20px;background:rgba(139,92,246,0.07);border:1px solid rgba(139,92,246,0.2);border-radius:12px;">
+          <p style="font-weight:600;margin-bottom:12px;">📋 Summary Preview</p>
+          <div id="formSummary" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:0.8125rem;color:var(--text-secondary);"></div>
+        </div>
+
+        <div class="form-nav">
+          <button class="btn btn-secondary" onclick="goToStep(3)">← Back</button>
+          <button class="btn btn-primary btn-lg" id="submitBtn" onclick="submitPrediction()">
+            <span id="submitBtnText">🔮 Get AI Prediction</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast-container" id="toastContainer"></div>
+<script src="../js/app.js"></script>
+<script>
+const NATIONALITIES = [
+  'United States','United Kingdom','Canada','Australia','Germany','France','Japan','South Korea',
+  'India','China','Pakistan','Bangladesh','Nigeria','Ghana','Ethiopia','Kenya','Brazil','Mexico',
+  'Colombia','Venezuela','Russia','Ukraine','Turkey','Iran','Afghanistan','Syria','Iraq','Yemen',
+  'Philippines','Indonesia','Vietnam','Thailand','Saudi Arabia','UAE','Qatar','Egypt','Morocco',
+  'Algeria','Tunisia','Senegal','Argentina','Chile','Peru','Ecuador','Poland','Romania',
+  'Bulgaria','Hungary','Malaysia','Sri Lanka','Nepal','Myanmar'
+];
+const DESTINATIONS = [
+  'United States','United Kingdom','Canada','Australia','Schengen (EU)','Germany','France',
+  'Japan','UAE','Singapore','New Zealand','Switzerland','Netherlands','Sweden','Norway',
+  'Denmark','Austria','Italy','Spain','Portugal','Ireland','Belgium','South Korea','Taiwan',
+  'Thailand','Malaysia','Turkey','China','India','South Africa'
+];
+
+// Populate selects
+const natSel = document.getElementById('f_nationality');
+NATIONALITIES.sort().forEach(n => natSel.add(new Option(n, n)));
+const destSel = document.getElementById('f_destination');
+DESTINATIONS.sort().forEach(d => destSel.add(new Option(d, d)));
+
+let currentStep = 1;
+
+function goToStep(step) {
+  // Validate current step
+  if (step > currentStep) {
+    const fields = document.querySelectorAll('#step-' + currentStep + ' [required]');
+    for (let f of fields) {
+      if (!f.value) {
+        f.style.borderColor = 'var(--accent-red)';
+        f.focus();
+        showToast('Please fill all required fields', 'error');
+        setTimeout(() => { f.style.borderColor = ''; }, 2000);
+        return;
+      }
+    }
+  }
+  
+  document.getElementById('step-' + currentStep).classList.remove('active');
+  
+  // Update dots
+  if (step > currentStep) {
+    document.getElementById('dot-' + currentStep).className = 'step-dot completed';
+    document.getElementById('dot-' + currentStep).textContent = '✓';
+    if (currentStep < 4) {
+      document.getElementById('conn-' + currentStep).classList.add('completed');
+    }
+  } else {
+    document.getElementById('dot-' + (currentStep)).className = 'step-dot inactive';
+    document.getElementById('dot-' + currentStep).textContent = currentStep;
+    if (currentStep > 1) {
+      document.getElementById('conn-' + (currentStep-1)).classList.remove('completed');
+    }
+  }
+  
+  currentStep = step;
+  document.getElementById('step-' + currentStep).classList.add('active');
+  document.getElementById('dot-' + currentStep).className = 'step-dot active';
+  
+  if (step === 4) updateSummary();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function updateSummary() {
+  const fields = {
+    'Nationality': document.getElementById('f_nationality').value,
+    'Visa Type': document.getElementById('f_visatype').value,
+    'Destination': document.getElementById('f_destination').value,
+    'Age': document.getElementById('f_age').value,
+    'Income': '$' + (parseInt(document.getElementById('f_income').value)||0).toLocaleString(),
+    'Balance': '$' + (parseInt(document.getElementById('f_balance').value)||0).toLocaleString(),
+  };
+  document.getElementById('formSummary').innerHTML = Object.entries(fields).map(([k,v]) =>
+    `<div><span style="color:var(--text-muted);">${k}:</span> <strong>${v || '—'}</strong></div>`
+  ).join('');
+}
+
+async function submitPrediction() {
+  const btn = document.getElementById('submitBtn');
+  const btnText = document.getElementById('submitBtnText');
+  
+  const payload = {
+    nationality: document.getElementById('f_nationality').value,
+    destination_country: document.getElementById('f_destination').value,
+    visa_type: document.getElementById('f_visatype').value,
+    gender: document.getElementById('f_gender').value,
+    age: parseInt(document.getElementById('f_age').value),
+    education_level: document.getElementById('f_education').value,
+    employment_status: document.getElementById('f_employment').value,
+    travel_purpose: document.getElementById('f_purpose').value,
+    language_proficiency: document.getElementById('f_language').value || 'Intermediate',
+    annual_income: parseFloat(document.getElementById('f_income').value) || 20000,
+    bank_balance: parseFloat(document.getElementById('f_balance').value) || 5000,
+    travel_history_count: parseInt(document.getElementById('f_travelhistory').value) || 0,
+    previous_rejections: parseInt(document.getElementById('f_rejections').value) || 0,
+    accommodation_proof: document.getElementById('f_accommodation').checked ? 1 : 0,
+    return_ticket: document.getElementById('f_returnticket').checked ? 1 : 0,
+    invitation_letter: document.getElementById('f_invitation').checked ? 1 : 0,
+    health_insurance: document.getElementById('f_insurance').checked ? 1 : 0,
+  };
+
+  if (!payload.nationality || !payload.destination_country || !payload.visa_type || !payload.gender) {
+    showToast('Please fill all required fields', 'error');
+    return;
+  }
+
+  // Check auth
+  const token = localStorage.getItem('visaas_token');
+  if (!token) {
+    showToast('Session expired. Please login.', 'error');
+    setTimeout(() => window.location.href = 'login.html', 1500);
+    return;
+  }
+
+  btnText.innerHTML = '<div class="spinner" style="width:20px;height:20px;border-width:2px;"></div> Analyzing...';
+  btn.disabled = true;
+
+  try {
+    const [predictRes, geminiRes] = await Promise.all([
+      fetch('http://127.0.0.1:5000/api/predict', {
+        method:'POST', 
+        headers:{
+          'Content-Type':'application/json',
+          'Authorization': `Bearer ${token}`
+        }, 
+        body: JSON.stringify(payload)
+      }).then(r => r.json()),
+      // Gemini will be called after we have ML results
+      Promise.resolve(null)
+    ]);
+
+    // Now call Gemini with ML results
+    const geminiPayload = {...payload, ...predictRes};
+    const geminiResult = await fetch('http://127.0.0.1:5000/api/gemini-analysis', {
+      method: 'POST', 
+      headers: {
+        'Content-Type':'application/json',
+        'Authorization': `Bearer ${token}`
+      }, 
+      body: JSON.stringify(geminiPayload)
+    }).then(r => r.json()).catch(() => null);
+
+    const resultData = {
+      ...payload, ...predictRes,
+      gemini: geminiResult,
+      id: Date.now(),
+      date: new Date().toISOString(),
+      visaType: payload.visa_type,
+      destination: payload.destination_country,
+      nationality: payload.nationality,
+      statusColor: predictRes.status_color,
+    };
+
+    // Save to history
+    const history = JSON.parse(localStorage.getItem('visaas_history') || '[]');
+    history.push(resultData);
+    localStorage.setItem('visaas_history', JSON.stringify(history));
+    localStorage.setItem('visaas_lastresult', JSON.stringify(resultData));
+
+    showToast('Analysis complete! Redirecting... ✨', 'success');
+    setTimeout(() => { window.location.href = 'results.html?id=' + resultData.id; }, 800);
+
+  } catch (err) {
+    // Demo mode - generate mock results
+    const mockResult = generateMockResult(payload);
+    localStorage.setItem('visaas_lastresult', JSON.stringify(mockResult));
+    const history = JSON.parse(localStorage.getItem('visaas_history') || '[]');
+    history.push(mockResult);
+    localStorage.setItem('visaas_history', JSON.stringify(history));
+    showToast('Demo analysis complete! ✨', 'success');
+    setTimeout(() => { window.location.href = 'results.html?id=' + mockResult.id; }, 800);
+  }
+}
+
+function generateMockResult(payload) {
+  const riskMap = {India:0.35,Pakistan:0.55,Nigeria:0.60,Bangladesh:0.50,China:0.30,Iran:0.70};
+  const risk = riskMap[payload.nationality] || 0.25;
+  const baseApproval = Math.max(20, Math.min(95, Math.round((1 - risk) * 80 + 
+    (payload.accommodation_proof * 5) + (payload.return_ticket * 5) + 
+    (payload.health_insurance * 3) - (payload.previous_rejections * 8) + Math.random() * 10 - 5)));
+  const daysMap = {Tourist:8, Student:18, Work:25, Business:12, Transit:3, 'Family/Spouse':14, 'Immigrant/PR':60};
+  const baseDays = (daysMap[payload.visa_type] || 10) + Math.round(risk * 15 + Math.random() * 5);
+  
+  let statusColor = baseApproval >= 75 ? 'green' : baseApproval >= 50 ? 'yellow' : baseApproval >= 30 ? 'orange' : 'red';
+  let status = baseApproval >= 75 ? 'High Approval Chance' : baseApproval >= 50 ? 'Moderate Approval Chance' : baseApproval >= 30 ? 'Low Approval Chance' : 'Very Low Approval Chance';
+
+  const risks = [];
+  if (payload.previous_rejections > 0) risks.push({factor:'Previous visa rejections', impact:'High', severity:'danger'});
+  if (!payload.accommodation_proof) risks.push({factor:'No accommodation proof', impact:'High', severity:'danger'});
+  if (!payload.return_ticket) risks.push({factor:'No return ticket', impact:'High', severity:'danger'});
+  if (payload.annual_income < 15000) risks.push({factor:'Low annual income', impact:'Medium', severity:'warning'});
+  if (!payload.health_insurance) risks.push({factor:'No health insurance', impact:'Medium', severity:'warning'});
+
+  const positives = [];
+  if (payload.previous_rejections === 0) positives.push('Clean visa history');
+  if (payload.travel_history_count > 3) positives.push('Good travel history');
+  if (payload.annual_income > 40000) positives.push('Strong financial profile');
+  if (['Master\'s Degree','PhD','Professional Degree'].includes(payload.education_level)) positives.push('Strong educational background');
+
+  const gemini = {
+    summary: `Your ${payload.visa_type} visa application to ${payload.destination_country} from ${payload.nationality} shows a ${baseApproval}% approval probability. ${status}.`,
+    document_checklist: ['Valid passport (6+ months validity)', 'Completed visa application form', 'Passport-sized photographs', 'Proof of financial means (bank statements)', 'Travel insurance', payload.visa_type === 'Student' ? 'Acceptance letter from institution' : 'Purpose-specific supporting document'],
+    ai_tips: [
+      'Apply at least 4 weeks before your intended travel date.',
+      payload.previous_rejections > 0 ? 'Address previous rejection reasons explicitly with a strong cover letter.' : 'Maintain a clean travel record — you\'re on the right track.',
+      payload.bank_balance < 5000 ? 'Increase your bank balance to at least $5,000 for a stronger financial profile.' : 'Your financial profile looks solid.',
+      'Ensure all documents are translated to the official language of the destination country if required.',
+    ],
+    timeline_advice: `Start your application ${baseDays + 14} days before travel. Processing typically takes ${baseDays-2}–${baseDays+4} days.`,
+    risk_assessment: baseApproval >= 65 ? 'Low Risk' : baseApproval >= 45 ? 'Moderate Risk' : 'High Risk',
+    powered_by: 'demo-fallback',
+  };
+
+  return {
+    ...payload, id: Date.now(), date: new Date().toISOString(),
+    approval_probability: baseApproval, predicted_days: baseDays,
+    processing_range: {min: baseDays - 2, max: baseDays + 4},
+    status, status_color: statusColor, statusColor,
+    risk_factors: risks, positive_factors: positives,
+    model_confidence: Math.round(60 + Math.random() * 25),
+    visaType: payload.visa_type, destination: payload.destination_country, gemini,
+  };
+}
+</script>
+</body>
+</html>
